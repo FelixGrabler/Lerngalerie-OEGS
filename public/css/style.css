@@ -1,0 +1,43 @@
+/* Grundlegende Stile */
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Stile für Kategorien */
+.category-container {
+  margin-bottom: 40px; /* Abstand zwischen Kategorien */
+}
+
+.category-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Stile für Video-Container und Videos */
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* Erstellt ein responsives Grid */
+  gap: 10px; /* Abstand zwischen Videos */
+}
+
+.video-item {
+  text-align: center;
+}
+
+.video-item video {
+  width: 100%;
+  height: auto;
+}
+
+.video-title {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
