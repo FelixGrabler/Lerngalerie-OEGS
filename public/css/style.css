@@ -18,26 +18,50 @@ body {
   color: #000;
 }
 
-/* Stile für Video-Container und Videos */
+/* Stile für Videos innerhalb einer Kategorie */
 .video-container {
-  display: grid;
-  grid-template-columns: repeat(
-    auto-fill,
-    minmax(250px, 1fr)
-  ); /* Erstellt ein responsives Grid */
-  gap: 10px; /* Abstand zwischen Videos */
+  /* Keine flex- oder grid-Eigenschaften hier */
 }
 
 .video-item {
-  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 250px; /* Breite des Video-Containers */
+  height: 250px; /* Höhe des Video-Containers */
+  overflow: hidden; /* Schneidet überstehende Inhalte ab */
+  position: relative; /* Ermöglicht die absolute Positionierung von Kindern */
 }
 
 .video-item video {
-  width: 100%;
-  height: auto;
+  position: absolute;
+  top: 50%; /* Zentriert das Video vertikal */
+  left: 50%; /* Zentriert das Video horizontal */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Verschiebt das Video zurück, um es genau zu zentrieren */
+  max-height: 100%; /* Maximale Höhe des Videos */
+  max-width: none; /* Entfernt die maximale Breite für Hochformat-Videos */
+}
+
+video {
+  padding-top: 20px;
 }
 
 .video-title {
   font-size: 18px;
-  margin-bottom: 5px;
+  position: absolute;
+  top: 0; /* Setzt den Titel oben */
+  left: 0; /* Setzt den Titel links */
+  width: 100%; /* Breite des Titels entspricht der des Containers */
+  text-align: left; /* Links ausgerichteter Text */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Hintergrundfarbe mit Transparenz */
+  padding: 5px; /* Etwas Platz um den Text */
+  box-sizing: border-box; /* Berechnet die Breite einschließlich Padding und Border */
 }
