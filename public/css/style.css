@@ -28,7 +28,7 @@ body {
 }
 
 .video-title {
-  /* Add styles for video title if needed */
+  font-size: 20px;
 }
 
 .video-container {

@@ -1,19 +1,6 @@
 {
   "Vorstellung": [
     {
-      "title": "Hochformat",
-      "url": "https://suche.machs-auf.at/sign/66687",
-      "signID": "1",
-      "filename": "1.mp4"
-    },
-    {
-      "title": "Querformat ------------------------------",
-      "url": "https://suche.machs-auf.at/sign/66687",
-      "signID": "2",
-      "filename": "2.mp4"
-    },
-
-    {
       "title": "Vorstellung",
       "url": "https://suche.machs-auf.at/sign/66687",
       "signID": "66687",
@@ -1510,6 +1497,204 @@
       "url": "https://suche.machs-auf.at/sign/19144",
       "signID": "19144",
       "filename": "19144.mp4"
+    }
+  ],
+  "Natur/Pflanzen/Tiere": [
+    {
+      "title": "Maus",
+      "url": "https://suche.machs-auf.at/sign/64654",
+      "signID": "64654",
+      "filename": "64654.mp4"
+    },
+    {
+      "title": "Schnecke",
+      "url": "https://suche.machs-auf.at/sign/29151",
+      "signID": "29151",
+      "filename": "29151.mp4"
+    },
+    {
+      "title": "Schlange",
+      "url": "https://suche.machs-auf.at/sign/68870",
+      "signID": "68870",
+      "filename": "68870.mp4"
+    },
+    {
+      "title": "Schildkr\u00f6te",
+      "url": "https://suche.machs-auf.at/sign/29149",
+      "signID": "29149",
+      "filename": "29149.mp4"
+    },
+    {
+      "title": "Frosch",
+      "url": "https://suche.machs-auf.at/sign/64409",
+      "signID": "64409",
+      "filename": "64409.mp4"
+    },
+    {
+      "title": "Hase",
+      "url": "https://suche.machs-auf.at/sign/44495",
+      "signID": "44495",
+      "filename": "44495.mp4"
+    },
+    {
+      "title": "Schmetterling",
+      "url": "https://suche.machs-auf.at/sign/30788",
+      "signID": "30788",
+      "filename": "30788.mp4"
+    },
+    {
+      "title": "Fisch",
+      "url": "https://suche.machs-auf.at/sign/29690",
+      "signID": "29690",
+      "filename": "29690.mp4"
+    },
+    {
+      "title": "Hund",
+      "url": "https://suche.machs-auf.at/sign/22641",
+      "signID": "22641",
+      "filename": "22641.mp4"
+    },
+    {
+      "title": "Katze",
+      "url": "https://suche.machs-auf.at/sign/19190",
+      "signID": "19190",
+      "filename": "19190.mp4"
+    },
+    {
+      "title": "Schwein",
+      "url": "https://suche.machs-auf.at/sign/95708",
+      "signID": "95708",
+      "filename": "95708.mp4"
+    },
+    {
+      "title": "Kuh",
+      "url": "https://suche.machs-auf.at/sign/19269",
+      "signID": "19269",
+      "filename": "19269.mp4"
+    },
+    {
+      "title": "Schaf",
+      "url": "https://suche.machs-auf.at/sign/67946",
+      "signID": "67946",
+      "filename": "67946.mp4"
+    },
+    {
+      "title": "Huhn",
+      "url": "https://suche.machs-auf.at/sign/64545",
+      "signID": "64545",
+      "filename": "64545.mp4"
+    },
+    {
+      "title": "Ente",
+      "url": "https://suche.machs-auf.at/sign/25150",
+      "signID": "25150",
+      "filename": "25150.mp4"
+    },
+    {
+      "title": "Nadelbaum/Christbaum",
+      "url": "https://suche.machs-auf.at/sign/65506",
+      "signID": "65506",
+      "filename": "65506.mp4"
+    },
+    {
+      "title": "Baum",
+      "url": "https://suche.machs-auf.at/sign/20007",
+      "signID": "20007",
+      "filename": "20007.mp4"
+    },
+    {
+      "title": "Blatt",
+      "url": "https://suche.machs-auf.at/sign/59564",
+      "signID": "59564",
+      "filename": "59564.mp4"
+    },
+    {
+      "title": "Blume",
+      "url": "https://suche.machs-auf.at/sign/62874",
+      "signID": "62874",
+      "filename": "62874.mp4"
+    },
+    {
+      "title": "Gras/Wiese",
+      "url": "https://suche.machs-auf.at/sign/21547",
+      "signID": "21547",
+      "filename": "21547.mp4"
+    }
+  ],
+  "Verben": [
+    {
+      "title": "Beschreiben",
+      "url": "https://suche.machs-auf.at/sign/22659",
+      "signID": "22659",
+      "filename": "22659.mp4"
+    },
+    {
+      "title": "Fragen (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/40684",
+      "signID": "40684",
+      "filename": "40684.mp4"
+    },
+    {
+      "title": "Sagen",
+      "url": "https://suche.machs-auf.at/sign/43659",
+      "signID": "43659",
+      "filename": "43659.mp4"
+    },
+    {
+      "title": "Sprechen (Sprechen Sie Deutsch?)",
+      "url": "https://suche.machs-auf.at/sign/48330",
+      "signID": "48330",
+      "filename": "48330.mp4"
+    },
+    {
+      "title": "Geb\u00e4rden (Geb\u00e4rden Sie bitte langsam.)",
+      "url": "https://suche.machs-auf.at/sign/48777",
+      "signID": "48777",
+      "filename": "48777.mp4"
+    },
+    {
+      "title": "Bescheid geben (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/22656",
+      "signID": "22656",
+      "filename": "22656.mp4"
+    },
+    {
+      "title": "Erkl\u00e4ren (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/93089",
+      "signID": "93089",
+      "filename": "93089.mp4"
+    },
+    {
+      "title": "Zeigen (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/42034",
+      "signID": "42034",
+      "filename": "42034.mp4"
+    },
+    {
+      "title": "Glauben",
+      "url": "https://suche.machs-auf.at/sign/70272",
+      "signID": "70272",
+      "filename": "70272.mp4"
+    },
+    {
+      "title": "passen/es passt",
+      "url": "https://suche.machs-auf.at/sign/25688",
+      "signID": "25688",
+      "filename": "25688.mp4"
+    }
+  ],
+  "Richtungen": [
+    {
+      "title": "Links",
+      "url": "https://suche.machs-auf.at/sign/24005",
+      "signID": "24005",
+      "filename": "24005.mp4"
+    },
+    {
+      "title": "Rechts",
+      "url": "https://suche.machs-auf.at/sign/41571",
+      "signID": "41571",
+      "filename": "41571.mp4"
     }
   ]
 }
