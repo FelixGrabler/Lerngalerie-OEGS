@@ -24,38 +24,23 @@ body {
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 10px;
-  width: 250px; /* Breite des Video-Containers */
-  height: 250px; /* Höhe des Video-Containers */
-  overflow: hidden; /* Schneidet überstehende Inhalte ab */
-  position: relative; /* Ermöglicht die absolute Positionierung von Kindern */
-}
-
-.sign-container video {
-  position: absolute;
-  top: 50%; /* Zentriert das Video vertikal */
-  left: 50%; /* Zentriert das Video horizontal */
-  transform: translate(
-    -50%,
-    -50%
-  ); /* Verschiebt das Video zurück, um es genau zu zentrieren */
-  max-height: 100%; /* Maximale Höhe des Videos */
-  max-width: none; /* Entfernt die maximale Breite für Hochformat-Videos */
-}
-
-video {
-  padding-top: 60px;
+  width: 250px; /* Container Width */
 }
 
 .video-title {
-  font-size: 18px;
-  position: absolute;
-  top: 0; /* Setzt den Titel oben */
-  left: 0; /* Setzt den Titel links */
-  width: 100%; /* Breite des Titels entspricht der des Containers */
-  text-align: left; /* Links ausgerichteter Text */
-  padding: 5px; /* Etwas Platz um den Text */
-  box-sizing: border-box; /* Berechnet die Breite einschließlich Padding und Border */
-  overflow: hidden; /* Versteckt überstehenden Text */
-  white-space: nowrap; /* Verhindert den Zeilenumbruch */
-  text-overflow: ellipsis; /* Zeigt '...' an, wenn der Text überläuft */
+  /* Add styles for video title if needed */
+}
+
+.video-container {
+  width: 250px;
+  height: 250px;
+  overflow: hidden; /* Hide excess parts of the video */
+  display: flex;
+  justify-content: center; /* Center video horizontally */
+  align-items: center; /* Center video vertically */
+}
+
+.video-container video {
+  height: 250px; /* Set fixed height for video */
+  width: auto; /* Width will be auto-scaled */
 }
