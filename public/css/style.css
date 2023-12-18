@@ -3,27 +3,24 @@ body {
   margin: 0;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  background-color: #202325;
+  color: #c8c3bc;
+  font-weight: bold;
 }
 
 /* Stile für Kategorien */
 .category-container {
-  margin-bottom: 40px; /* Abstand zwischen Kategorien */
+  margin-bottom: 20px; /* Abstand zwischen Kategorien */
 }
 
 .category-heading {
-  font-size: 24px;
-  margin-bottom: 20px;
-  color: #000;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #363636;
 }
 
-/* Stile für Videos innerhalb einer Kategorie */
-.video-container {
-  /* Keine flex- oder grid-Eigenschaften hier */
-}
-
-.video-item {
+.sign-container {
   display: inline-block;
   margin-bottom: 10px;
   margin-right: 10px;
@@ -33,7 +30,7 @@ body {
   position: relative; /* Ermöglicht die absolute Positionierung von Kindern */
 }
 
-.video-item video {
+.sign-container video {
   position: absolute;
   top: 50%; /* Zentriert das Video vertikal */
   left: 50%; /* Zentriert das Video horizontal */
@@ -46,7 +43,7 @@ body {
 }
 
 video {
-  padding-top: 20px;
+  padding-top: 60px;
 }
 
 .video-title {
@@ -56,12 +53,9 @@ video {
   left: 0; /* Setzt den Titel links */
   width: 100%; /* Breite des Titels entspricht der des Containers */
   text-align: left; /* Links ausgerichteter Text */
-  background-color: rgba(
-    255,
-    255,
-    255,
-    0.8
-  ); /* Hintergrundfarbe mit Transparenz */
   padding: 5px; /* Etwas Platz um den Text */
   box-sizing: border-box; /* Berechnet die Breite einschließlich Padding und Border */
+  overflow: hidden; /* Versteckt überstehenden Text */
+  white-space: nowrap; /* Verhindert den Zeilenumbruch */
+  text-overflow: ellipsis; /* Zeigt '...' an, wenn der Text überläuft */
 }

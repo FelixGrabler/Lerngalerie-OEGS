@@ -1,7 +1,7 @@
 fetch("/signs.json")
   .then((response) => response.json())
   .then((categories) => {
-    const container = document.getElementById("video-container");
+    const container = document.getElementById("gallery");
     for (const category in categories) {
       // Erstelle einen Container für jede Kategorie
       const categoryContainer = document.createElement("div");
@@ -9,6 +9,7 @@ fetch("/signs.json")
 
       // Füge eine Überschrift für die Kategorie hinzu
       const categoryHeading = document.createElement("h2");
+      categoryHeading.className = "category-heading";
       categoryHeading.textContent = category;
       categoryContainer.appendChild(categoryHeading);
 
@@ -16,23 +17,25 @@ fetch("/signs.json")
       categories[category].forEach((sign) => {
         // Erstelle einen Container für das Video
         const videoItemContainer = document.createElement("div");
-        videoItemContainer.className = "video-item";
+        videoItemContainer.className = "sign-container";
 
-        // Füge den Titel des Videos hinzu
-        const videoTitle = document.createElement("h3");
-        videoTitle.className = "video-title";
-        videoTitle.textContent = sign.title;
-        videoItemContainer.appendChild(videoTitle);
+        // Füge das Titel-Element hinzu
+        const titleElement = document.createElement("div");
+        titleElement.className = "video-title";
+        titleElement.textContent = sign.title;
+        videoItemContainer.appendChild(titleElement);
 
-        // Füge das Video-Element hinzu
+        const videoContainer = document.createElement("div");
+        videoContainer.className = "video-container";
+
         const videoElement = document.createElement("video");
         videoElement.src = `/mp4/${sign.filename}`;
         videoElement.controls = true;
         videoElement.loop = true;
         videoElement.muted = true;
-        videoItemContainer.appendChild(videoElement);
+        videoContainer.appendChild(videoElement);
+        videoItemContainer.appendChild(videoContainer);
 
-        // Füge den Video-Container zur Kategorie hinzu
         categoryContainer.appendChild(videoItemContainer);
       });
 
