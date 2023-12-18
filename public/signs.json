@@ -251,34 +251,46 @@
   ],
   "Kommunikation-Basics": [
     {
-      "title": "verstehen",
-      "url": "https://suche.machs-auf.at/sign/30272",
-      "signID": "30272",
-      "filename": "30272.mp4"
+      "title": "ja",
+      "url": "https://suche.machs-auf.at/sign/19099",
+      "signID": "19099",
+      "filename": "19099.mp4"
     },
     {
-      "title": "vergessen",
-      "url": "https://suche.machs-auf.at/sign/24214",
-      "signID": "24214",
-      "filename": "24214.mp4"
+      "title": "nein",
+      "url": "https://suche.machs-auf.at/sign/23257",
+      "signID": "23257",
+      "filename": "23257.mp4"
     },
     {
-      "title": "merken",
-      "url": "https://suche.machs-auf.at/sign/72160",
-      "signID": "72160",
-      "filename": "72160.mp4"
+      "title": "bitte",
+      "url": "https://suche.machs-auf.at/sign/22450",
+      "signID": "22450",
+      "filename": "22450.mp4"
     },
     {
-      "title": "wissen, das Wissen",
-      "url": "https://suche.machs-auf.at/sign/34829",
-      "signID": "34829",
-      "filename": "34829.mp4"
+      "title": "danke",
+      "url": "https://suche.machs-auf.at/sign/40535",
+      "signID": "40535",
+      "filename": "40535.mp4"
     },
     {
-      "title": "nicht wissen (wei\u00df nicht)",
-      "url": "https://suche.machs-auf.at/sign/37020",
-      "signID": "37020",
-      "filename": "37020.mp4"
+      "title": "gerne",
+      "url": "https://suche.machs-auf.at/sign/47095",
+      "signID": "47095",
+      "filename": "47095.mp4"
+    },
+    {
+      "title": "Applaus",
+      "url": "https://suche.machs-auf.at/sign/90412",
+      "signID": "90412",
+      "filename": "90412.mp4"
+    },
+    {
+      "title": "Hobby",
+      "url": "https://suche.machs-auf.at/sign/93503",
+      "signID": "93503",
+      "filename": "93503.mp4"
     }
   ],
   "Hobbies": [
@@ -535,6 +547,80 @@
       "url": "https://suche.machs-auf.at/sign/66081",
       "signID": "66081",
       "filename": "66081.mp4"
+    }
+  ],
+  "Kommunikation-Basics 2": [
+    {
+      "title": "Kommunikation",
+      "url": "https://suche.machs-auf.at/sign/28495",
+      "signID": "28495",
+      "filename": "28495.mp4"
+    },
+    {
+      "title": "auch",
+      "url": "https://suche.machs-auf.at/sign/40658",
+      "signID": "40658",
+      "filename": "40658.mp4"
+    },
+    {
+      "title": "bisschen",
+      "url": "https://suche.machs-auf.at/sign/30474",
+      "signID": "30474",
+      "filename": "30474.mp4"
+    },
+    {
+      "title": "wei\u00df nicht",
+      "url": "https://suche.machs-auf.at/sign/85943",
+      "signID": "85943",
+      "filename": "85943.mp4"
+    },
+    {
+      "title": "wissen / wei\u00df (1. Geb\u00e4rde)",
+      "url": "https://suche.machs-auf.at/sign/43472",
+      "signID": "43472",
+      "filename": "43472.mp4"
+    },
+    {
+      "title": "Wie gehts? (F-Handform!)",
+      "url": "https://suche.machs-auf.at/sign/86294",
+      "signID": "86294",
+      "filename": "86294.mp4"
+    },
+    {
+      "title": "Ich verstehe",
+      "url": "https://suche.machs-auf.at/sign/85539",
+      "signID": "85539",
+      "filename": "85539.mp4"
+    },
+    {
+      "title": "Ich verstehe nicht",
+      "url": "https://suche.machs-auf.at/sign/85540",
+      "signID": "85540",
+      "filename": "85540.mp4"
+    },
+    {
+      "title": "Bitte langsam geb\u00e4rden",
+      "url": "https://suche.machs-auf.at/sign/48777",
+      "signID": "48777",
+      "filename": "48777.mp4"
+    },
+    {
+      "title": "geh\u00f6rlos",
+      "url": "https://suche.machs-auf.at/sign/40524",
+      "signID": "40524",
+      "filename": "40524.mp4"
+    },
+    {
+      "title": "h\u00f6rend",
+      "url": "https://suche.machs-auf.at/sign/28494",
+      "signID": "28494",
+      "filename": "28494.mp4"
+    },
+    {
+      "title": "schwerh\u00f6rig",
+      "url": "https://suche.machs-auf.at/sign/85183",
+      "signID": "85183",
+      "filename": "85183.mp4"
     }
   ],
   "Pronomen": [
@@ -1047,18 +1133,30 @@
       "filename": "21726.mp4"
     }
   ],
-  "Kommunikations-Basics": [
+  "Kommunikations-Basics 3": [
     {
-      "title": "die Sache",
-      "url": "https://suche.machs-auf.at/sign/23130",
-      "signID": "23130",
-      "filename": "23130.mp4"
+      "title": "achso",
+      "url": "https://suche.machs-auf.at/sign/95306",
+      "signID": "95306",
+      "filename": "95306.mp4"
     },
     {
-      "title": "oder",
-      "url": "https://suche.machs-auf.at/sign/63844",
-      "signID": "63844",
-      "filename": "63844.mp4"
+      "title": "gleich",
+      "url": "https://suche.machs-auf.at/sign/69440",
+      "signID": "69440",
+      "filename": "69440.mp4"
+    },
+    {
+      "title": "auch",
+      "url": "https://suche.machs-auf.at/sign/59961",
+      "signID": "59961",
+      "filename": "59961.mp4"
+    },
+    {
+      "title": "anders",
+      "url": "https://suche.machs-auf.at/sign/35048",
+      "signID": "35048",
+      "filename": "35048.mp4"
     }
   ],
   "Tagesablauf": [
@@ -1257,13 +1355,13 @@
       "filename": "40537.mp4"
     },
     {
-      "title": "letztere",
+      "title": "letzte...",
       "url": "https://suche.machs-auf.at/sign/54900",
       "signID": "54900",
       "filename": "54900.mp4"
     },
     {
-      "title": "N\u00e4chste \u2026",
+      "title": "n\u00e4chste...",
       "url": "https://suche.machs-auf.at/sign/34333",
       "signID": "34333",
       "filename": "34333.mp4"
@@ -1389,6 +1487,38 @@
       "filename": "23793.mp4"
     }
   ],
+  "Kommunikation-Basics 4": [
+    {
+      "title": "verstehen",
+      "url": "https://suche.machs-auf.at/sign/30272",
+      "signID": "30272",
+      "filename": "30272.mp4"
+    },
+    {
+      "title": "vergessen",
+      "url": "https://suche.machs-auf.at/sign/24214",
+      "signID": "24214",
+      "filename": "24214.mp4"
+    },
+    {
+      "title": "merken",
+      "url": "https://suche.machs-auf.at/sign/72160",
+      "signID": "72160",
+      "filename": "72160.mp4"
+    },
+    {
+      "title": "wissen, das Wissen",
+      "url": "https://suche.machs-auf.at/sign/34829",
+      "signID": "34829",
+      "filename": "34829.mp4"
+    },
+    {
+      "title": "nicht wissen (wei\u00df nicht)",
+      "url": "https://suche.machs-auf.at/sign/37020",
+      "signID": "37020",
+      "filename": "37020.mp4"
+    }
+  ],
   "Eigenschaften": [
     {
       "title": "Farbe",
@@ -1497,6 +1627,20 @@
       "url": "https://suche.machs-auf.at/sign/19144",
       "signID": "19144",
       "filename": "19144.mp4"
+    }
+  ],
+  "Kommunikation-Basics 5": [
+    {
+      "title": "die Sache",
+      "url": "https://suche.machs-auf.at/sign/23130",
+      "signID": "23130",
+      "filename": "23130.mp4"
+    },
+    {
+      "title": "oder",
+      "url": "https://suche.machs-auf.at/sign/63844",
+      "signID": "63844",
+      "filename": "63844.mp4"
     }
   ],
   "Natur/Pflanzen/Tiere": [
