@@ -7,6 +7,7 @@ const port = 3000;
 app.use(express.static("public"));
 
 app.get("/", (req, res) => {
+  console.log("GET /");
   res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
@@ -31,6 +32,6 @@ app.get("/videos", (req, res) => {
   });
 });
 
-app.listen(port, () => {
-  console.log(`Server läuft auf http://localhost:${port}`);
+app.listen(port, "0.0.0.0", () => {
+  console.log(`Server running on http://0.0.0.0:${port}`);
 });
