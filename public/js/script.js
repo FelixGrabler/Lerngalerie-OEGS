@@ -20,9 +20,10 @@ fetch("/signs.json")
         signContainer.className = "sign-container";
 
         // Füge das Titel-Element hinzu
-        const titleElement = document.createElement("div");
+        const titleElement = document.createElement("a");
         titleElement.className = "video-title";
         titleElement.textContent = sign.title;
+        titleElement.href = sign.url;
         signContainer.appendChild(titleElement);
 
         const videoContainer = document.createElement("div");
