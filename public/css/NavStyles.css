@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 0 10px;
+  color: white;
+}
+
+nav > div {
+  display: flex;
+  align-items: center;
+}
+
+.headline {
+  margin: 0;
+  padding: 0;
+}
+
+.control-btn {
+  border: none;
+  padding: 10px 15px;
+  margin: 0;
+  color: white;
+  background-color: #555;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-btn.selected {
+  background-color: purple;
+}
+
+.control-btn + .control-btn {
+  border-left: 1px solid white;
+}
+
+body.wait,
+body.wait button {
+  cursor: wait;
+}

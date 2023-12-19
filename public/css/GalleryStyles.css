@@ -1,0 +1,42 @@
+/* Stile für Kategorien */
+.category-container {
+  margin-bottom: 20px; /* Abstand zwischen Kategorien */
+}
+
+.category-heading {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #363636;
+}
+
+.sign-container {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  width: 250px; /* Container Width */
+}
+
+.video-title {
+  font-size: 20px;
+}
+
+.video-container {
+  width: 250px;
+  height: 250px;
+  overflow: hidden; /* Hide excess parts of the video */
+  display: flex;
+  justify-content: center; /* Center video horizontally */
+  align-items: center; /* Center video vertically */
+}
+
+.video-container video {
+  height: 250px; /* Set fixed height for video */
+  width: auto; /* Width will be auto-scaled */
+}
+
+.video-title {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+}
