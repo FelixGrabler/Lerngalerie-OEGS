@@ -22,4 +22,4 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        tags: 420696663/lerngalerie:${{ github.sha }}
+        tags: 420696663/lerngalerie:latest
