@@ -2,7 +2,7 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ main ]  # Adjust if you want it to run on other branches
+    branches: [ production ]
 
 jobs:
   build-and-push:
