@@ -43,6 +43,7 @@ fetch("/signs.json")
     }
 
     initIntersectionObserver();
+    initOriginalState();
   });
 
 function initIntersectionObserver() {
@@ -103,16 +104,12 @@ function toggleVisibility(option, event) {
 }
 
 // shuffle
-let originalState = {};
+let originalState;
 
-document.addEventListener("DOMContentLoaded", function () {
-  // Save the original state of each category container
-  document
-    .querySelectorAll(".category-container")
-    .forEach((container, index) => {
-      originalState[index] = container.innerHTML;
-    });
-});
+function initOriginalState() {
+  originalState = document.querySelector("#gallery").innerHTML;
+  console.log("Original state: " + originalState.length);
+}
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -127,11 +124,7 @@ function toggleShuffle(option, event) {
 
   setTimeout(function () {
     if (option === "none") {
-      // Restore the original state
-      Object.keys(originalState).forEach((key) => {
-        document.querySelectorAll(".category-container")[key].innerHTML =
-          originalState[key];
-      });
+      restoreOriginalState();
     } else if (option === "categories") {
       document.querySelectorAll(".category-container").forEach((category) => {
         let signs = Array.from(category.querySelectorAll(".sign-container"));
@@ -152,4 +145,11 @@ function toggleShuffle(option, event) {
     currentTarget.classList.add("selected");
     document.body.classList.remove("wait");
   }, 0);
+}
+
+function restoreOriginalState() {
+  document.querySelector("#gallery").innerHTML = originalState;
+  console.log(originalState.length);
+  console.log(document.querySelector("#gallery").innerHTML.length);
+  initIntersectionObserver();
 }
