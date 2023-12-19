@@ -108,7 +108,6 @@ let originalState;
 
 function initOriginalState() {
   originalState = document.querySelector("#gallery").innerHTML;
-  console.log("Original state: " + originalState.length);
 }
 
 function shuffleArray(array) {
@@ -149,7 +148,5 @@ function toggleShuffle(option, event) {
 
 function restoreOriginalState() {
   document.querySelector("#gallery").innerHTML = originalState;
-  console.log(originalState.length);
-  console.log(document.querySelector("#gallery").innerHTML.length);
   initIntersectionObserver();
 }
