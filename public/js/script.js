@@ -69,31 +69,37 @@ function initIntersectionObserver() {
 
 // blur
 function toggleVisibility(option, event) {
-  const videos = document.querySelectorAll("video");
-  const titles = document.querySelectorAll(".video-title");
+  document.body.classList.add("wait");
+  const currentTarget = event.currentTarget;
 
-  videos.forEach((video) => {
-    video.classList.remove("video-blur");
-  });
+  setTimeout(function () {
+    const videos = document.querySelectorAll("video");
+    const titles = document.querySelectorAll(".video-title");
 
-  titles.forEach((title) => {
-    title.classList.remove("title-blur");
-  });
-
-  if (option === "videos") {
     videos.forEach((video) => {
-      video.classList.add("video-blur");
+      video.classList.remove("video-blur");
     });
-  } else if (option === "titles") {
-    titles.forEach((title) => {
-      title.classList.add("title-blur");
-    });
-  }
 
-  // Update button appearance
-  const buttons = document.querySelectorAll(".blur-btn");
-  buttons.forEach((btn) => btn.classList.remove("selected"));
-  event.currentTarget.classList.add("selected");
+    titles.forEach((title) => {
+      title.classList.remove("title-blur");
+    });
+
+    if (option === "videos") {
+      videos.forEach((video) => {
+        video.classList.add("video-blur");
+      });
+    } else if (option === "titles") {
+      titles.forEach((title) => {
+        title.classList.add("title-blur");
+      });
+    }
+
+    // Update button appearance
+    const buttons = document.querySelectorAll(".blur-btn");
+    buttons.forEach((btn) => btn.classList.remove("selected"));
+    currentTarget.classList.add("selected");
+    document.body.classList.remove("wait");
+  }, 0);
 }
 
 // shuffle
@@ -116,30 +122,34 @@ function shuffleArray(array) {
 }
 
 function toggleShuffle(option, event) {
-  if (option === "none") {
-    // Restore the original state
-    Object.keys(originalState).forEach((key) => {
-      document.querySelectorAll(".category-container")[key].innerHTML =
-        originalState[key];
-    });
-  } else if (option === "categories") {
-    document.querySelectorAll(".category-container").forEach((category) => {
-      let signs = Array.from(category.querySelectorAll(".sign-container"));
-      shuffleArray(signs);
-      signs.forEach((sign) => category.appendChild(sign));
-    });
-  } else if (option === "all") {
-    let allSigns = Array.from(document.querySelectorAll(".sign-container"));
-    shuffleArray(allSigns);
-    let gallery = document.querySelector("#gallery"); // Replace with your main container ID
-    gallery.innerHTML = ""; // Clear the container
-    allSigns.forEach((sign) => gallery.appendChild(sign));
-  }
+  document.body.classList.add("wait");
+  const currentTarget = event.currentTarget;
 
-  // Update button appearance for shuffle buttons
-  const buttons = document.querySelectorAll(".shuffle-btn");
-  buttons.forEach((btn) => btn.classList.remove("selected"));
-  if (event) {
-    event.currentTarget.classList.add("selected");
-  }
+  setTimeout(function () {
+    if (option === "none") {
+      // Restore the original state
+      Object.keys(originalState).forEach((key) => {
+        document.querySelectorAll(".category-container")[key].innerHTML =
+          originalState[key];
+      });
+    } else if (option === "categories") {
+      document.querySelectorAll(".category-container").forEach((category) => {
+        let signs = Array.from(category.querySelectorAll(".sign-container"));
+        shuffleArray(signs);
+        signs.forEach((sign) => category.appendChild(sign));
+      });
+    } else if (option === "all") {
+      let allSigns = Array.from(document.querySelectorAll(".sign-container"));
+      shuffleArray(allSigns);
+      let gallery = document.querySelector("#gallery"); // Replace with your main container ID
+      gallery.innerHTML = ""; // Clear the container
+      allSigns.forEach((sign) => gallery.appendChild(sign));
+    }
+
+    // Update button appearance for shuffle buttons
+    const buttons = document.querySelectorAll(".shuffle-btn");
+    buttons.forEach((btn) => btn.classList.remove("selected"));
+    currentTarget.classList.add("selected");
+    document.body.classList.remove("wait");
+  }, 0);
 }

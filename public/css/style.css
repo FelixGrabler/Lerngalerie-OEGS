@@ -123,3 +123,8 @@ h2 {
 .control-btn + .control-btn {
   border-left: 1px solid white;
 }
+
+body.wait,
+body.wait button {
+  cursor: wait;
+}
