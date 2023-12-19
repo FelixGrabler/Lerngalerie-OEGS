@@ -29,7 +29,7 @@ fetch("/signs.json")
         videoContainer.className = "video-container";
 
         const videoElement = document.createElement("video");
-        videoElement.src = `/mp4/${sign.filename}`;
+        videoElement.setAttribute("data-src", `/mp4/${sign.filename}`);
         videoElement.controls = true;
         videoElement.loop = true;
         videoElement.muted = true;
@@ -51,18 +51,18 @@ function initIntersectionObserver() {
     (entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
-          entry.target.play();
-        } else {
-          entry.target.pause();
+          const video = entry.target;
+          video.src = video.getAttribute("data-src");
+          video.load();
+          video.play().catch((e) => console.error("Error playing video:", e)); // Auto-play the video
+          observer.unobserve(video);
         }
       });
     },
-    { threshold: 0.2 }
-  );
+    { threshold: 0.1 }
+  ); // Adjust the threshold as needed
 
-  const videos = document.querySelectorAll("video");
-  console.log(`Es wurden ${videos.length} Videos gefunden.`);
-
+  const videos = document.querySelectorAll("video[data-src]");
   videos.forEach((video) => {
     observer.observe(video);
   });
@@ -149,4 +149,7 @@ function toggleShuffle(option, event) {
 function restoreOriginalState() {
   document.querySelector("#gallery").innerHTML = originalState;
   initIntersectionObserver();
+  document.querySelectorAll("#gallery video").forEach((video) => {
+    video.muted = true;
+  });
 }
