@@ -11,18 +11,21 @@
       <h1 class="headline">ÖGS - Felix Grabler</h1>
       <div>
         <h2>blur:</h2>
-        <button class="control-btn blur-btn" onclick="toggleVisibility('all')">
+        <button
+          class="control-btn blur-btn selected"
+          onclick="toggleVisibility('all', event)"
+        >
           none
         </button>
         <button
           class="control-btn blur-btn"
-          onclick="toggleVisibility('videos')"
+          onclick="toggleVisibility('videos', event)"
         >
           Videos
         </button>
         <button
           class="control-btn blur-btn"
-          onclick="toggleVisibility('titles')"
+          onclick="toggleVisibility('titles', event)"
         >
           Titles
         </button>
@@ -31,20 +34,20 @@
       <div>
         <h2>shuffle:</h2>
         <button
-          class="control-btn shuffle-btn"
-          onclick="toggleVisibility('titles')"
+          class="control-btn shuffle-btn selected"
+          onclick="toggleShuffle('none', event)"
         >
           None
         </button>
         <button
           class="control-btn shuffle-btn"
-          onclick="toggleVisibility('titles')"
+          onclick="toggleShuffle('categories', event)"
         >
           in categories
         </button>
         <button
           class="control-btn shuffle-btn"
-          onclick="toggleVisibility('titles')"
+          onclick="toggleShuffle('all', event)"
         >
           all
         </button>
