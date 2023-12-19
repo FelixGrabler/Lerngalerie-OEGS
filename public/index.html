@@ -7,7 +7,50 @@
     <script src="/js/script.js"></script>
   </head>
   <body>
-    <h1>ÖGS - Felix Grabler</h1>
+    <nav>
+      <h1 class="headline">ÖGS - Felix Grabler</h1>
+      <div>
+        <h2>blur:</h2>
+        <button class="control-btn blur-btn" onclick="toggleVisibility('all')">
+          none
+        </button>
+        <button
+          class="control-btn blur-btn"
+          onclick="toggleVisibility('videos')"
+        >
+          Videos
+        </button>
+        <button
+          class="control-btn blur-btn"
+          onclick="toggleVisibility('titles')"
+        >
+          Titles
+        </button>
+      </div>
+
+      <div>
+        <h2>shuffle:</h2>
+        <button
+          class="control-btn shuffle-btn"
+          onclick="toggleVisibility('titles')"
+        >
+          None
+        </button>
+        <button
+          class="control-btn shuffle-btn"
+          onclick="toggleVisibility('titles')"
+        >
+          in categories
+        </button>
+        <button
+          class="control-btn shuffle-btn"
+          onclick="toggleVisibility('titles')"
+        >
+          all
+        </button>
+      </div>
+    </nav>
+
     <div id="gallery" class="gallery"></div>
   </body>
 </html>
