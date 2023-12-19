@@ -16,14 +16,14 @@ fetch("/signs.json")
       // Füge Videos der Kategorie hinzu
       categories[category].forEach((sign) => {
         // Erstelle einen Container für das Video
-        const videoItemContainer = document.createElement("div");
-        videoItemContainer.className = "sign-container";
+        const signContainer = document.createElement("div");
+        signContainer.className = "sign-container";
 
         // Füge das Titel-Element hinzu
         const titleElement = document.createElement("div");
         titleElement.className = "video-title";
         titleElement.textContent = sign.title;
-        videoItemContainer.appendChild(titleElement);
+        signContainer.appendChild(titleElement);
 
         const videoContainer = document.createElement("div");
         videoContainer.className = "video-container";
@@ -34,9 +34,9 @@ fetch("/signs.json")
         videoElement.loop = true;
         videoElement.muted = true;
         videoContainer.appendChild(videoElement);
-        videoItemContainer.appendChild(videoContainer);
+        signContainer.appendChild(videoContainer);
 
-        categoryContainer.appendChild(videoItemContainer);
+        categoryContainer.appendChild(signContainer);
       });
 
       container.appendChild(categoryContainer);
