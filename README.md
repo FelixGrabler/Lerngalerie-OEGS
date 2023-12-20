@@ -29,3 +29,9 @@ Die konvertierung von einer Excel-Datei (Liste von Kategorien+Vokabeln+Gebärden
 - Nach Gebärden suchen.
 - Gebärden pro Kategorie in zufälliger Reihenfolge anzeigen.
 - Gebärden in zufälliger Reihenfolge anzeigen (ohne Kategorien).
+
+## Lokal aufsetzen
+
+Um die Website lokal auszuführen, muss man das Repository klonen (herunterladen), und dann die Anwendung mit dem Befehl `node src/app.js` im Lerngalerie-Ordner starten. Die Website ist dann unter [localhost:3000](http://localhost:3000) erreichbar.
+
+Fehler beim ausführen weisen darauf hin, welche Technologien noch installiert werden müssen. (NodeJS, npm, express, ...)
