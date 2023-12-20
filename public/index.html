@@ -7,16 +7,25 @@
     <link rel="stylesheet" href="/css/NavStyles.css" />
     <link rel="stylesheet" href="/css/GalleryStyles.css" />
     <link rel="stylesheet" href="/css/BlurAndShuffleStyles.css" />
+    <link rel="stylesheet" href="/css/HamburgerMenu.css" />
     <script src="/js/ContentLoader.js"></script>
     <script src="/js/IntersectionObserver.js"></script>
     <script src="/js/Blur.js"></script>
     <script src="/js/Shuffle.js"></script>
-    <script src="/js/StateManagement.js"></script>
+    <script src="/js/StateManager.js"></script>
     <script src="/js/Search.js"></script>
+    <script src="/js/HamburgerMenu.js"></script>
   </head>
   <body>
     <nav>
-      <h1 class="headline">ÖGS - Felix Grabler</h1>
+      <div>
+        <div id="hamburgerMenu" onclick="toggleSidebar()">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <h1 class="headline">ÖGS - Felix Grabler</h1>
+      </div>
       <div>
         <h2>Lernmodus:</h2>
         <button
@@ -72,6 +81,8 @@
         />
       </div>
     </nav>
+
+    <div id="sidebar"></div>
 
     <div id="gallery" class="gallery"></div>
   </body>

@@ -2,10 +2,13 @@ fetch("/signs.json")
   .then((response) => response.json())
   .then((categories) => {
     const container = document.getElementById("gallery");
+    var counter = 0;
     for (const category in categories) {
+      counter++;
       // Erstelle einen Container für jede Kategorie
       const categoryContainer = document.createElement("div");
       categoryContainer.className = "category-container";
+      categoryContainer.id = `category-${counter}`;
 
       // Füge eine Überschrift für die Kategorie hinzu
       const categoryHeading = document.createElement("h2");
@@ -43,6 +46,27 @@ fetch("/signs.json")
       container.appendChild(categoryContainer);
     }
 
+    generateSidebar(counter);
     initIntersectionObserver();
     initOriginalState();
   });
+
+function generateSidebar(counter) {
+  const sidebar = document.getElementById("sidebar");
+  for (var i = 1; i <= counter; i++) {
+    const categoryContainer = document.getElementById(`category-${i}`);
+    const categoryHeading =
+      categoryContainer.querySelector(".category-heading");
+    const categoryLink = document.createElement("a");
+    categoryLink.className = "sidebar-link";
+    categoryLink.href = `#category-${i}`;
+    categoryLink.textContent = categoryHeading.textContent;
+    categoryLink.onclick = toggleSidebar;
+    sidebar.appendChild(categoryLink);
+  }
+
+  // Add this event listener
+  sidebar.addEventListener("mouseleave", function () {
+    toggleSidebarOff();
+  });
+}
