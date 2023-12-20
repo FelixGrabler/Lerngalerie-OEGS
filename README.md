@@ -4,7 +4,7 @@
 
 Lerngalerie ist eine Website, die das lernen von Gebärden ermöglicht/erleichtert. Aktuell läuft diese Website öffentlich auf [oegs.duckdns.org](https://oegs.duckdns.org).
 
-Entwickelt wurde diese Website für die TU Graz Lehrveranstaltung ["Österreichische Gebärdensprache für TechnikerInnen A1/1"](https://www.tugraz.at/studium/studieren-an-der-tu-graz/studierende/sprachen-lernen-an-der-tu-graz/sprachangebot) im Wintersemester 2023".
+Entwickelt wurde diese Website für die TU Graz Lehrveranstaltung ["Österreichische Gebärdensprache für TechnikerInnen A1/1"](https://www.tugraz.at/studium/studieren-an-der-tu-graz/studierende/sprachen-lernen-an-der-tu-graz/sprachangebot) im Wintersemester 2023.
 
 ## Technische Details
 
