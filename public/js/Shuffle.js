@@ -13,6 +13,7 @@ function toggleShuffle(option, event) {
     if (option === "none") {
       restoreOriginalState();
     } else if (option === "categories") {
+      restoreOriginalState();
       document.querySelectorAll(".category-container").forEach((category) => {
         let signs = Array.from(category.querySelectorAll(".sign-container"));
         shuffleArray(signs);
