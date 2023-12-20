@@ -51,3 +51,16 @@ nav > div > .control-btn:nth-of-type(1).shuffle-btn {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
+#searchInput {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #313131;
+  color: white;
+}
+
+#searchInput::placeholder {
+  color: #ddd;
+}

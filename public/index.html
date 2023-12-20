@@ -9,9 +9,10 @@
     <link rel="stylesheet" href="/css/BlurAndShuffleStyles.css" />
     <script src="/js/ContentLoader.js"></script>
     <script src="/js/IntersectionObserver.js"></script>
-    <script src="/js/BlurManager.js"></script>
-    <script src="/js/ShuffleManager.js"></script>
+    <script src="/js/Blur.js"></script>
+    <script src="/js/Shuffle.js"></script>
     <script src="/js/StateManagement.js"></script>
+    <script src="/js/Search.js"></script>
   </head>
   <body>
     <nav>
@@ -58,6 +59,17 @@
         >
           alles
         </button>
+      </div>
+
+      <div>
+        <h2>Suche:</h2>
+        <input
+          type="text"
+          id="searchInput"
+          name="search"
+          placeholder="Suche nach Gebärden..."
+          onkeyup="search(event)"
+        />
       </div>
     </nav>
 
