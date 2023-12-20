@@ -13,7 +13,7 @@ Die Website an sich ist eine NodeJS Anwendung, bestehend aus:
 - **Server**: Der Server-Teil der Anwendung befindet sich im [/src-Verzeichnis](./src/) und ist mit Express, einem Web-Framework für NodeJS, entwickelt. Dieser Teil der Anwendung ist verantwortlich für die Serverseitige Logik und das Handling von Anfragen. Server-Code wird am Server ausgeführt.
 - **Client**: Der Client-Teil der Anwendung befindet sich im [/public-Verzeichnis](./public/) und besteht aus einer Kombination von HTML, CSS und JavaScript. Diese Technologien bilden die Grundlage der Benutzeroberfläche und Interaktionen auf der Nutzerseite. Client-Code wird am Benutzergerät ausgeführt.
 
-Die Website ist öffentlich zugänglich, da sie auf einem Server gehostet wird, der über das Internet erreichbar ist. Damit man nicht die (sich verändernde) IP-Addresse vom Server braucht, um die Website zu besuchen, wandelt DuckDNS automatisch (und kostenlos) die Domain oegs.duckdns.org in die aktuelle IP-Adresse des Servers um.
+Die Website ist öffentlich zugänglich, da sie auf einem Server gehostet wird, der über das Internet erreichbar ist. Damit man nicht die (sich verändernde) IP-Addresse vom Server braucht, um die Website zu besuchen, wandelt [DuckDNS](https://duckdns.org/) automatisch (und kostenlos) die Domain oegs.duckdns.org in die aktuelle IP-Adresse des Servers um.
 
 ## Gebärden
 
