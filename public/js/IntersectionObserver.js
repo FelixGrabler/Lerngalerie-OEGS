@@ -2,17 +2,20 @@ function initIntersectionObserver() {
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
+        const video = entry.target;
         if (entry.isIntersecting) {
-          const video = entry.target;
           video.src = video.getAttribute("data-src");
           video.load();
-          video.play().catch((e) => console.error("Error playing video:", e)); // Auto-play the video
-          observer.unobserve(video);
+          video.play().catch((e) => console.error("Error playing video:", e));
+        } else {
+          video.pause();
+          video.src = ""; // Unload the video
+          video.load(); // This is necessary to properly update the video state
         }
       });
     },
-    { threshold: 0.1 }
-  ); // Adjust the threshold as needed
+    { threshold: 0 }
+  );
 
   const videos = document.querySelectorAll("video[data-src]");
   videos.forEach((video) => {
