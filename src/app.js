@@ -23,8 +23,7 @@ app.get("/mp4/:filename", (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  console.log("GET /");
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
 
 app.use(express.static("public"));
