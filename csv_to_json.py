@@ -8,16 +8,16 @@ def csv_to_json(csv_file_path, json_file_path):
     with open(csv_file_path, mode='r', encoding='utf-8') as csvfile:
         csvreader = csv.DictReader(csvfile)
         for row in csvreader:
-            # Bestimmen der aktuellen Kategorie
+            # Determine the current category
             if row['Category'].strip():
                 current_category = row['Category'].strip()
                 data[current_category] = []
 
-            # Extrahieren der SignID und Erstellen des Dateinamens
+            # Extract the SignID and create the filename
             sign_id = row['URL'].split('/')[-1]
             filename = f"{sign_id}.mp4"
 
-            # Hinzufügen des Eintrags zur aktuellen Kategorie
+            # Add the entry to the current category
             data[current_category].append({
                 'title': row['Title'],
                 'url': row['URL'],
@@ -25,16 +25,18 @@ def csv_to_json(csv_file_path, json_file_path):
                 'filename': filename
             })
 
-    # Speichern als JSON
+    # Reverse the order of categories
+    data = {k: data[k] for k in reversed(data)}
+
+    # Save as JSON
     with open(json_file_path, 'w', encoding='utf-8') as jsonfile:
         json.dump(data, jsonfile, indent=4)
     
     print("Done.")
 
-# Pfad zu Ihrer CSV-Datei und zum Ziel-JSON
+# Path to your CSV file and destination JSON
 csv_file_path = 'data.csv'
-json_file_path = 'signs.json'
+json_file_path = 'public/signs.json'
 
-# Konvertierungsfunktion ausführen
+# Execute the conversion function
 csv_to_json(csv_file_path, json_file_path)
-
