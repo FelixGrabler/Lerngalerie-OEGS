@@ -1,0 +1,40 @@
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 0.9em;
+}
+
+table thead th {
+  background-color: #39424e;
+  color: #ffffff;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 2px solid #525d69;
+}
+
+table td {
+  padding: 10px;
+  border-bottom: 1px solid #39424e;
+  background-color: #2c3036;
+  color: #c8c3bc;
+}
+
+table td[contenteditable="true"]:focus {
+  outline: 2px solid #516a88;
+  background-color: #3e454d;
+}
+
+table tr:nth-child(even) {
+  background-color: #26292d;
+}
+
+table tr:hover {
+  background-color: #353b41;
+  cursor: pointer;
+}
+
+/* Adjustments for better readability and contrast */
+table tr:hover td[contenteditable="true"] {
+  background-color: #3e454d;
+  color: #ffffff;
+}
