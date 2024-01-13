@@ -1,4 +1,4 @@
-nav {
+#navbar {
   box-sizing: border-box;
   position: fixed;
   top: 0;
@@ -14,7 +14,7 @@ nav {
   color: white;
 }
 
-nav > div {
+#navbar > div {
   display: flex;
   align-items: center;
 }
@@ -47,8 +47,8 @@ body.wait button {
   cursor: wait;
 }
 
-nav > div > .control-btn:nth-of-type(1).blur-btn,
-nav > div > .control-btn:nth-of-type(1).shuffle-btn {
+#navbar > div > .control-btn:nth-of-type(1).blur-btn,
+#navbar > div > .control-btn:nth-of-type(1).shuffle-btn {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }

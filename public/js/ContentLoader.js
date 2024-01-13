@@ -43,7 +43,7 @@ fetch("/signs.json")
         // Stern-Symbol für das Video
         const videoStar = document.createElement("i");
         videoStar.className = "video-star far fa-star"; // Font Awesome für leeren Stern
-        videoStar.onclick = () => toggleVideoStar(sign.filename, videoStar); // Event Listener
+        videoStar.onclick = () => toggleVideoStar(sign.signID, videoStar); // Event Listener
         titleStarContainer.appendChild(videoStar);
 
         signContainer.appendChild(titleStarContainer);
