@@ -25,8 +25,17 @@
   width: 250px; /* Container Width */
 }
 
-.video-title {
-  font-size: 20px;
+.video-title-container {
+  font-size: 18px;
+  margin-bottom: 5px; /* Abstand zwischen Titel und Video */
+}
+
+/* Allgemeiner Stil für Stern-Icons */
+.video-star,
+.category-star {
+  color: #ffd700; /* Klassisches Stern-Gelb */
+  cursor: pointer; /* Ändert den Mauszeiger zu einer Hand, um Klickbarkeit anzudeuten */
+  margin-left: 5px; /* Abstand zwischen Titel und Stern */
 }
 
 .video-container {
