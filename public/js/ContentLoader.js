@@ -28,6 +28,7 @@ fetch("/signs.json")
       categories[category].forEach((sign) => {
         const signContainer = document.createElement("div");
         signContainer.className = "sign-container";
+        signContainer.dataset.signid = sign.signID;
 
         // Container für Titel und Stern
         const titleStarContainer = document.createElement("div");

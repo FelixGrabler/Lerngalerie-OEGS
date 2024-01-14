@@ -33,9 +33,20 @@
 /* Allgemeiner Stil für Stern-Icons */
 .video-star,
 .category-star {
+  visibility: hidden;
   color: #ffd700; /* Klassisches Stern-Gelb */
   cursor: pointer; /* Ändert den Mauszeiger zu einer Hand, um Klickbarkeit anzudeuten */
   margin-left: 5px; /* Abstand zwischen Titel und Stern */
+}
+
+.video-star.fas,
+.category-star.fas {
+  visibility: visible;
+}
+
+.sign-container:hover .video-star,
+.category-container:hover .category-star {
+  visibility: visible;
 }
 
 .video-container {

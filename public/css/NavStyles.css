@@ -85,7 +85,7 @@ body.wait button {
 }
 
 #control-center {
-  display: flex;
+  display: none;
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: flex-start;
