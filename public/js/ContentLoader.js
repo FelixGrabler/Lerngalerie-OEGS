@@ -44,6 +44,7 @@ fetch("/signs.json")
         const videoStar = document.createElement("i");
         videoStar.className = "video-star far fa-star"; // Font Awesome für leeren Stern
         videoStar.onclick = () => toggleVideoStar(sign.signID, videoStar); // Event Listener
+        videoStar.dataset.videoid = sign.signID;
         titleStarContainer.appendChild(videoStar);
 
         signContainer.appendChild(titleStarContainer);
@@ -89,3 +90,21 @@ function generateSidebar(counter) {
     toggleSidebarOff();
   });
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var controlCenter = document.getElementById("control-center");
+  var toggleButton = document.getElementById("control-center-toggle");
+
+  document.addEventListener("click", function (event) {
+    var isClickInsideControlCenter = controlCenter.contains(event.target);
+    var isClickOnToggleButton = toggleButton.contains(event.target);
+
+    if (
+      !isClickInsideControlCenter &&
+      !isClickOnToggleButton &&
+      controlCenter.style.display === "block"
+    ) {
+      toggleControlCenter();
+    }
+  });
+});

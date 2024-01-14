@@ -13,8 +13,8 @@ db.run(`CREATE TABLE IF NOT EXISTS users (
 )`);
 
 db.run(`CREATE TABLE IF NOT EXISTS user_video_stars (
-    user_id INTEGER,
-    video_id INTEGER,
+    user_id INTEGER NOT NULL,
+    video_id INTEGER NOT NULL,
     PRIMARY KEY (user_id, video_id),
     FOREIGN KEY (user_id) REFERENCES users (id)
 )`);
@@ -47,12 +47,54 @@ function removeStar(userId, videoId) {
 
 function createUser(name) {
   return new Promise((resolve, reject) => {
+    // Validierung: Name darf nicht leer sein
+    if (!name || name.trim() === "") {
+      reject({ message: "Der Benutzername darf nicht leer sein." });
+      return;
+    }
+
     const sql = `INSERT INTO users (name) VALUES(?)`;
     db.run(sql, [name], function (err) {
       if (err) {
-        reject(err);
+        // Spezifische Fehlerbehandlung
+        if (err.message.includes("UNIQUE constraint failed")) {
+          reject({ message: "Der Benutzername ist bereits vergeben." });
+        } else {
+          reject({ message: "Ein unerwarteter Fehler ist aufgetreten." });
+        }
       } else {
-        resolve({ message: "User created successfully", user_id: this.lastID });
+        resolve({
+          message: "Benutzer erfolgreich erstellt.",
+          user_id: this.lastID,
+        });
+      }
+    });
+  });
+}
+
+function loginUser(name) {
+  return new Promise((resolve, reject) => {
+    // Validierung: Name darf nicht leer sein
+    if (!name || name.trim() === "") {
+      reject({ message: "Der Benutzername darf nicht leer sein." });
+      return;
+    }
+
+    const sql = `SELECT id FROM users WHERE name = ?`;
+    db.get(sql, [name], (err, row) => {
+      if (err) {
+        // Allgemeine Fehlerbehandlung
+        reject({
+          message:
+            "Fehler bei der Anfrage. Bitte versuchen Sie es später erneut.",
+        });
+      } else {
+        if (row) {
+          resolve({ message: "Erfolgreich eingeloggt.", user_id: row.id });
+        } else {
+          // Benutzer existiert nicht
+          reject({ message: "Benutzername existiert nicht." });
+        }
       }
     });
   });
@@ -60,22 +102,31 @@ function createUser(name) {
 
 function deleteUser(userId) {
   return new Promise((resolve, reject) => {
-    // Zuerst alle Sterne des Benutzers löschen
-    const deleteStarsSql = `DELETE FROM user_video_stars WHERE user_id = ?`;
-    db.run(deleteStarsSql, [userId], function (err) {
+    // Validierung: Überprüfen der User-ID
+    if (!userId || typeof userId !== "number") {
+      reject({ message: "Ungültige Benutzer-ID." });
+      return;
+    }
+
+    const sql = `DELETE FROM users WHERE id = ?`;
+    db.run(sql, [userId], function (err) {
       if (err) {
-        reject(err);
-        return;
-      }
-      // Dann den Benutzer löschen
-      const deleteUserSql = `DELETE FROM users WHERE id = ?`;
-      db.run(deleteUserSql, [userId], function (err) {
-        if (err) {
-          reject(err);
+        // Allgemeine Fehlerbehandlung
+        reject({
+          message:
+            "Fehler beim Löschen des Benutzers. Bitte versuchen Sie es später erneut.",
+        });
+      } else {
+        if (this.changes === 0) {
+          // Keine Änderungen vorgenommen, Benutzer existiert möglicherweise nicht
+          reject({
+            message:
+              "Benutzer wurde nicht gefunden oder konnte nicht gelöscht werden.",
+          });
         } else {
-          resolve(`User ${userId} and their stars deleted`);
+          resolve({ message: "Benutzer erfolgreich gelöscht." });
         }
-      });
+      }
     });
   });
 }
@@ -85,7 +136,10 @@ function getAllUsers() {
     const sql = `SELECT * FROM users`;
     db.all(sql, [], (err, rows) => {
       if (err) {
-        reject(err);
+        reject({
+          message:
+            "Fehler beim Abrufen der Benutzerdaten. Bitte versuchen Sie es später erneut.",
+        });
       } else {
         resolve(rows);
       }
@@ -95,10 +149,19 @@ function getAllUsers() {
 
 function getUserStars(userId) {
   return new Promise((resolve, reject) => {
+    // Validierung der User-ID
+    if (!userId || typeof userId !== "number") {
+      reject({ message: "Ungültige Benutzer-ID." });
+      return;
+    }
+
     const sql = `SELECT * FROM user_video_stars WHERE user_id = ?`;
     db.all(sql, [userId], (err, rows) => {
       if (err) {
-        reject(err);
+        reject({
+          message:
+            "Fehler beim Abrufen der Sternedaten. Bitte versuchen Sie es später erneut.",
+        });
       } else {
         resolve(rows);
       }
@@ -110,6 +173,7 @@ module.exports = {
   addStar,
   removeStar,
   createUser,
+  loginUser,
   deleteUser,
   getAllUsers,
   getUserStars,

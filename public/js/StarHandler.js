@@ -1,4 +1,4 @@
-function toggleVideoStar(filename, starElement) {
+function toggleVideoStar(videoId, starElement) {
   if (starElement.classList.contains("far")) {
     starElement.classList.remove("far");
     starElement.classList.add("fas");
@@ -12,7 +12,40 @@ function toggleVideoStar(filename, starElement) {
   const categoryId = categoryContainer.id;
   updateCategoryStarState(categoryId);
 
-  console.log("Stern für Video umgeschaltet: " + filename);
+  console.log("Stern für Video umgeschaltet: " + videoId);
+
+  // Check if user is logged in
+  if (!localStorage.getItem("userId")) {
+    return;
+  }
+
+  const userId = localStorage.getItem("userId");
+  const body = { userId: userId, videoId: videoId };
+
+  var action = "";
+  if (starElement.classList.contains("far")) {
+    // Stern entfernen
+    action = "/remove-star";
+  } else {
+    // Stern hinzufügen
+    action = "/add-star";
+  }
+
+  fetch(action, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(body),
+  })
+    .then((response) => response.text())
+    .then((result) => {
+      console.log("Result:", result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
 }
 
 function toggleCategoryStar(categoryId) {
@@ -24,12 +57,19 @@ function toggleCategoryStar(categoryId) {
   );
 
   Array.from(videos).forEach((star) => {
+    const videoId = star.dataset.videoid; // Annahme, dass die Video-ID als Datenattribut gespeichert ist
+
+    // Entscheiden, ob der Stern hinzugefügt oder entfernt werden soll
     if (allMarked) {
-      star.classList.remove("fas");
-      star.classList.add("far");
+      // Wenn alle markiert sind, entferne den Stern
+      if (star.classList.contains("fas")) {
+        toggleVideoStar(videoId, star);
+      }
     } else {
-      star.classList.remove("far");
-      star.classList.add("fas");
+      // Wenn nicht alle markiert sind, füge den Stern hinzu
+      if (!star.classList.contains("fas")) {
+        toggleVideoStar(videoId, star);
+      }
     }
   });
 

@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 50;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -70,4 +70,88 @@ body.wait button {
 
 #searchInput::placeholder {
   color: #ddd;
+}
+
+#control-center-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+#control-center-toggle .fas {
+  font-size: 2em; /* Größe des Icons anpassen */
+}
+
+#control-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: #414141;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  z-index: 49;
+}
+
+.control-section {
+  flex: 0 0 100%; /* Flex-Basis auf 20% der Containerbreite setzen */
+  margin-right: 2%; /* Optional: Abstand zwischen den Bereichen */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.control-section:last-child {
+  margin-right: 0; /* Entfernt den rechten Rand am letzten Element */
+}
+
+.control-section h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.control-section input,
+.control-section button {
+  margin: 5px 0;
+  padding: 8px;
+  width: calc(
+    100% - 16px
+  ); /* Vollständige Breite unter Berücksichtigung des Paddings */
+  box-sizing: border-box;
+}
+
+.control-section button {
+  background-color: #626262;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-section button:hover {
+  background-color: #7d7d7d;
+}
+
+/* Animation für das Ein- und Ausfahren */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
 }

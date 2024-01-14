@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="/css/GalleryStyles.css" />
     <link rel="stylesheet" href="/css/BlurAndShuffleStyles.css" />
     <link rel="stylesheet" href="/css/HamburgerMenu.css" />
+    <link rel="stylesheet" href="/css/Notification.css" />
 
     <!-- JS -->
     <script src="/js/ContentLoader.js"></script>
@@ -40,6 +41,8 @@
     <script src="/js/Search.js"></script>
     <script src="/js/HamburgerMenu.js"></script>
     <script src="/js/StarHandler.js"></script>
+    <script src="/js/User.js"></script>
+    <script src="/js/Notification.js"></script>
   </head>
   <body>
     <nav id="navbar">
@@ -121,10 +124,44 @@
           onkeyup="search(event)"
         />
       </div>
+
+      <button id="control-center-toggle" onclick="toggleControlCenter()">
+        <i class="fas fa-user"></i>
+      </button>
     </nav>
+
+    <!-- Control Center Bereich -->
+    <div id="control-center" class="hidden">
+      <!-- User Management Bereich -->
+      <div class="control-section" id="user-management">
+        <h2>Account (speichert ⭐s)</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <button onclick="loginUser()" id="login-button">Login</button>
+        <button onclick="logoutUser()" id="logout-button" style="display: none">
+          Logout
+        </button>
+        <button onclick="createUser()" id="create-user-button">
+          Create User
+        </button>
+        <button
+          onclick="deleteUser()"
+          id="delete-user-button"
+          style="display: none"
+        >
+          Delete User
+        </button>
+      </div>
+
+      <!-- Weitere Bereiche können hier hinzugefügt werden -->
+    </div>
 
     <div id="sidebar"></div>
 
     <div id="gallery" class="gallery"></div>
+
+    <div id="notification" class="notification hidden neutral">
+      <span id="notification-message">Dies ist eine Benachrichtigung!</span>
+      <span class="close-btn" onclick="closeNotification()">&times;</span>
+    </div>
   </body>
 </html>

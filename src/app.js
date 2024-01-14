@@ -63,9 +63,20 @@ app.post("/create-user", async (req, res) => {
   try {
     const { name } = req.body;
     const result = await db.createUser(name);
-    res.status(200).send(result);
+    res.status(200).json(result);
   } catch (err) {
-    res.status(500).send(err.message);
+    res.status(500).json({ message: err.message });
+  }
+});
+
+// Endpunkt: Benutzer einloggen
+app.post("/login-user", async (req, res) => {
+  try {
+    const { name } = req.body;
+    const result = await db.loginUser(name);
+    res.status(200).json(result); // Antwort als JSON senden
+  } catch (err) {
+    res.status(500).json({ message: err.message });
   }
 });
 
@@ -75,7 +86,7 @@ app.get("/get-users", async (req, res) => {
     const users = await db.getAllUsers();
     res.status(200).json(users);
   } catch (err) {
-    res.status(500).send(err.message);
+    res.status(500).json({ message: err.message });
   }
 });
 
@@ -84,9 +95,9 @@ app.delete("/delete-user/:userId", async (req, res) => {
   try {
     const userId = req.params.userId;
     await db.deleteUser(userId);
-    res.status(200).send("User deleted successfully");
+    res.status(200).json({ message: "User deleted successfully." });
   } catch (err) {
-    res.status(500).send(err.message);
+    res.status(500).json({ message: err.message });
   }
 });
 
