@@ -35,7 +35,7 @@ def csv_to_json(csv_file_path, json_file_path):
     print("Done.")
 
 # Path to your CSV file and destination JSON
-csv_file_path = 'data.csv'
+csv_file_path = 'public/data.csv'
 json_file_path = 'public/signs.json'
 
 # Execute the conversion function

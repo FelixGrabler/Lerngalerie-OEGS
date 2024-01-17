@@ -40,7 +40,7 @@ def download_videos(json_file_path, video_folder):
                     print(f"Video already exists: {video_filename}")
 
 # Pfad zur signs.json und zum Video-Ordner
-json_file_path = 'signs.json'
+json_file_path = 'public/signs.json'
 video_folder = 'public/mp4'
 
 # Ausführen der Funktion
