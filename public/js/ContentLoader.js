@@ -70,6 +70,7 @@ fetch("/signs.json")
     generateSidebar(counter);
     initIntersectionObserver();
     initOriginalState();
+    restoreLogin();
   });
 
 function generateSidebar(counter) {

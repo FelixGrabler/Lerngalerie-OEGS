@@ -149,21 +149,27 @@ function getAllUsers() {
 
 function getUserStars(userId) {
   return new Promise((resolve, reject) => {
+    // Convert userId to a number if it's a string
+    const numericUserId = Number(userId);
+
     // Validierung der User-ID
-    if (!userId || typeof userId !== "number") {
+    if (!numericUserId || typeof numericUserId !== "number") {
       reject({ message: "Ungültige Benutzer-ID." });
       return;
     }
 
-    const sql = `SELECT * FROM user_video_stars WHERE user_id = ?`;
-    db.all(sql, [userId], (err, rows) => {
+    // Modify the SQL query to select only the video_id column
+    const sql = `SELECT video_id FROM user_video_stars WHERE user_id = ?`;
+    db.all(sql, [numericUserId], (err, rows) => {
       if (err) {
         reject({
           message:
             "Fehler beim Abrufen der Sternedaten. Bitte versuchen Sie es später erneut.",
         });
       } else {
-        resolve(rows);
+        // Extract only the video_ids from the rows
+        const videoIds = rows.map((row) => row.video_id);
+        resolve(videoIds);
       }
     });
   });

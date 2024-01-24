@@ -78,10 +78,15 @@ body.wait button {
   border: none;
   color: white;
   padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
 }
 
 #control-center-toggle .fas {
-  font-size: 2em; /* Größe des Icons anpassen */
+  font-size: 2em;
 }
 
 #control-center {

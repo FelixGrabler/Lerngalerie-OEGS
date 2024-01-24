@@ -42,3 +42,42 @@
 .close-btn:hover {
   color: #bbb;
 }
+
+/* Star display */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  color: rgb(52, 52, 52);
+}
+
+.modal-content {
+  background-color: #e6e6e6;
+  margin: 15% auto;
+  padding: 15px;
+  border: 1px solid #888;
+  width: fit-content;
+}
+
+.modal-content p {
+  margin: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #45a049;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c8a3f;
+}
