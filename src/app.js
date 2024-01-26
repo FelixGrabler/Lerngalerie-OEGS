@@ -36,12 +36,34 @@ app.post("/add-star", async (req, res) => {
   }
 });
 
+// Endpunkt: Liste von Sternen hinzufügen
+app.post("/add-stars", async (req, res) => {
+  try {
+    const { userId, videoIds } = req.body;
+    await db.addStars(userId, videoIds);
+    res.status(200).send("Stars added successfully");
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+});
+
 // Endpunkt: Stern entfernen
 app.post("/remove-star", async (req, res) => {
   try {
     const { userId, videoId } = req.body;
     await db.removeStar(userId, videoId);
     res.status(200).send("Star removed successfully");
+  } catch (err) {
+    res.status(500).send(err.message);
+  }
+});
+
+// Endpunkt: Alle Sterne eines Users entfernen
+app.delete("/remove-all-stars", async (req, res) => {
+  try {
+    const { userId } = req.body;
+    const result = await db.removeAllStars(userId);
+    res.status(200).send(result);
   } catch (err) {
     res.status(500).send(err.message);
   }
@@ -69,11 +91,11 @@ app.post("/create-user", async (req, res) => {
   }
 });
 
-// Endpunkt: Benutzer einloggen
+// Endpunkt: Benutzer einloggen/registrieren
 app.post("/login-user", async (req, res) => {
   try {
     const { name } = req.body;
-    const result = await db.loginUser(name);
+    const result = await db.loginCreateUser(name);
     res.status(200).json(result); // Antwort als JSON senden
   } catch (err) {
     res.status(500).json({ message: err.message });

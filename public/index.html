@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="/css/BlurAndShuffleStyles.css" />
     <link rel="stylesheet" href="/css/HamburgerMenu.css" />
     <link rel="stylesheet" href="/css/Notification.css" />
+    <link rel="stylesheet" href="/css/User.css" />
 
     <!-- JS -->
     <script src="/js/ContentLoader.js"></script>
@@ -126,6 +127,7 @@
       </div>
 
       <button id="control-center-toggle" onclick="toggleControlCenter()">
+        <h2 style="color: rgb(255, 255, 0)">neu →</h2>
         <i class="fas fa-user"></i>
       </button>
     </nav>
@@ -136,7 +138,7 @@
       <div class="control-section" id="user-management">
         <h2>Account (speichert ⭐s)</h2>
         <input type="text" id="username" placeholder="Username" />
-        <button onclick="loginUser()" id="login-button">Login</button>
+        <button onclick="loginUser()" id="login-button">Login / Register</button>
         <button onclick="logoutUser()" id="logout-button" style="display: none">
           Logout
         </button>

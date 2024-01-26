@@ -92,3 +92,38 @@ function updateCategoryStarState(categoryId) {
     categoryStar.classList.add("far");
   }
 }
+
+function unselectAllStars() {
+  const stars = document.querySelectorAll(".video-star.fas");
+  stars.forEach((star) => {
+    star.classList.remove("fas");
+    star.classList.add("far");
+  });
+
+  const categoryStars = document.querySelectorAll(".category-star.fas");
+  categoryStars.forEach((star) => {
+    star.classList.remove("fas");
+    star.classList.add("far");
+  });
+}
+
+function deleteAllStars() {
+  let user_id = localStorage.getItem("userId");
+  fetch("/remove-all-stars", {
+    method: "DELETE",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId: user_id,
+    }),
+  })
+    .then((response) => response.text())
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
+}

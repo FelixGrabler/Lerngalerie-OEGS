@@ -16,14 +16,14 @@ function toggleControlCenter() {
 function showUserButtons() {
   let loginButton = document.getElementById("login-button");
   let logoutButton = document.getElementById("logout-button");
-  let createUserButton = document.getElementById("create-user-button");
-  let deleteUserButton = document.getElementById("delete-user-button");
+  // let createUserButton = document.getElementById("create-user-button");
+  // let deleteUserButton = document.getElementById("delete-user-button");
   let userIcon = document.getElementsByClassName("fa-user");
 
-  createUserButton.style.display = "none";
+  // createUserButton.style.display = "none";
   loginButton.style.display = "none";
   logoutButton.style.display = "block";
-  deleteUserButton.style.display = "block";
+  // deleteUserButton.style.display = "block";
 
   for (let i = 0; i < userIcon.length; i++) {
     userIcon[i].style.color = "green";
@@ -33,14 +33,14 @@ function showUserButtons() {
 function showNonUserButtons() {
   let loginButton = document.getElementById("login-button");
   let logoutButton = document.getElementById("logout-button");
-  let createUserButton = document.getElementById("create-user-button");
-  let deleteUserButton = document.getElementById("delete-user-button");
+  // let createUserButton = document.getElementById("create-user-button");
+  // let deleteUserButton = document.getElementById("delete-user-button");
   let userIcon = document.getElementsByClassName("fa-user");
 
-  createUserButton.style.display = "block";
+  // createUserButton.style.display = "block";
   loginButton.style.display = "block";
   logoutButton.style.display = "none";
-  deleteUserButton.style.display = "none";
+  // deleteUserButton.style.display = "none";
 
   for (let i = 0; i < userIcon.length; i++) {
     userIcon[i].style.color = "red";
@@ -86,6 +86,8 @@ function restoreLogin() {
   } else {
     showNonUserButtons();
   }
+
+  // TODO: restore stars
 }
 
 function loginUser() {
@@ -121,12 +123,11 @@ function loginUser() {
 function saveStars() {
   console.log("Save stars");
 
-  // Get selected stars
   const selectedStars = document.querySelectorAll(".video-star.fas");
-  const selectedStarIds = Array.from(selectedStars, (star) =>
+  const localStarIds = Array.from(selectedStars, (star) =>
     parseInt(star.dataset.videoid)
   );
-  console.log("Selected star IDs:", selectedStarIds);
+  console.log("Selected star IDs:", localStarIds);
 
   // Get database stars
   const userId = localStorage.getItem("userId");
@@ -136,23 +137,23 @@ function saveStars() {
       console.log("Database stars:", databaseStars);
 
       // Check if there are differences between selected and database stars
-      if (haveDifferences(selectedStarIds, databaseStars)) {
+      if (localStarIds.length > 0 && databaseStars.length > 0) {
         // Show dialog
         const dialog = document.getElementById("save-stars-dialog");
         dialog.style.display = "block";
 
         document.getElementById("save-stars-local").onclick = () => {
-          saveStarsLocally(selectedStarIds);
+          saveNewStarsRemotely(localStarIds);
           dialog.style.display = "none";
         };
 
         document.getElementById("save-stars-remote").onclick = () => {
-          saveStarsRemotely(databaseStars);
+          saveNewStarsLocally(databaseStars);
           dialog.style.display = "none";
         };
 
         document.getElementById("merge-stars").onclick = () => {
-          mergeStars(selectedStarIds, databaseStars);
+          mergeStars(localStarIds, databaseStars);
           dialog.style.display = "none";
         };
 
@@ -161,9 +162,9 @@ function saveStars() {
           dialog.style.display = "none";
         };
       } else if (databaseStars.length > 0) {
-        saveStarsRemotely(databaseStars);
-      } else if (selectedStarIds.length > 0) {
-        saveStarsLocally(selectedStarIds);
+        saveStarsLocally(databaseStars);
+      } else if (localStarIds.length > 0) {
+        saveStarsRemotely(localStarIds);
       }
     })
     .catch((error) => {
@@ -172,23 +173,59 @@ function saveStars() {
     });
 }
 
-function haveDifferences(selectedStarIds, databaseStars) {
+function getDifferences(selectedStarIds, databaseStars) {
   // Convert databaseStars to a simple array of ids if necessary
   let dbStarIds = databaseStars.map((star) => star.video_id);
 
-  // Check for differences between the two arrays
-  return (
-    selectedStarIds.some((id) => !dbStarIds.includes(id)) ||
-    dbStarIds.some((id) => !selectedStarIds.includes(id))
+  // Compare the two arrays
+  let starsLocalNotRemote = selectedStarIds.filter(
+    (id) => !dbStarIds.includes(id)
   );
+  console.log("IDs missing on remote:", starsLocalNotRemote);
+
+  return starsLocalNotRemote;
 }
 
+function saveNewStarsRemotely(starIds) {
+  deleteAllStars();
+  saveStarsRemotely(starIds);
+}
+
+function saveNewStarsLocally(starIds) {
+  unselectAllStars();
+  saveStarsLocally(starIds);
+}
+
+/**
+ * Add the given star IDs to the local storage
+ */
 function saveStarsLocally(starIds) {
-  // TODO: Store the starIds in localStorage
+  starIds.forEach((id) => {
+    let star = document.querySelector(`.video-star[data-videoid="${id}"]`);
+    toggleVideoStar(id, star);
+  });
 }
 
 function saveStarsRemotely(starIds) {
-  // TODO: Send a request to a server to save the stars
+  const userId = localStorage.getItem("userId");
+  fetch("/add-stars", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId: userId,
+      videoIds: starIds,
+    }),
+  })
+    .then((response) => response.text())
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
 }
 
 function mergeStars(localStarIds, remoteStarIds) {
@@ -197,8 +234,33 @@ function mergeStars(localStarIds, remoteStarIds) {
     (id) => !remoteStarIds.includes(id)
   );
   console.log("IDs missing on remote:", localWithoutRemote);
+  fetch("/add-stars", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId: localStorage.getItem("userId"),
+      videoIds: localWithoutRemote,
+    }),
+  })
+    .then((response) => response.text())
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
 
-  // TODO: Save the missing IDs on the remote server
+  let remoteWithoutLocal = remoteStarIds.filter(
+    (id) => !localStarIds.includes(id)
+  );
+  console.log("IDs missing locally:", remoteWithoutLocal);
+  remoteWithoutLocal.forEach((id) => {
+    let star = document.querySelector(`.video-star[data-videoid="${id}"]`);
+    toggleVideoStar(id, star);
+  });
 }
 
 function logoutUser() {

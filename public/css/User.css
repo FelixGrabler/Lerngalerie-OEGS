@@ -1,0 +1,29 @@
+#login-button {
+  background-color: #198f17;
+}
+#login-button:hover {
+  background-color: #167a14;
+}
+
+#logout-button {
+  background-color: #921b1b;
+}
+#logout-button:hover {
+  background-color: rgb(114, 15, 15);
+}
+
+#create-user-button {
+  display: none;
+  background-color: #198f17;
+}
+#create-user-button:hover {
+  background-color: #167a14;
+}
+
+#delete-user-button {
+  display: none;
+  background-color: #921b1b;
+}
+#delete-user-button:hover {
+  background-color: rgb(114, 15, 15);
+}
