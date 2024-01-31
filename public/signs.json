@@ -1,2390 +1,2847 @@
 {
-    "K\u00fcchenutensilien": [
-        {
-            "title": "Sieb",
-            "url": "https://suche.machs-auf.at/sign/78580",
-            "signID": "78580",
-            "filename": "78580.mp4"
-        },
-        {
-            "title": "Brett",
-            "url": "https://suche.machs-auf.at/sign/69948",
-            "signID": "69948",
-            "filename": "69948.mp4"
-        },
-        {
-            "title": "Messer (in der Stmk. \u00fcblicher mit U-Handform)",
-            "url": "https://suche.machs-auf.at/sign/29721",
-            "signID": "29721",
-            "filename": "29721.mp4"
-        },
-        {
-            "title": "Gabel",
-            "url": "https://suche.machs-auf.at/sign/21288",
-            "signID": "21288",
-            "filename": "21288.mp4"
-        },
-        {
-            "title": "L\u00f6ffel",
-            "url": "https://suche.machs-auf.at/sign/65329",
-            "signID": "65329",
-            "filename": "65329.mp4"
-        },
-        {
-            "title": "Pfanne",
-            "url": "https://suche.machs-auf.at/sign/36718",
-            "signID": "36718",
-            "filename": "36718.mp4"
-        },
-        {
-            "title": "Mixer/Cutter",
-            "url": "https://suche.machs-auf.at/sign/45307",
-            "signID": "45307",
-            "filename": "45307.mp4"
-        },
-        {
-            "title": "Handmixer",
-            "url": "https://suche.machs-auf.at/sign/41099",
-            "signID": "41099",
-            "filename": "41099.mp4"
-        },
-        {
-            "title": "Stabmixer",
-            "url": "https://suche.machs-auf.at/sign/35313",
-            "signID": "35313",
-            "filename": "35313.mp4"
-        }
-    ],
-    "Mengenangaben": [
-        {
-            "title": "Wenig",
-            "url": "https://suche.machs-auf.at/sign/23968",
-            "signID": "23968",
-            "filename": "23968.mp4"
-        },
-        {
-            "title": "Viel",
-            "url": "https://suche.machs-auf.at/sign/40790",
-            "signID": "40790",
-            "filename": "40790.mp4"
-        },
-        {
-            "title": "Oft",
-            "url": "https://suche.machs-auf.at/sign/28488",
-            "signID": "28488",
-            "filename": "28488.mp4"
-        },
-        {
-            "title": "\u201cAb und zu\u201d (letzte Geb\u00e4rde im Satz)",
-            "url": "https://suche.machs-auf.at/sign/55421",
-            "signID": "55421",
-            "filename": "55421.mp4"
-        },
-        {
-            "title": "kaum",
-            "url": "https://suche.machs-auf.at/sign/70539",
-            "signID": "70539",
-            "filename": "70539.mp4"
-        },
-        {
-            "title": "nie",
-            "url": "https://suche.machs-auf.at/sign/62097",
-            "signID": "62097",
-            "filename": "62097.mp4"
-        },
-        {
-            "title": "immer",
-            "url": "https://suche.machs-auf.at/sign/43662",
-            "signID": "43662",
-            "filename": "43662.mp4"
-        },
-        {
-            "title": "\"Stamm\" = regelm\u00e4\u00dfig",
-            "url": "https://suche.machs-auf.at/sign/94718",
-            "signID": "94718",
-            "filename": "94718.mp4"
-        }
-    ],
-    "Essen": [
-        {
-            "title": "Essen",
-            "url": "https://suche.machs-auf.at/sign/30692",
-            "signID": "30692",
-            "filename": "30692.mp4"
-        },
-        {
-            "title": "Vegan",
-            "url": "https://suche.machs-auf.at/sign/16811",
-            "signID": "16811",
-            "filename": "16811.mp4"
-        },
-        {
-            "title": "Vegetarisch",
-            "url": "https://suche.machs-auf.at/sign/28671",
-            "signID": "28671",
-            "filename": "28671.mp4"
-        },
-        {
-            "title": "Fleisch",
-            "url": "https://suche.machs-auf.at/sign/67336",
-            "signID": "67336",
-            "filename": "67336.mp4"
-        },
-        {
-            "title": "Pute",
-            "url": "https://suche.machs-auf.at/sign/71171",
-            "signID": "71171",
-            "filename": "71171.mp4"
-        },
-        {
-            "title": "Flexibel",
-            "url": "https://suche.machs-auf.at/sign/43039",
-            "signID": "43039",
-            "filename": "43039.mp4"
-        },
-        {
-            "title": "Brot",
-            "url": "https://suche.machs-auf.at/sign/20341",
-            "signID": "20341",
-            "filename": "20341.mp4"
-        },
-        {
-            "title": "Semmel",
-            "url": "https://suche.machs-auf.at/sign/68890",
-            "signID": "68890",
-            "filename": "68890.mp4"
-        },
-        {
-            "title": "Nudeln",
-            "url": "https://suche.machs-auf.at/sign/28661",
-            "signID": "28661",
-            "filename": "28661.mp4"
-        },
-        {
-            "title": "Kartoffeln",
-            "url": "https://suche.machs-auf.at/sign/64023",
-            "signID": "64023",
-            "filename": "64023.mp4"
-        },
-        {
-            "title": "Reis",
-            "url": "https://suche.machs-auf.at/sign/95682",
-            "signID": "95682",
-            "filename": "95682.mp4"
-        },
-        {
-            "title": "Getreide",
-            "url": "https://suche.machs-auf.at/sign/93339",
-            "signID": "93339",
-            "filename": "93339.mp4"
-        },
-        {
-            "title": "Mehl",
-            "url": "https://suche.machs-auf.at/sign/72140",
-            "signID": "72140",
-            "filename": "72140.mp4"
-        },
-        {
-            "title": "Kuchen",
-            "url": "https://suche.machs-auf.at/sign/64933",
-            "signID": "64933",
-            "filename": "64933.mp4"
-        },
-        {
-            "title": "Torte",
-            "url": "https://suche.machs-auf.at/sign/68968",
-            "signID": "68968",
-            "filename": "68968.mp4"
-        },
-        {
-            "title": "Schokolade",
-            "url": "https://suche.machs-auf.at/sign/68877",
-            "signID": "68877",
-            "filename": "68877.mp4"
-        },
-        {
-            "title": "Zucker",
-            "url": "https://suche.machs-auf.at/sign/41278",
-            "signID": "41278",
-            "filename": "41278.mp4"
-        },
-        {
-            "title": "Gem\u00fcse",
-            "url": "https://suche.machs-auf.at/sign/64446",
-            "signID": "64446",
-            "filename": "64446.mp4"
-        },
-        {
-            "title": "Karotten",
-            "url": "https://suche.machs-auf.at/sign/63952",
-            "signID": "63952",
-            "filename": "63952.mp4"
-        },
-        {
-            "title": "Erbsen",
-            "url": "https://suche.machs-auf.at/sign/63921",
-            "signID": "63921",
-            "filename": "63921.mp4"
-        },
-        {
-            "title": "Mais",
-            "url": "https://suche.machs-auf.at/sign/44387",
-            "signID": "44387",
-            "filename": "44387.mp4"
-        },
-        {
-            "title": "Zwiebel",
-            "url": "https://suche.machs-auf.at/sign/69255",
-            "signID": "69255",
-            "filename": "69255.mp4"
-        },
-        {
-            "title": "Knochblauch",
-            "url": "https://suche.machs-auf.at/sign/64830",
-            "signID": "64830",
-            "filename": "64830.mp4"
-        },
-        {
-            "title": "Salat",
-            "url": "https://suche.machs-auf.at/sign/70067",
-            "signID": "70067",
-            "filename": "70067.mp4"
-        },
-        {
-            "title": "Kraut (Achtung, nur 2. Geb\u00e4rde)",
-            "url": "https://suche.machs-auf.at/sign/64613",
-            "signID": "64613",
-            "filename": "64613.mp4"
-        },
-        {
-            "title": "Tomaten",
-            "url": "https://suche.machs-auf.at/sign/64205",
-            "signID": "64205",
-            "filename": "64205.mp4"
-        },
-        {
-            "title": "Bohnen",
-            "url": "https://suche.machs-auf.at/sign/29768",
-            "signID": "29768",
-            "filename": "29768.mp4"
-        },
-        {
-            "title": "Paprika",
-            "url": "https://suche.machs-auf.at/sign/36012",
-            "signID": "36012",
-            "filename": "36012.mp4"
-        },
-        {
-            "title": "R\u00fcben",
-            "url": "https://suche.machs-auf.at/sign/94429",
-            "signID": "94429",
-            "filename": "94429.mp4"
-        },
-        {
-            "title": "Obst",
-            "url": "https://suche.machs-auf.at/sign/31302",
-            "signID": "31302",
-            "filename": "31302.mp4"
-        },
-        {
-            "title": "Apfel",
-            "url": "https://suche.machs-auf.at/sign/62733",
-            "signID": "62733",
-            "filename": "62733.mp4"
-        },
-        {
-            "title": "Birne",
-            "url": "https://suche.machs-auf.at/sign/62820",
-            "signID": "62820",
-            "filename": "62820.mp4"
-        },
-        {
-            "title": "Zwetschke",
-            "url": "https://suche.machs-auf.at/sign/29897",
-            "signID": "29897",
-            "filename": "29897.mp4"
-        },
-        {
-            "title": "Orange",
-            "url": "https://suche.machs-auf.at/sign/63894",
-            "signID": "63894",
-            "filename": "63894.mp4"
-        },
-        {
-            "title": "Ananans",
-            "url": "https://suche.machs-auf.at/sign/61123",
-            "signID": "61123",
-            "filename": "61123.mp4"
-        },
-        {
-            "title": "Kokosnuss",
-            "url": "https://suche.machs-auf.at/sign/40912",
-            "signID": "40912",
-            "filename": "40912.mp4"
-        },
-        {
-            "title": "Melone",
-            "url": "https://suche.machs-auf.at/sign/64680",
-            "signID": "64680",
-            "filename": "64680.mp4"
-        },
-        {
-            "title": "Banane",
-            "url": "https://suche.machs-auf.at/sign/23473",
-            "signID": "23473",
-            "filename": "23473.mp4"
-        },
-        {
-            "title": "Kirsche",
-            "url": "https://suche.machs-auf.at/sign/64665",
-            "signID": "64665",
-            "filename": "64665.mp4"
-        },
-        {
-            "title": "Pfirsich",
-            "url": "https://suche.machs-auf.at/sign/65079",
-            "signID": "65079",
-            "filename": "65079.mp4"
-        },
-        {
-            "title": "Marille",
-            "url": "https://suche.machs-auf.at/sign/29307",
-            "signID": "29307",
-            "filename": "29307.mp4"
-        },
-        {
-            "title": "Erdbeere",
-            "url": "https://suche.machs-auf.at/sign/63924",
-            "signID": "63924",
-            "filename": "63924.mp4"
-        },
-        {
-            "title": "N\u00fcsse",
-            "url": "https://suche.machs-auf.at/sign/64796",
-            "signID": "64796",
-            "filename": "64796.mp4"
-        },
-        {
-            "title": "Marmelade",
-            "url": "https://suche.machs-auf.at/sign/30917",
-            "signID": "30917",
-            "filename": "30917.mp4"
-        },
-        {
-            "title": "Fett",
-            "url": "https://suche.machs-auf.at/sign/65791",
-            "signID": "65791",
-            "filename": "65791.mp4"
-        },
-        {
-            "title": "Butter",
-            "url": "https://suche.machs-auf.at/sign/62982",
-            "signID": "62982",
-            "filename": "62982.mp4"
-        },
-        {
-            "title": "\u00d6l",
-            "url": "https://suche.machs-auf.at/sign/30284",
-            "signID": "30284",
-            "filename": "30284.mp4"
-        },
-        {
-            "title": "Essig",
-            "url": "https://suche.machs-auf.at/sign/61997",
-            "signID": "61997",
-            "filename": "61997.mp4"
-        },
-        {
-            "title": "Milch",
-            "url": "https://suche.machs-auf.at/sign/63296",
-            "signID": "63296",
-            "filename": "63296.mp4"
-        },
-        {
-            "title": "Joghurt",
-            "url": "https://suche.machs-auf.at/sign/67320",
-            "signID": "67320",
-            "filename": "67320.mp4"
-        },
-        {
-            "title": "Sauerrahm",
-            "url": "https://suche.machs-auf.at/sign/67711",
-            "signID": "67711",
-            "filename": "67711.mp4"
-        },
-        {
-            "title": "Schlagobers",
-            "url": "https://suche.machs-auf.at/sign/67842",
-            "signID": "67842",
-            "filename": "67842.mp4"
-        },
-        {
-            "title": "K\u00e4se",
-            "url": "https://suche.machs-auf.at/sign/64028",
-            "signID": "64028",
-            "filename": "64028.mp4"
-        },
-        {
-            "title": "Ei",
-            "url": "https://suche.machs-auf.at/sign/30918",
-            "signID": "30918",
-            "filename": "30918.mp4"
-        },
-        {
-            "title": "Wurst",
-            "url": "https://suche.machs-auf.at/sign/29688",
-            "signID": "29688",
-            "filename": "29688.mp4"
-        },
-        {
-            "title": "Schinken",
-            "url": "https://suche.machs-auf.at/sign/28649",
-            "signID": "28649",
-            "filename": "28649.mp4"
-        },
-        {
-            "title": "Suppe",
-            "url": "https://suche.machs-auf.at/sign/28653",
-            "signID": "28653",
-            "filename": "28653.mp4"
-        },
-        {
-            "title": "Pizza",
-            "url": "https://suche.machs-auf.at/sign/94255",
-            "signID": "94255",
-            "filename": "94255.mp4"
-        },
-        {
-            "title": "Kebap",
-            "url": "https://suche.machs-auf.at/sign/28646",
-            "signID": "28646",
-            "filename": "28646.mp4"
-        },
-        {
-            "title": "Burger",
-            "url": "https://suche.machs-auf.at/sign/41027",
-            "signID": "41027",
-            "filename": "41027.mp4"
-        },
-        {
-            "title": "Pommes",
-            "url": "https://suche.machs-auf.at/sign/28644",
-            "signID": "28644",
-            "filename": "28644.mp4"
-        },
-        {
-            "title": "Schnitzel",
-            "url": "https://suche.machs-auf.at/sign/23155",
-            "signID": "23155",
-            "filename": "23155.mp4"
-        },
-        {
-            "title": "Gulasch",
-            "url": "https://suche.machs-auf.at/sign/70709",
-            "signID": "70709",
-            "filename": "70709.mp4"
-        },
-        {
-            "title": "Salz",
-            "url": "https://suche.machs-auf.at/sign/30919",
-            "signID": "30919",
-            "filename": "30919.mp4"
-        },
-        {
-            "title": "Pfeffer",
-            "url": "https://suche.machs-auf.at/sign/26673",
-            "signID": "26673",
-            "filename": "26673.mp4"
-        },
-        {
-            "title": "Wasser",
-            "url": "https://suche.machs-auf.at/sign/27081",
-            "signID": "27081",
-            "filename": "27081.mp4"
-        },
-        {
-            "title": "Tee",
-            "url": "https://suche.machs-auf.at/sign/30911",
-            "signID": "30911",
-            "filename": "30911.mp4"
-        },
-        {
-            "title": "Saft",
-            "url": "https://suche.machs-auf.at/sign/29635",
-            "signID": "29635",
-            "filename": "29635.mp4"
-        },
-        {
-            "title": "Bier",
-            "url": "https://suche.machs-auf.at/sign/65655",
-            "signID": "65655",
-            "filename": "65655.mp4"
-        },
-        {
-            "title": "Wein",
-            "url": "https://suche.machs-auf.at/sign/62391",
-            "signID": "62391",
-            "filename": "62391.mp4"
-        },
-        {
-            "title": "Limonade",
-            "url": "https://suche.machs-auf.at/sign/27079",
-            "signID": "27079",
-            "filename": "27079.mp4"
-        },
-        {
-            "title": "Cola",
-            "url": "https://suche.machs-auf.at/sign/26982",
-            "signID": "26982",
-            "filename": "26982.mp4"
-        },
-        {
-            "title": "Red Bull",
-            "url": "https://suche.machs-auf.at/sign/27077",
-            "signID": "27077",
-            "filename": "27077.mp4"
-        }
-    ],
-    "Richtungen": [
-        {
-            "title": "Links",
-            "url": "https://suche.machs-auf.at/sign/24005",
-            "signID": "24005",
-            "filename": "24005.mp4"
-        },
-        {
-            "title": "Rechts",
-            "url": "https://suche.machs-auf.at/sign/41571",
-            "signID": "41571",
-            "filename": "41571.mp4"
-        }
-    ],
-    "Verben": [
-        {
-            "title": "Beschreiben",
-            "url": "https://suche.machs-auf.at/sign/22659",
-            "signID": "22659",
-            "filename": "22659.mp4"
-        },
-        {
-            "title": "Fragen (\u00fcbereinstimmbar)",
-            "url": "https://suche.machs-auf.at/sign/40684",
-            "signID": "40684",
-            "filename": "40684.mp4"
-        },
-        {
-            "title": "Sagen",
-            "url": "https://suche.machs-auf.at/sign/43659",
-            "signID": "43659",
-            "filename": "43659.mp4"
-        },
-        {
-            "title": "Sprechen (Sprechen Sie Deutsch?)",
-            "url": "https://suche.machs-auf.at/sign/48330",
-            "signID": "48330",
-            "filename": "48330.mp4"
-        },
-        {
-            "title": "Geb\u00e4rden (Geb\u00e4rden Sie bitte langsam.)",
-            "url": "https://suche.machs-auf.at/sign/48777",
-            "signID": "48777",
-            "filename": "48777.mp4"
-        },
-        {
-            "title": "Bescheid geben (\u00fcbereinstimmbar)",
-            "url": "https://suche.machs-auf.at/sign/22656",
-            "signID": "22656",
-            "filename": "22656.mp4"
-        },
-        {
-            "title": "Erkl\u00e4ren (\u00fcbereinstimmbar)",
-            "url": "https://suche.machs-auf.at/sign/93089",
-            "signID": "93089",
-            "filename": "93089.mp4"
-        },
-        {
-            "title": "Zeigen (\u00fcbereinstimmbar)",
-            "url": "https://suche.machs-auf.at/sign/42034",
-            "signID": "42034",
-            "filename": "42034.mp4"
-        },
-        {
-            "title": "Glauben",
-            "url": "https://suche.machs-auf.at/sign/70272",
-            "signID": "70272",
-            "filename": "70272.mp4"
-        },
-        {
-            "title": "passen/es passt",
-            "url": "https://suche.machs-auf.at/sign/25688",
-            "signID": "25688",
-            "filename": "25688.mp4"
-        }
-    ],
-    "Natur/Pflanzen/Tiere": [
-        {
-            "title": "Maus",
-            "url": "https://suche.machs-auf.at/sign/64654",
-            "signID": "64654",
-            "filename": "64654.mp4"
-        },
-        {
-            "title": "Schnecke",
-            "url": "https://suche.machs-auf.at/sign/29151",
-            "signID": "29151",
-            "filename": "29151.mp4"
-        },
-        {
-            "title": "Schlange",
-            "url": "https://suche.machs-auf.at/sign/68870",
-            "signID": "68870",
-            "filename": "68870.mp4"
-        },
-        {
-            "title": "Schildkr\u00f6te",
-            "url": "https://suche.machs-auf.at/sign/29149",
-            "signID": "29149",
-            "filename": "29149.mp4"
-        },
-        {
-            "title": "Frosch",
-            "url": "https://suche.machs-auf.at/sign/64409",
-            "signID": "64409",
-            "filename": "64409.mp4"
-        },
-        {
-            "title": "Hase",
-            "url": "https://suche.machs-auf.at/sign/44495",
-            "signID": "44495",
-            "filename": "44495.mp4"
-        },
-        {
-            "title": "Schmetterling",
-            "url": "https://suche.machs-auf.at/sign/30788",
-            "signID": "30788",
-            "filename": "30788.mp4"
-        },
-        {
-            "title": "Fisch",
-            "url": "https://suche.machs-auf.at/sign/29690",
-            "signID": "29690",
-            "filename": "29690.mp4"
-        },
-        {
-            "title": "Hund",
-            "url": "https://suche.machs-auf.at/sign/22641",
-            "signID": "22641",
-            "filename": "22641.mp4"
-        },
-        {
-            "title": "Katze",
-            "url": "https://suche.machs-auf.at/sign/19190",
-            "signID": "19190",
-            "filename": "19190.mp4"
-        },
-        {
-            "title": "Schwein",
-            "url": "https://suche.machs-auf.at/sign/95708",
-            "signID": "95708",
-            "filename": "95708.mp4"
-        },
-        {
-            "title": "Kuh",
-            "url": "https://suche.machs-auf.at/sign/19269",
-            "signID": "19269",
-            "filename": "19269.mp4"
-        },
-        {
-            "title": "Schaf",
-            "url": "https://suche.machs-auf.at/sign/67946",
-            "signID": "67946",
-            "filename": "67946.mp4"
-        },
-        {
-            "title": "Huhn",
-            "url": "https://suche.machs-auf.at/sign/64545",
-            "signID": "64545",
-            "filename": "64545.mp4"
-        },
-        {
-            "title": "Ente",
-            "url": "https://suche.machs-auf.at/sign/25150",
-            "signID": "25150",
-            "filename": "25150.mp4"
-        },
-        {
-            "title": "Nadelbaum/Christbaum",
-            "url": "https://suche.machs-auf.at/sign/65506",
-            "signID": "65506",
-            "filename": "65506.mp4"
-        },
-        {
-            "title": "Baum",
-            "url": "https://suche.machs-auf.at/sign/20007",
-            "signID": "20007",
-            "filename": "20007.mp4"
-        },
-        {
-            "title": "Blatt",
-            "url": "https://suche.machs-auf.at/sign/59564",
-            "signID": "59564",
-            "filename": "59564.mp4"
-        },
-        {
-            "title": "Blume",
-            "url": "https://suche.machs-auf.at/sign/62874",
-            "signID": "62874",
-            "filename": "62874.mp4"
-        },
-        {
-            "title": "Gras/Wiese",
-            "url": "https://suche.machs-auf.at/sign/21547",
-            "signID": "21547",
-            "filename": "21547.mp4"
-        }
-    ],
-    "Kommunikation-Basics 5": [
-        {
-            "title": "die Sache",
-            "url": "https://suche.machs-auf.at/sign/23130",
-            "signID": "23130",
-            "filename": "23130.mp4"
-        },
-        {
-            "title": "oder",
-            "url": "https://suche.machs-auf.at/sign/63844",
-            "signID": "63844",
-            "filename": "63844.mp4"
-        }
-    ],
-    "Eigenschaften": [
-        {
-            "title": "Farbe",
-            "url": "https://suche.machs-auf.at/sign/60593",
-            "signID": "60593",
-            "filename": "60593.mp4"
-        },
-        {
-            "title": "rot",
-            "url": "https://suche.machs-auf.at/sign/34946",
-            "signID": "34946",
-            "filename": "34946.mp4"
-        },
-        {
-            "title": "gelb",
-            "url": "https://suche.machs-auf.at/sign/21864",
-            "signID": "21864",
-            "filename": "21864.mp4"
-        },
-        {
-            "title": "orange",
-            "url": "https://suche.machs-auf.at/sign/63894",
-            "signID": "63894",
-            "filename": "63894.mp4"
-        },
-        {
-            "title": "gr\u00fcn",
-            "url": "https://suche.machs-auf.at/sign/18829",
-            "signID": "18829",
-            "filename": "18829.mp4"
-        },
-        {
-            "title": "blau",
-            "url": "https://suche.machs-auf.at/sign/20209",
-            "signID": "20209",
-            "filename": "20209.mp4"
-        },
-        {
-            "title": "lila",
-            "url": "https://suche.machs-auf.at/sign/19313",
-            "signID": "19313",
-            "filename": "19313.mp4"
-        },
-        {
-            "title": "violett",
-            "url": "https://suche.machs-auf.at/sign/66595",
-            "signID": "66595",
-            "filename": "66595.mp4"
-        },
-        {
-            "title": "rosa",
-            "url": "https://suche.machs-auf.at/sign/67929",
-            "signID": "67929",
-            "filename": "67929.mp4"
-        },
-        {
-            "title": "schwarz",
-            "url": "https://suche.machs-auf.at/sign/19477",
-            "signID": "19477",
-            "filename": "19477.mp4"
-        },
-        {
-            "title": "wei\u00df",
-            "url": "https://suche.machs-auf.at/sign/63156",
-            "signID": "63156",
-            "filename": "63156.mp4"
-        },
-        {
-            "title": "grau",
-            "url": "https://suche.machs-auf.at/sign/21553",
-            "signID": "21553",
-            "filename": "21553.mp4"
-        },
-        {
-            "title": "dunkel",
-            "url": "https://suche.machs-auf.at/sign/33989",
-            "signID": "33989",
-            "filename": "33989.mp4"
-        },
-        {
-            "title": "hell",
-            "url": "https://suche.machs-auf.at/sign/61044",
-            "signID": "61044",
-            "filename": "61044.mp4"
-        },
-        {
-            "title": "weich",
-            "url": "https://suche.machs-auf.at/sign/63153",
-            "signID": "63153",
-            "filename": "63153.mp4"
-        },
-        {
-            "title": "hart",
-            "url": "https://suche.machs-auf.at/sign/18861",
-            "signID": "18861",
-            "filename": "18861.mp4"
-        },
-        {
-            "title": "hei\u00df",
-            "url": "https://suche.machs-auf.at/sign/22502",
-            "signID": "22502",
-            "filename": "22502.mp4"
-        },
-        {
-            "title": "kalt",
-            "url": "https://suche.machs-auf.at/sign/19144",
-            "signID": "19144",
-            "filename": "19144.mp4"
-        }
-    ],
-    "Kommunikation-Basics 4": [
-        {
-            "title": "verstehen",
-            "url": "https://suche.machs-auf.at/sign/30272",
-            "signID": "30272",
-            "filename": "30272.mp4"
-        },
-        {
-            "title": "vergessen",
-            "url": "https://suche.machs-auf.at/sign/24214",
-            "signID": "24214",
-            "filename": "24214.mp4"
-        },
-        {
-            "title": "merken",
-            "url": "https://suche.machs-auf.at/sign/72160",
-            "signID": "72160",
-            "filename": "72160.mp4"
-        },
-        {
-            "title": "wissen, das Wissen",
-            "url": "https://suche.machs-auf.at/sign/34829",
-            "signID": "34829",
-            "filename": "34829.mp4"
-        },
-        {
-            "title": "nicht wissen (wei\u00df nicht)",
-            "url": "https://suche.machs-auf.at/sign/37020",
-            "signID": "37020",
-            "filename": "37020.mp4"
-        }
-    ],
-    "Zeit-Angaben": [
-        {
-            "title": "Woche (Vers. 1)",
-            "url": "https://suche.machs-auf.at/sign/69080",
-            "signID": "69080",
-            "filename": "69080.mp4"
-        },
-        {
-            "title": "Woche (Vers. 2)",
-            "url": "https://suche.machs-auf.at/sign/40537",
-            "signID": "40537",
-            "filename": "40537.mp4"
-        },
-        {
-            "title": "letzte...",
-            "url": "https://suche.machs-auf.at/sign/54900",
-            "signID": "54900",
-            "filename": "54900.mp4"
-        },
-        {
-            "title": "n\u00e4chste...",
-            "url": "https://suche.machs-auf.at/sign/34333",
-            "signID": "34333",
-            "filename": "34333.mp4"
-        },
-        {
-            "title": "Tag",
-            "url": "https://suche.machs-auf.at/sign/68940",
-            "signID": "68940",
-            "filename": "68940.mp4"
-        },
-        {
-            "title": "Montag",
-            "url": "https://suche.machs-auf.at/sign/30253",
-            "signID": "30253",
-            "filename": "30253.mp4"
-        },
-        {
-            "title": "Dienstag",
-            "url": "https://suche.machs-auf.at/sign/60166",
-            "signID": "60166",
-            "filename": "60166.mp4"
-        },
-        {
-            "title": "Mittwoch",
-            "url": "https://suche.machs-auf.at/sign/63321",
-            "signID": "63321",
-            "filename": "63321.mp4"
-        },
-        {
-            "title": "Donnerstag",
-            "url": "https://suche.machs-auf.at/sign/60171",
-            "signID": "60171",
-            "filename": "60171.mp4"
-        },
-        {
-            "title": "Freitag",
-            "url": "https://suche.machs-auf.at/sign/60686",
-            "signID": "60686",
-            "filename": "60686.mp4"
-        },
-        {
-            "title": "Samstag",
-            "url": "https://suche.machs-auf.at/sign/24749",
-            "signID": "24749",
-            "filename": "24749.mp4"
-        },
-        {
-            "title": "Sonntag",
-            "url": "https://suche.machs-auf.at/sign/25248",
-            "signID": "25248",
-            "filename": "25248.mp4"
-        },
-        {
-            "title": "t\u00e4glich",
-            "url": "https://suche.machs-auf.at/sign/25508",
-            "signID": "25508",
-            "filename": "25508.mp4"
-        },
-        {
-            "title": "Fr\u00fch",
-            "url": "https://suche.machs-auf.at/sign/60808",
-            "signID": "60808",
-            "filename": "60808.mp4"
-        },
-        {
-            "title": "Sp\u00e4t",
-            "url": "https://suche.machs-auf.at/sign/40624",
-            "signID": "40624",
-            "filename": "40624.mp4"
-        },
-        {
-            "title": "zu sp\u00e4t",
-            "url": "https://suche.machs-auf.at/sign/70386",
-            "signID": "70386",
-            "filename": "70386.mp4"
-        },
-        {
-            "title": "knapp",
-            "url": "https://suche.machs-auf.at/sign/91548",
-            "signID": "91548",
-            "filename": "91548.mp4"
-        },
-        {
-            "title": "schaffen",
-            "url": "https://suche.machs-auf.at/sign/70125",
-            "signID": "70125",
-            "filename": "70125.mp4"
-        },
-        {
-            "title": "drei Uhr (Vers. 1)",
-            "url": "https://suche.machs-auf.at/sign/22772",
-            "signID": "22772",
-            "filename": "22772.mp4"
-        },
-        {
-            "title": "drei Uhr (Vers. 2)",
-            "url": "https://suche.machs-auf.at/sign/61883",
-            "signID": "61883",
-            "filename": "61883.mp4"
-        },
-        {
-            "title": "Uhrzeit",
-            "url": "https://suche.machs-auf.at/sign/62677",
-            "signID": "62677",
-            "filename": "62677.mp4"
-        },
-        {
-            "title": "(ein) Viertel",
-            "url": "https://suche.machs-auf.at/sign/34541",
-            "signID": "34541",
-            "filename": "34541.mp4"
-        },
-        {
-            "title": "halb",
-            "url": "https://suche.machs-auf.at/sign/34296",
-            "signID": "34296",
-            "filename": "34296.mp4"
-        },
-        {
-            "title": "drei viertel\u2026",
-            "url": "https://suche.machs-auf.at/sign/23793",
-            "signID": "23793",
-            "filename": "23793.mp4"
-        }
-    ],
-    "Tagesablauf": [
-        {
-            "title": "schlafen",
-            "url": "https://suche.machs-auf.at/sign/30693",
-            "signID": "30693",
-            "filename": "30693.mp4"
-        },
-        {
-            "title": "aufwachen",
-            "url": "https://suche.machs-auf.at/sign/33577",
-            "signID": "33577",
-            "filename": "33577.mp4"
-        },
-        {
-            "title": "aufstehen",
-            "url": "https://suche.machs-auf.at/sign/21090",
-            "signID": "21090",
-            "filename": "21090.mp4"
-        },
-        {
-            "title": "Kaffee( trinken)",
-            "url": "https://suche.machs-auf.at/sign/25161",
-            "signID": "25161",
-            "filename": "25161.mp4"
-        },
-        {
-            "title": "Fr\u00fchst\u00fcck",
-            "url": "https://suche.machs-auf.at/sign/69826",
-            "signID": "69826",
-            "filename": "69826.mp4"
-        },
-        {
-            "title": "essen",
-            "url": "https://suche.machs-auf.at/sign/30692",
-            "signID": "30692",
-            "filename": "30692.mp4"
-        },
-        {
-            "title": "Z\u00e4hne-putzen",
-            "url": "https://suche.machs-auf.at/sign/85193",
-            "signID": "85193",
-            "filename": "85193.mp4"
-        },
-        {
-            "title": "duschen",
-            "url": "https://suche.machs-auf.at/sign/66075",
-            "signID": "66075",
-            "filename": "66075.mp4"
-        },
-        {
-            "title": "Uni",
-            "url": "https://suche.machs-auf.at/sign/86729",
-            "signID": "86729",
-            "filename": "86729.mp4"
-        },
-        {
-            "title": "gehen (zu Fu\u00df)",
-            "url": "https://suche.machs-auf.at/sign/59754",
-            "signID": "59754",
-            "filename": "59754.mp4"
-        },
-        {
-            "title": "fahren (Auto)",
-            "url": "https://suche.machs-auf.at/sign/33729",
-            "signID": "33729",
-            "filename": "33729.mp4"
-        },
-        {
-            "title": "Stra\u00dfenbahn",
-            "url": "https://suche.machs-auf.at/sign/67403",
-            "signID": "67403",
-            "filename": "67403.mp4"
-        },
-        {
-            "title": "der Bus",
-            "url": "https://suche.machs-auf.at/sign/18366",
-            "signID": "18366",
-            "filename": "18366.mp4"
-        },
-        {
-            "title": "das Moped",
-            "url": "https://suche.machs-auf.at/sign/19412",
-            "signID": "19412",
-            "filename": "19412.mp4"
-        },
-        {
-            "title": "das Motorrad",
-            "url": "https://suche.machs-auf.at/sign/63381",
-            "signID": "63381",
-            "filename": "63381.mp4"
-        },
-        {
-            "title": "sitzen",
-            "url": "https://suche.machs-auf.at/sign/63965",
-            "signID": "63965",
-            "filename": "63965.mp4"
-        },
-        {
-            "title": "zuh\u00f6ren",
-            "url": "https://suche.machs-auf.at/sign/40622",
-            "signID": "40622",
-            "filename": "40622.mp4"
-        },
-        {
-            "title": "schauen",
-            "url": "https://suche.machs-auf.at/sign/63643",
-            "signID": "63643",
-            "filename": "63643.mp4"
-        },
-        {
-            "title": "schreiben",
-            "url": "https://suche.machs-auf.at/sign/29336",
-            "signID": "29336",
-            "filename": "29336.mp4"
-        },
-        {
-            "title": "arbeiten",
-            "url": "https://suche.machs-auf.at/sign/46595",
-            "signID": "46595",
-            "filename": "46595.mp4"
-        },
-        {
-            "title": "unterrichten",
-            "url": "https://suche.machs-auf.at/sign/41637",
-            "signID": "41637",
-            "filename": "41637.mp4"
-        },
-        {
-            "title": "lernen",
-            "url": "https://suche.machs-auf.at/sign/19305",
-            "signID": "19305",
-            "filename": "19305.mp4"
-        },
-        {
-            "title": "studieren",
-            "url": "https://suche.machs-auf.at/sign/89694",
-            "signID": "89694",
-            "filename": "89694.mp4"
-        },
-        {
-            "title": "Sport",
-            "url": "https://suche.machs-auf.at/sign/64021",
-            "signID": "64021",
-            "filename": "64021.mp4"
-        },
-        {
-            "title": "einkaufen",
-            "url": "https://suche.machs-auf.at/sign/21815",
-            "signID": "21815",
-            "filename": "21815.mp4"
-        },
-        {
-            "title": "schminken",
-            "url": "https://suche.machs-auf.at/sign/28351",
-            "signID": "28351",
-            "filename": "28351.mp4"
-        },
-        {
-            "title": "Pr\u00fcfung",
-            "url": "https://suche.machs-auf.at/sign/64333",
-            "signID": "64333",
-            "filename": "64333.mp4"
-        },
-        {
-            "title": "treffen",
-            "url": "https://suche.machs-auf.at/sign/56376",
-            "signID": "56376",
-            "filename": "56376.mp4"
-        },
-        {
-            "title": "Gl\u00fch-(wein)",
-            "url": "https://suche.machs-auf.at/sign/33951",
-            "signID": "33951",
-            "filename": "33951.mp4"
-        },
-        {
-            "title": "(Gl\u00fch-)wein",
-            "url": "https://suche.machs-auf.at/sign/62391",
-            "signID": "62391",
-            "filename": "62391.mp4"
-        }
-    ],
-    "Kommunikations-Basics 3": [
-        {
-            "title": "achso",
-            "url": "https://suche.machs-auf.at/sign/95306",
-            "signID": "95306",
-            "filename": "95306.mp4"
-        },
-        {
-            "title": "gleich",
-            "url": "https://suche.machs-auf.at/sign/69440",
-            "signID": "69440",
-            "filename": "69440.mp4"
-        },
-        {
-            "title": "auch",
-            "url": "https://suche.machs-auf.at/sign/59961",
-            "signID": "59961",
-            "filename": "59961.mp4"
-        },
-        {
-            "title": "anders",
-            "url": "https://suche.machs-auf.at/sign/35048",
-            "signID": "35048",
-            "filename": "35048.mp4"
-        }
-    ],
-    "Fragew\u00f6rter 2": [
-        {
-            "title": "wann",
-            "url": "https://suche.machs-auf.at/sign/63028",
-            "signID": "63028",
-            "filename": "63028.mp4"
-        },
-        {
-            "title": "wie lange",
-            "url": "https://suche.machs-auf.at/sign/95841",
-            "signID": "95841",
-            "filename": "95841.mp4"
-        },
-        {
-            "title": "warum",
-            "url": "https://suche.machs-auf.at/sign/63055",
-            "signID": "63055",
-            "filename": "63055.mp4"
-        },
-        {
-            "title": "wie alt (anderes Mundbild+Mimik!)",
-            "url": "https://suche.machs-auf.at/sign/21726",
-            "signID": "21726",
-            "filename": "21726.mp4"
-        }
-    ],
-    "Zeit": [
-        {
-            "title": "Zeit",
-            "url": "https://suche.machs-auf.at/sign/62941",
-            "signID": "62941",
-            "filename": "62941.mp4"
-        },
-        {
-            "title": "fr\u00fcher",
-            "url": "https://suche.machs-auf.at/sign/18629",
-            "signID": "18629",
-            "filename": "18629.mp4"
-        },
-        {
-            "title": "vor kurzem",
-            "url": "https://suche.machs-auf.at/sign/54445",
-            "signID": "54445",
-            "filename": "54445.mp4"
-        },
-        {
-            "title": "gestern",
-            "url": "https://suche.machs-auf.at/sign/30570",
-            "signID": "30570",
-            "filename": "30570.mp4"
-        },
-        {
-            "title": "(in der) Fr\u00fch",
-            "url": "https://suche.machs-auf.at/sign/60808",
-            "signID": "60808",
-            "filename": "60808.mp4"
-        },
-        {
-            "title": "heute",
-            "url": "https://suche.machs-auf.at/sign/22577",
-            "signID": "22577",
-            "filename": "22577.mp4"
-        },
-        {
-            "title": "Mittag, mittags",
-            "url": "https://suche.machs-auf.at/sign/59084",
-            "signID": "59084",
-            "filename": "59084.mp4"
-        },
-        {
-            "title": "jetzt",
-            "url": "https://suche.machs-auf.at/sign/61810",
-            "signID": "61810",
-            "filename": "61810.mp4"
-        },
-        {
-            "title": "Abend",
-            "url": "https://suche.machs-auf.at/sign/30252",
-            "signID": "30252",
-            "filename": "30252.mp4"
-        },
-        {
-            "title": "morgen",
-            "url": "https://suche.machs-auf.at/sign/19414",
-            "signID": "19414",
-            "filename": "19414.mp4"
-        },
-        {
-            "title": "Zukunft",
-            "url": "https://suche.machs-auf.at/sign/46964",
-            "signID": "46964",
-            "filename": "46964.mp4"
-        }
-    ],
-    "Zahlen/Nummern": [
-        {
-            "title": "Zahl, Zahlen",
-            "url": "https://suche.machs-auf.at/sign/26702",
-            "signID": "26702",
-            "filename": "26702.mp4"
-        },
-        {
-            "title": "1",
-            "url": "https://suche.machs-auf.at/sign/30506",
-            "signID": "30506",
-            "filename": "30506.mp4"
-        },
-        {
-            "title": "2",
-            "url": "https://suche.machs-auf.at/sign/30507",
-            "signID": "30507",
-            "filename": "30507.mp4"
-        },
-        {
-            "title": "4",
-            "url": "https://suche.machs-auf.at/sign/30509",
-            "signID": "30509",
-            "filename": "30509.mp4"
-        },
-        {
-            "title": "6",
-            "url": "https://suche.machs-auf.at/sign/30511",
-            "signID": "30511",
-            "filename": "30511.mp4"
-        },
-        {
-            "title": "10",
-            "url": "https://suche.machs-auf.at/sign/30515",
-            "signID": "30515",
-            "filename": "30515.mp4"
-        },
-        {
-            "title": "11",
-            "url": "https://suche.machs-auf.at/sign/55671",
-            "signID": "55671",
-            "filename": "55671.mp4"
-        },
-        {
-            "title": "12",
-            "url": "https://suche.machs-auf.at/sign/46393",
-            "signID": "46393",
-            "filename": "46393.mp4"
-        },
-        {
-            "title": "13",
-            "url": "https://suche.machs-auf.at/sign/46285",
-            "signID": "46285",
-            "filename": "46285.mp4"
-        },
-        {
-            "title": "16",
-            "url": "https://suche.machs-auf.at/sign/30536",
-            "signID": "30536",
-            "filename": "30536.mp4"
-        },
-        {
-            "title": "20",
-            "url": "https://suche.machs-auf.at/sign/54774",
-            "signID": "54774",
-            "filename": "54774.mp4"
-        },
-        {
-            "title": "21",
-            "url": "https://suche.machs-auf.at/sign/55917",
-            "signID": "55917",
-            "filename": "55917.mp4"
-        },
-        {
-            "title": "22",
-            "url": "https://suche.machs-auf.at/sign/31335",
-            "signID": "31335",
-            "filename": "31335.mp4"
-        },
-        {
-            "title": "100",
-            "url": "https://suche.machs-auf.at/sign/31336",
-            "signID": "31336",
-            "filename": "31336.mp4"
-        },
-        {
-            "title": "1000",
-            "url": "https://suche.machs-auf.at/sign/40553",
-            "signID": "40553",
-            "filename": "40553.mp4"
-        },
-        {
-            "title": "(zu)erst",
-            "url": "https://suche.machs-auf.at/sign/69630",
-            "signID": "69630",
-            "filename": "69630.mp4"
-        }
-    ],
-    "Interjektionen": [
-        {
-            "title": "Baff",
-            "url": "https://suche.machs-auf.at/sign/36925",
-            "signID": "36925",
-            "filename": "36925.mp4"
-        },
-        {
-            "title": "echt",
-            "url": "https://suche.machs-auf.at/sign/34012",
-            "signID": "34012",
-            "filename": "34012.mp4"
-        },
-        {
-            "title": "cool",
-            "url": "https://suche.machs-auf.at/sign/84850",
-            "signID": "84850",
-            "filename": "84850.mp4"
-        },
-        {
-            "title": "interessant",
-            "url": "https://suche.machs-auf.at/sign/22737",
-            "signID": "22737",
-            "filename": "22737.mp4"
-        },
-        {
-            "title": "da (Ort, existent)",
-            "url": "https://suche.machs-auf.at/sign/43650",
-            "signID": "43650",
-            "filename": "43650.mp4"
-        }
-    ],
-    "Personen": [
-        {
-            "title": "Person",
-            "url": "https://suche.machs-auf.at/sign/25721",
-            "signID": "25721",
-            "filename": "25721.mp4"
-        },
-        {
-            "title": "Mann",
-            "url": "https://suche.machs-auf.at/sign/19351",
-            "signID": "19351",
-            "filename": "19351.mp4"
-        },
-        {
-            "title": "Frau",
-            "url": "https://suche.machs-auf.at/sign/18597",
-            "signID": "18597",
-            "filename": "18597.mp4"
-        },
-        {
-            "title": "Kind",
-            "url": "https://suche.machs-auf.at/sign/62897",
-            "signID": "62897",
-            "filename": "62897.mp4"
-        },
-        {
-            "title": "M\u00e4dchen",
-            "url": "https://suche.machs-auf.at/sign/40530",
-            "signID": "40530",
-            "filename": "40530.mp4"
-        },
-        {
-            "title": "Bub",
-            "url": "https://suche.machs-auf.at/sign/60088",
-            "signID": "60088",
-            "filename": "60088.mp4"
-        },
-        {
-            "title": "Partner",
-            "url": "https://suche.machs-auf.at/sign/27334",
-            "signID": "27334",
-            "filename": "27334.mp4"
-        },
-        {
-            "title": "Freund",
-            "url": "https://suche.machs-auf.at/sign/22158",
-            "signID": "22158",
-            "filename": "22158.mp4"
-        },
-        {
-            "title": "Familie",
-            "url": "https://suche.machs-auf.at/sign/22032",
-            "signID": "22032",
-            "filename": "22032.mp4"
-        },
-        {
-            "title": "verheiratet, Ehe-\u2026",
-            "url": "https://suche.machs-auf.at/sign/19596",
-            "signID": "19596",
-            "filename": "19596.mp4"
-        },
-        {
-            "title": "getrennt",
-            "url": "https://suche.machs-auf.at/sign/31465",
-            "signID": "31465",
-            "filename": "31465.mp4"
-        },
-        {
-            "title": "geschieden",
-            "url": "https://suche.machs-auf.at/sign/60362",
-            "signID": "60362",
-            "filename": "60362.mp4"
-        },
-        {
-            "title": "Single",
-            "url": "https://suche.machs-auf.at/sign/27088",
-            "signID": "27088",
-            "filename": "27088.mp4"
-        },
-        {
-            "title": "Freund",
-            "url": "https://suche.machs-auf.at/sign/40531",
-            "signID": "40531",
-            "filename": "40531.mp4"
-        },
-        {
-            "title": "die Eltern",
-            "url": "https://suche.machs-auf.at/sign/60223",
-            "signID": "60223",
-            "filename": "60223.mp4"
-        },
-        {
-            "title": "der Papa",
-            "url": "https://suche.machs-auf.at/sign/64236",
-            "signID": "64236",
-            "filename": "64236.mp4"
-        },
-        {
-            "title": "die Mama",
-            "url": "https://suche.machs-auf.at/sign/63258",
-            "signID": "63258",
-            "filename": "63258.mp4"
-        },
-        {
-            "title": "die Tochter",
-            "url": "https://suche.machs-auf.at/sign/19568",
-            "signID": "19568",
-            "filename": "19568.mp4"
-        },
-        {
-            "title": "der Sohn",
-            "url": "https://suche.machs-auf.at/sign/19501",
-            "signID": "19501",
-            "filename": "19501.mp4"
-        },
-        {
-            "title": "Zwilling",
-            "url": "https://suche.machs-auf.at/sign/41511",
-            "signID": "41511",
-            "filename": "41511.mp4"
-        },
-        {
-            "title": "Bruder, Schwester (anderes Mundbild!)",
-            "url": "https://suche.machs-auf.at/sign/20350",
-            "signID": "20350",
-            "filename": "20350.mp4"
-        },
-        {
-            "title": "die Oma",
-            "url": "https://suche.machs-auf.at/sign/63864",
-            "signID": "63864",
-            "filename": "63864.mp4"
-        },
-        {
-            "title": "der Opa",
-            "url": "https://suche.machs-auf.at/sign/63888",
-            "signID": "63888",
-            "filename": "63888.mp4"
-        },
-        {
-            "title": "die Tante",
-            "url": "https://suche.machs-auf.at/sign/64164",
-            "signID": "64164",
-            "filename": "64164.mp4"
-        },
-        {
-            "title": "der Onkel",
-            "url": "https://suche.machs-auf.at/sign/63899",
-            "signID": "63899",
-            "filename": "63899.mp4"
-        },
-        {
-            "title": "Schwager, Schwieger-\u2026",
-            "url": "https://suche.machs-auf.at/sign/63735",
-            "signID": "63735",
-            "filename": "63735.mp4"
-        },
-        {
-            "title": "Stief",
-            "url": "https://suche.machs-auf.at/sign/71311",
-            "signID": "71311",
-            "filename": "71311.mp4"
-        },
-        {
-            "title": "Homosexuell",
-            "url": "https://suche.machs-auf.at/sign/91381",
-            "signID": "91381",
-            "filename": "91381.mp4"
-        },
-        {
-            "title": "schwul",
-            "url": "https://suche.machs-auf.at/sign/25924",
-            "signID": "25924",
-            "filename": "25924.mp4"
-        },
-        {
-            "title": "lesbisch",
-            "url": "https://suche.machs-auf.at/sign/25016",
-            "signID": "25016",
-            "filename": "25016.mp4"
-        },
-        {
-            "title": "hetero",
-            "url": "https://suche.machs-auf.at/sign/24457",
-            "signID": "24457",
-            "filename": "24457.mp4"
-        },
-        {
-            "title": "adoptiv-",
-            "url": "https://suche.machs-auf.at/sign/90258",
-            "signID": "90258",
-            "filename": "90258.mp4"
-        },
-        {
-            "title": "wohnen",
-            "url": "https://suche.machs-auf.at/sign/69081",
-            "signID": "69081",
-            "filename": "69081.mp4"
-        }
-    ],
-    "Pronomen": [
-        {
-            "title": "ich",
-            "url": "https://suche.machs-auf.at/sign/41358",
-            "signID": "41358",
-            "filename": "41358.mp4"
-        },
-        {
-            "title": "er",
-            "url": "https://suche.machs-auf.at/sign/45979",
-            "signID": "45979",
-            "filename": "45979.mp4"
-        },
-        {
-            "title": "wir",
-            "url": "https://suche.machs-auf.at/sign/67026",
-            "signID": "67026",
-            "filename": "67026.mp4"
-        },
-        {
-            "title": "wir alle",
-            "url": "https://suche.machs-auf.at/sign/62418",
-            "signID": "62418",
-            "filename": "62418.mp4"
-        },
-        {
-            "title": "wir beide (2. Geb\u00e4rde)",
-            "url": "https://suche.machs-auf.at/sign/60027",
-            "signID": "60027",
-            "filename": "60027.mp4"
-        },
-        {
-            "title": "ihr",
-            "url": "https://suche.machs-auf.at/sign/46275",
-            "signID": "46275",
-            "filename": "46275.mp4"
-        },
-        {
-            "title": "Ihr beide (1. Geb\u00e4rde)",
-            "url": "https://suche.machs-auf.at/sign/60027",
-            "signID": "60027",
-            "filename": "60027.mp4"
-        },
-        {
-            "title": "beide",
-            "url": "https://suche.machs-auf.at/sign/20031",
-            "signID": "20031",
-            "filename": "20031.mp4"
-        },
-        {
-            "title": "Beide gemeinsam",
-            "url": "https://suche.machs-auf.at/sign/20033",
-            "signID": "20033",
-            "filename": "20033.mp4"
-        },
-        {
-            "title": "(du) selbst",
-            "url": "https://suche.machs-auf.at/sign/19492",
-            "signID": "19492",
-            "filename": "19492.mp4"
-        },
-        {
-            "title": "mein",
-            "url": "https://suche.machs-auf.at/sign/54335",
-            "signID": "54335",
-            "filename": "54335.mp4"
-        },
-        {
-            "title": "dein",
-            "url": "https://suche.machs-auf.at/sign/54496",
-            "signID": "54496",
-            "filename": "54496.mp4"
-        },
-        {
-            "title": "unser",
-            "url": "https://suche.machs-auf.at/sign/46197",
-            "signID": "46197",
-            "filename": "46197.mp4"
-        },
-        {
-            "title": "euer",
-            "url": "https://suche.machs-auf.at/sign/85389",
-            "signID": "85389",
-            "filename": "85389.mp4"
-        }
-    ],
-    "Kommunikation-Basics 2": [
-        {
-            "title": "Kommunikation",
-            "url": "https://suche.machs-auf.at/sign/28495",
-            "signID": "28495",
-            "filename": "28495.mp4"
-        },
-        {
-            "title": "auch",
-            "url": "https://suche.machs-auf.at/sign/40658",
-            "signID": "40658",
-            "filename": "40658.mp4"
-        },
-        {
-            "title": "bisschen",
-            "url": "https://suche.machs-auf.at/sign/30474",
-            "signID": "30474",
-            "filename": "30474.mp4"
-        },
-        {
-            "title": "wei\u00df nicht",
-            "url": "https://suche.machs-auf.at/sign/85943",
-            "signID": "85943",
-            "filename": "85943.mp4"
-        },
-        {
-            "title": "wissen / wei\u00df (1. Geb\u00e4rde)",
-            "url": "https://suche.machs-auf.at/sign/43472",
-            "signID": "43472",
-            "filename": "43472.mp4"
-        },
-        {
-            "title": "Wie gehts? (F-Handform!)",
-            "url": "https://suche.machs-auf.at/sign/86294",
-            "signID": "86294",
-            "filename": "86294.mp4"
-        },
-        {
-            "title": "Ich verstehe",
-            "url": "https://suche.machs-auf.at/sign/85539",
-            "signID": "85539",
-            "filename": "85539.mp4"
-        },
-        {
-            "title": "Ich verstehe nicht",
-            "url": "https://suche.machs-auf.at/sign/85540",
-            "signID": "85540",
-            "filename": "85540.mp4"
-        },
-        {
-            "title": "Bitte langsam geb\u00e4rden",
-            "url": "https://suche.machs-auf.at/sign/48777",
-            "signID": "48777",
-            "filename": "48777.mp4"
-        },
-        {
-            "title": "geh\u00f6rlos",
-            "url": "https://suche.machs-auf.at/sign/40524",
-            "signID": "40524",
-            "filename": "40524.mp4"
-        },
-        {
-            "title": "h\u00f6rend",
-            "url": "https://suche.machs-auf.at/sign/28494",
-            "signID": "28494",
-            "filename": "28494.mp4"
-        },
-        {
-            "title": "schwerh\u00f6rig",
-            "url": "https://suche.machs-auf.at/sign/85183",
-            "signID": "85183",
-            "filename": "85183.mp4"
-        }
-    ],
-    "Modalverben": [
-        {
-            "title": "M\u00f6gen",
-            "url": "https://suche.machs-auf.at/sign/63334",
-            "signID": "63334",
-            "filename": "63334.mp4"
-        },
-        {
-            "title": "mag-nicht",
-            "url": "https://suche.machs-auf.at/sign/61905",
-            "signID": "61905",
-            "filename": "61905.mp4"
-        },
-        {
-            "title": "wirklich nicht m\u00f6gen",
-            "url": "https://suche.machs-auf.at/sign/25354",
-            "signID": "25354",
-            "filename": "25354.mp4"
-        },
-        {
-            "title": "will, wollen",
-            "url": "https://suche.machs-auf.at/sign/21702",
-            "signID": "21702",
-            "filename": "21702.mp4"
-        },
-        {
-            "title": "kann, k\u00f6nnen",
-            "url": "https://suche.machs-auf.at/sign/30244",
-            "signID": "30244",
-            "filename": "30244.mp4"
-        },
-        {
-            "title": "kann nicht",
-            "url": "https://suche.machs-auf.at/sign/45462",
-            "signID": "45462",
-            "filename": "45462.mp4"
-        },
-        {
-            "title": "darf, d\u00fcrfen",
-            "url": "https://suche.machs-auf.at/sign/60190",
-            "signID": "60190",
-            "filename": "60190.mp4"
-        },
-        {
-            "title": "darf nicht",
-            "url": "https://suche.machs-auf.at/sign/85335",
-            "signID": "85335",
-            "filename": "85335.mp4"
-        },
-        {
-            "title": "sollte",
-            "url": "https://suche.machs-auf.at/sign/46727",
-            "signID": "46727",
-            "filename": "46727.mp4"
-        },
-        {
-            "title": "muss, m\u00fcssen",
-            "url": "https://suche.machs-auf.at/sign/63411",
-            "signID": "63411",
-            "filename": "63411.mp4"
-        },
-        {
-            "title": "nicht",
-            "url": "https://suche.machs-auf.at/sign/70738",
-            "signID": "70738",
-            "filename": "70738.mp4"
-        },
-        {
-            "title": "keine Lust haben",
-            "url": "https://suche.machs-auf.at/sign/37014",
-            "signID": "37014",
-            "filename": "37014.mp4"
-        },
-        {
-            "title": "egal",
-            "url": "https://suche.machs-auf.at/sign/66081",
-            "signID": "66081",
-            "filename": "66081.mp4"
-        }
-    ],
-    "Hobbies": [
-        {
-            "title": "Fu\u00dfball",
-            "url": "https://suche.machs-auf.at/sign/22323",
-            "signID": "22323",
-            "filename": "22323.mp4"
-        },
-        {
-            "title": "Tennis",
-            "url": "https://suche.machs-auf.at/sign/64176",
-            "signID": "64176",
-            "filename": "64176.mp4"
-        },
-        {
-            "title": "Gitarre (spielen)",
-            "url": "https://suche.machs-auf.at/sign/17709",
-            "signID": "17709",
-            "filename": "17709.mp4"
-        },
-        {
-            "title": "Klavier (spielen)",
-            "url": "https://suche.machs-auf.at/sign/17705",
-            "signID": "17705",
-            "filename": "17705.mp4"
-        },
-        {
-            "title": "laufen",
-            "url": "https://suche.machs-auf.at/sign/65071",
-            "signID": "65071",
-            "filename": "65071.mp4"
-        },
-        {
-            "title": "spazieren",
-            "url": "https://suche.machs-auf.at/sign/19508",
-            "signID": "19508",
-            "filename": "19508.mp4"
-        },
-        {
-            "title": "wandern",
-            "url": "https://suche.machs-auf.at/sign/27747",
-            "signID": "27747",
-            "filename": "27747.mp4"
-        },
-        {
-            "title": "klettern",
-            "url": "https://suche.machs-auf.at/sign/41919",
-            "signID": "41919",
-            "filename": "41919.mp4"
-        },
-        {
-            "title": "Yoga",
-            "url": "https://suche.machs-auf.at/sign/27673",
-            "signID": "27673",
-            "filename": "27673.mp4"
-        },
-        {
-            "title": "radfahren",
-            "url": "https://suche.machs-auf.at/sign/45283",
-            "signID": "45283",
-            "filename": "45283.mp4"
-        },
-        {
-            "title": "Mountainbike",
-            "url": "https://suche.machs-auf.at/sign/43888",
-            "signID": "43888",
-            "filename": "43888.mp4"
-        },
-        {
-            "title": "segeln",
-            "url": "https://suche.machs-auf.at/sign/25141",
-            "signID": "25141",
-            "filename": "25141.mp4"
-        },
-        {
-            "title": "Volleyball",
-            "url": "https://suche.machs-auf.at/sign/24416",
-            "signID": "24416",
-            "filename": "24416.mp4"
-        },
-        {
-            "title": "backen",
-            "url": "https://suche.machs-auf.at/sign/65460",
-            "signID": "65460",
-            "filename": "65460.mp4"
-        },
-        {
-            "title": "tanzen",
-            "url": "https://suche.machs-auf.at/sign/46792",
-            "signID": "46792",
-            "filename": "46792.mp4"
-        },
-        {
-            "title": "lesen",
-            "url": "https://suche.machs-auf.at/sign/65211",
-            "signID": "65211",
-            "filename": "65211.mp4"
-        },
-        {
-            "title": "malen (auf dem Papier)",
-            "url": "https://suche.machs-auf.at/sign/35866",
-            "signID": "35866",
-            "filename": "35866.mp4"
-        },
-        {
-            "title": "fotografieren",
-            "url": "https://suche.machs-auf.at/sign/62415",
-            "signID": "62415",
-            "filename": "62415.mp4"
-        },
-        {
-            "title": "(Fu\u00dfball)-Trainer",
-            "url": "https://suche.machs-auf.at/sign/89810",
-            "signID": "89810",
-            "filename": "89810.mp4"
-        },
-        {
-            "title": "stricken",
-            "url": "https://suche.machs-auf.at/sign/76741",
-            "signID": "76741",
-            "filename": "76741.mp4"
-        },
-        {
-            "title": "Schlagzeug",
-            "url": "https://suche.machs-auf.at/sign/55763",
-            "signID": "55763",
-            "filename": "55763.mp4"
-        },
-        {
-            "title": "H\u00e4ckeln",
-            "url": "https://suche.machs-auf.at/sign/75297",
-            "signID": "75297",
-            "filename": "75297.mp4"
-        },
-        {
-            "title": "Bogenschie\u00dfen",
-            "url": "https://suche.machs-auf.at/sign/45636",
-            "signID": "45636",
-            "filename": "45636.mp4"
-        },
-        {
-            "title": "kochen",
-            "url": "https://suche.machs-auf.at/sign/40918",
-            "signID": "40918",
-            "filename": "40918.mp4"
-        },
-        {
-            "title": "lernen",
-            "url": "https://suche.machs-auf.at/sign/40665",
-            "signID": "40665",
-            "filename": "40665.mp4"
-        },
-        {
-            "title": "Fechten",
-            "url": "https://suche.machs-auf.at/sign/43892",
-            "signID": "43892",
-            "filename": "43892.mp4"
-        },
-        {
-            "title": "Tischtennis",
-            "url": "https://suche.machs-auf.at/sign/19565",
-            "signID": "19565",
-            "filename": "19565.mp4"
-        },
-        {
-            "title": "Rollerskaten",
-            "url": "https://suche.machs-auf.at/sign/42026",
-            "signID": "42026",
-            "filename": "42026.mp4"
-        },
-        {
-            "title": "Skateboarden",
-            "url": "https://suche.machs-auf.at/sign/55493",
-            "signID": "55493",
-            "filename": "55493.mp4"
-        }
-    ],
-    "Kommunikation-Basics": [
-        {
-            "title": "ja",
-            "url": "https://suche.machs-auf.at/sign/19099",
-            "signID": "19099",
-            "filename": "19099.mp4"
-        },
-        {
-            "title": "nein",
-            "url": "https://suche.machs-auf.at/sign/23257",
-            "signID": "23257",
-            "filename": "23257.mp4"
-        },
-        {
-            "title": "bitte",
-            "url": "https://suche.machs-auf.at/sign/22450",
-            "signID": "22450",
-            "filename": "22450.mp4"
-        },
-        {
-            "title": "danke",
-            "url": "https://suche.machs-auf.at/sign/40535",
-            "signID": "40535",
-            "filename": "40535.mp4"
-        },
-        {
-            "title": "gerne",
-            "url": "https://suche.machs-auf.at/sign/47095",
-            "signID": "47095",
-            "filename": "47095.mp4"
-        },
-        {
-            "title": "Applaus",
-            "url": "https://suche.machs-auf.at/sign/90412",
-            "signID": "90412",
-            "filename": "90412.mp4"
-        },
-        {
-            "title": "Hobby",
-            "url": "https://suche.machs-auf.at/sign/93503",
-            "signID": "93503",
-            "filename": "93503.mp4"
-        }
-    ],
-    "Fragew\u00f6rter": [
-        {
-            "title": "wo",
-            "url": "https://suche.machs-auf.at/sign/63265",
-            "signID": "63265",
-            "filename": "63265.mp4"
-        },
-        {
-            "title": "woher",
-            "url": "https://suche.machs-auf.at/sign/63271",
-            "signID": "63271",
-            "filename": "63271.mp4"
-        },
-        {
-            "title": "was",
-            "url": "https://suche.machs-auf.at/sign/63085",
-            "signID": "63085",
-            "filename": "63085.mp4"
-        },
-        {
-            "title": "wie",
-            "url": "https://suche.machs-auf.at/sign/40586",
-            "signID": "40586",
-            "filename": "40586.mp4"
-        },
-        {
-            "title": "wer",
-            "url": "https://suche.machs-auf.at/sign/63180",
-            "signID": "63180",
-            "filename": "63180.mp4"
-        },
-        {
-            "title": "wieviel",
-            "url": "https://suche.machs-auf.at/sign/85055",
-            "signID": "85055",
-            "filename": "85055.mp4"
-        }
-    ],
-    "Sprachen": [
-        {
-            "title": "Sprache",
-            "url": "https://suche.machs-auf.at/sign/23210",
-            "signID": "23210",
-            "filename": "23210.mp4"
-        },
-        {
-            "title": "Lautsprachlich sprechen",
-            "url": "https://suche.machs-auf.at/sign/51548",
-            "signID": "51548",
-            "filename": "51548.mp4"
-        },
-        {
-            "title": "Geb\u00e4rdensprachlich sprechen",
-            "url": "https://suche.machs-auf.at/sign/61510",
-            "signID": "61510",
-            "filename": "61510.mp4"
-        },
-        {
-            "title": "Geb\u00e4rdensprache",
-            "url": "https://suche.machs-auf.at/sign/59735",
-            "signID": "59735",
-            "filename": "59735.mp4"
-        },
-        {
-            "title": "Deutsch",
-            "url": "https://suche.machs-auf.at/sign/92927",
-            "signID": "92927",
-            "filename": "92927.mp4"
-        },
-        {
-            "title": "Englisch",
-            "url": "https://suche.machs-auf.at/sign/61959",
-            "signID": "61959",
-            "filename": "61959.mp4"
-        },
-        {
-            "title": "Spanisch",
-            "url": "https://suche.machs-auf.at/sign/48332",
-            "signID": "48332",
-            "filename": "48332.mp4"
-        },
-        {
-            "title": "Frankreich",
-            "url": "https://suche.machs-auf.at/sign/27223",
-            "signID": "27223",
-            "filename": "27223.mp4"
-        },
-        {
-            "title": "Chinesisch",
-            "url": "https://suche.machs-auf.at/sign/54370",
-            "signID": "54370",
-            "filename": "54370.mp4"
-        },
-        {
-            "title": "Japan, Japanisch",
-            "url": "https://suche.machs-auf.at/sign/24659",
-            "signID": "24659",
-            "filename": "24659.mp4"
-        },
-        {
-            "title": "Russisch",
-            "url": "https://suche.machs-auf.at/sign/28512",
-            "signID": "28512",
-            "filename": "28512.mp4"
-        }
-    ],
-    "Herkunft": [
-        {
-            "title": "Belarus (Wei\u00dfrussland)",
-            "url": "https://suche.machs-auf.at/sign/23434",
-            "signID": "23434",
-            "filename": "23434.mp4"
-        },
-        {
-            "title": "Dominikanische Republik",
-            "url": "https://suche.machs-auf.at/sign/23775",
-            "signID": "23775",
-            "filename": "23775.mp4"
-        },
-        {
-            "title": "\u00d6sterreich",
-            "url": "https://suche.machs-auf.at/sign/41593",
-            "signID": "41593",
-            "filename": "41593.mp4"
-        },
-        {
-            "title": "Deutschland",
-            "url": "https://suche.machs-auf.at/sign/19017",
-            "signID": "19017",
-            "filename": "19017.mp4"
-        },
-        {
-            "title": "Serbien",
-            "url": "https://suche.machs-auf.at/sign/41805",
-            "signID": "41805",
-            "filename": "41805.mp4"
-        },
-        {
-            "title": "USA",
-            "url": "https://suche.machs-auf.at/sign/27832",
-            "signID": "27832",
-            "filename": "27832.mp4"
-        },
-        {
-            "title": "Europa",
-            "url": "https://suche.machs-auf.at/sign/27800",
-            "signID": "27800",
-            "filename": "27800.mp4"
-        }
-    ],
-    "Studium": [
-        {
-            "title": "Studium",
-            "url": "https://suche.machs-auf.at/sign/89694",
-            "signID": "89694",
-            "filename": "89694.mp4"
-        },
-        {
-            "title": "Mikrobiologie",
-            "url": "https://suche.machs-auf.at/sign/77580",
-            "signID": "77580",
-            "filename": "77580.mp4"
-        },
-        {
-            "title": "Informatik",
-            "url": "https://suche.machs-auf.at/sign/26872",
-            "signID": "26872",
-            "filename": "26872.mp4"
-        },
-        {
-            "title": "Maschinen+(bau)",
-            "url": "https://suche.machs-auf.at/sign/62009",
-            "signID": "62009",
-            "filename": "62009.mp4"
-        },
-        {
-            "title": "(Maschinen)+bau",
-            "url": "https://suche.machs-auf.at/sign/36833",
-            "signID": "36833",
-            "filename": "36833.mp4"
-        },
-        {
-            "title": "Architektur",
-            "url": "https://suche.machs-auf.at/sign/36080",
-            "signID": "36080",
-            "filename": "36080.mp4"
-        },
-        {
-            "title": "Medizin",
-            "url": "https://suche.machs-auf.at/sign/22805",
-            "signID": "22805",
-            "filename": "22805.mp4"
-        },
-        {
-            "title": "Rakete",
-            "url": "https://suche.machs-auf.at/sign/27791",
-            "signID": "27791",
-            "filename": "27791.mp4"
-        },
-        {
-            "title": "Welt",
-            "url": "https://suche.machs-auf.at/sign/26582",
-            "signID": "26582",
-            "filename": "26582.mp4"
-        },
-        {
-            "title": "Weltraum",
-            "url": "https://suche.machs-auf.at/sign/52768",
-            "signID": "52768",
-            "filename": "52768.mp4"
-        },
-        {
-            "title": "Wissenschaft",
-            "url": "https://suche.machs-auf.at/sign/62433",
-            "signID": "62433",
-            "filename": "62433.mp4"
-        },
-        {
-            "title": "Forschung",
-            "url": "https://suche.machs-auf.at/sign/88609",
-            "signID": "88609",
-            "filename": "88609.mp4"
-        }
-    ],
-    "Vorstellung": [
-        {
-            "title": "Vorstellung",
-            "url": "https://suche.machs-auf.at/sign/66687",
-            "signID": "66687",
-            "filename": "66687.mp4"
-        },
-        {
-            "title": "Ich",
-            "url": "https://suche.machs-auf.at/sign/19056",
-            "signID": "19056",
-            "filename": "19056.mp4"
-        },
-        {
-            "title": "Du",
-            "url": "https://suche.machs-auf.at/sign/20861",
-            "signID": "20861",
-            "filename": "20861.mp4"
-        },
-        {
-            "title": "Name",
-            "url": "https://suche.machs-auf.at/sign/24712",
-            "signID": "24712",
-            "filename": "24712.mp4"
-        }
-    ]
+  "Feedback": [
+    {
+      "title": "anmelden",
+      "url": "https://suche.machs-auf.at/sign/34733",
+      "signID": "34733",
+      "filename": "34733.mp4"
+    },
+    {
+      "title": "Stunde",
+      "url": "https://suche.machs-auf.at/sign/19523",
+      "signID": "19523",
+      "filename": "19523.mp4"
+    },
+    {
+      "title": "Verlauf",
+      "url": "https://suche.machs-auf.at/sign/62335",
+      "signID": "62335",
+      "filename": "62335.mp4"
+    },
+    {
+      "title": "Ende",
+      "url": "https://suche.machs-auf.at/sign/66206",
+      "signID": "66206",
+      "filename": "66206.mp4"
+    }
+  ],
+  "Emotionen": [
+    {
+      "title": "Emotionen",
+      "url": "https://suche.machs-auf.at/sign/93046",
+      "signID": "93046",
+      "filename": "93046.mp4"
+    },
+    {
+      "title": "Angst",
+      "url": "https://suche.machs-auf.at/sign/65246",
+      "signID": "65246",
+      "filename": "65246.mp4"
+    },
+    {
+      "title": "\u00c4rger/Wut",
+      "url": "https://suche.machs-auf.at/sign/59953",
+      "signID": "59953",
+      "filename": "59953.mp4"
+    },
+    {
+      "title": "\u00c4rger/Wut",
+      "url": "https://suche.machs-auf.at/sign/34913",
+      "signID": "34913",
+      "filename": "34913.mp4"
+    },
+    {
+      "title": "Aufregung",
+      "url": "https://suche.machs-auf.at/sign/43741",
+      "signID": "43741",
+      "filename": "43741.mp4"
+    },
+    {
+      "title": "Zufrieden",
+      "url": "https://suche.machs-auf.at/sign/40652",
+      "signID": "40652",
+      "filename": "40652.mp4"
+    },
+    {
+      "title": "lustig",
+      "url": "https://suche.machs-auf.at/sign/65373",
+      "signID": "65373",
+      "filename": "65373.mp4"
+    },
+    {
+      "title": "wundern",
+      "url": "https://suche.machs-auf.at/sign/31773",
+      "signID": "31773",
+      "filename": "31773.mp4"
+    },
+    {
+      "title": "Ekel",
+      "url": "https://suche.machs-auf.at/sign/33422",
+      "signID": "33422",
+      "filename": "33422.mp4"
+    },
+    {
+      "title": "Schrecken",
+      "url": "https://suche.machs-auf.at/sign/33209",
+      "signID": "33209",
+      "filename": "33209.mp4"
+    },
+    {
+      "title": "Erleichterung",
+      "url": "https://suche.machs-auf.at/sign/76473",
+      "signID": "76473",
+      "filename": "76473.mp4"
+    },
+    {
+      "title": "Lockerheit",
+      "url": "https://suche.machs-auf.at/sign/24023",
+      "signID": "24023",
+      "filename": "24023.mp4"
+    },
+    {
+      "title": "Gl\u00fcck/Freude",
+      "url": "https://suche.machs-auf.at/sign/33951",
+      "signID": "33951",
+      "filename": "33951.mp4"
+    },
+    {
+      "title": "Gl\u00fcck/Freude",
+      "url": "https://suche.machs-auf.at/sign/22252",
+      "signID": "22252",
+      "filename": "22252.mp4"
+    },
+    {
+      "title": "Interesse",
+      "url": "https://suche.machs-auf.at/sign/27299",
+      "signID": "27299",
+      "filename": "27299.mp4"
+    },
+    {
+      "title": "Langeweile",
+      "url": "https://suche.machs-auf.at/sign/30564",
+      "signID": "30564",
+      "filename": "30564.mp4"
+    },
+    {
+      "title": "Peinlichkeit",
+      "url": "https://suche.machs-auf.at/sign/94220",
+      "signID": "94220",
+      "filename": "94220.mp4"
+    },
+    {
+      "title": "Sorge",
+      "url": "https://suche.machs-auf.at/sign/41880",
+      "signID": "41880",
+      "filename": "41880.mp4"
+    },
+    {
+      "title": "Trauer",
+      "url": "https://suche.machs-auf.at/sign/25628",
+      "signID": "25628",
+      "filename": "25628.mp4"
+    },
+    {
+      "title": "\u00dcberraschung",
+      "url": "https://suche.machs-auf.at/sign/28664",
+      "signID": "28664",
+      "filename": "28664.mp4"
+    },
+    {
+      "title": "Dankbar",
+      "url": "https://suche.machs-auf.at/sign/43759",
+      "signID": "43759",
+      "filename": "43759.mp4"
+    },
+    {
+      "title": "Verwirrung",
+      "url": "https://suche.machs-auf.at/sign/29647",
+      "signID": "29647",
+      "filename": "29647.mp4"
+    },
+    {
+      "title": "Verbl\u00fcfft",
+      "url": "https://suche.machs-auf.at/sign/23679",
+      "signID": "23679",
+      "filename": "23679.mp4"
+    },
+    {
+      "title": "Neugierig",
+      "url": "https://suche.machs-auf.at/sign/43842",
+      "signID": "43842",
+      "filename": "43842.mp4"
+    },
+    {
+      "title": "Genervt",
+      "url": "https://suche.machs-auf.at/sign/95441",
+      "signID": "95441",
+      "filename": "95441.mp4"
+    },
+    {
+      "title": "Zweifel",
+      "url": "https://suche.machs-auf.at/sign/27327",
+      "signID": "27327",
+      "filename": "27327.mp4"
+    }
+  ],
+  "Aussehen (v. Personen)": [
+    {
+      "title": "Kleidung",
+      "url": "https://suche.machs-auf.at/sign/31688",
+      "signID": "31688",
+      "filename": "31688.mp4"
+    },
+    {
+      "title": "sauber",
+      "url": "https://suche.machs-auf.at/sign/40905",
+      "signID": "40905",
+      "filename": "40905.mp4"
+    },
+    {
+      "title": "schmutzig",
+      "url": "https://suche.machs-auf.at/sign/63681",
+      "signID": "63681",
+      "filename": "63681.mp4"
+    },
+    {
+      "title": "Hose",
+      "url": "https://suche.machs-auf.at/sign/64542",
+      "signID": "64542",
+      "filename": "64542.mp4"
+    },
+    {
+      "title": "Strumpfhose",
+      "url": "https://suche.machs-auf.at/sign/30630",
+      "signID": "30630",
+      "filename": "30630.mp4"
+    },
+    {
+      "title": "Rock",
+      "url": "https://suche.machs-auf.at/sign/30680",
+      "signID": "30680",
+      "filename": "30680.mp4"
+    },
+    {
+      "title": "Kleid",
+      "url": "https://suche.machs-auf.at/sign/64801",
+      "signID": "64801",
+      "filename": "64801.mp4"
+    },
+    {
+      "title": "T-Shirt",
+      "url": "https://suche.machs-auf.at/sign/30653",
+      "signID": "30653",
+      "filename": "30653.mp4"
+    },
+    {
+      "title": "Hemd",
+      "url": "https://suche.machs-auf.at/sign/61047",
+      "signID": "61047",
+      "filename": "61047.mp4"
+    },
+    {
+      "title": "Bluse",
+      "url": "https://suche.machs-auf.at/sign/85302",
+      "signID": "85302",
+      "filename": "85302.mp4"
+    },
+    {
+      "title": "Pullover",
+      "url": "https://suche.machs-auf.at/sign/26776",
+      "signID": "26776",
+      "filename": "26776.mp4"
+    },
+    {
+      "title": "Jacke",
+      "url": "https://suche.machs-auf.at/sign/64963",
+      "signID": "64963",
+      "filename": "64963.mp4"
+    },
+    {
+      "title": "Mantel",
+      "url": "https://suche.machs-auf.at/sign/64615",
+      "signID": "64615",
+      "filename": "64615.mp4"
+    },
+    {
+      "title": "Schal",
+      "url": "https://suche.machs-auf.at/sign/67947",
+      "signID": "67947",
+      "filename": "67947.mp4"
+    },
+    {
+      "title": "Haube",
+      "url": "https://suche.machs-auf.at/sign/61008",
+      "signID": "61008",
+      "filename": "61008.mp4"
+    },
+    {
+      "title": "Hut",
+      "url": "https://suche.machs-auf.at/sign/19013",
+      "signID": "19013",
+      "filename": "19013.mp4"
+    },
+    {
+      "title": "Kappe",
+      "url": "https://suche.machs-auf.at/sign/71527",
+      "signID": "71527",
+      "filename": "71527.mp4"
+    },
+    {
+      "title": "Handschuhe",
+      "url": "https://suche.machs-auf.at/sign/60981",
+      "signID": "60981",
+      "filename": "60981.mp4"
+    },
+    {
+      "title": "Schuhe",
+      "url": "https://suche.machs-auf.at/sign/68880",
+      "signID": "68880",
+      "filename": "68880.mp4"
+    },
+    {
+      "title": "St\u00f6ckelschuhe",
+      "url": "https://suche.machs-auf.at/sign/26094",
+      "signID": "26094",
+      "filename": "26094.mp4"
+    },
+    {
+      "title": "Stiefel",
+      "url": "https://suche.machs-auf.at/sign/41563",
+      "signID": "41563",
+      "filename": "41563.mp4"
+    },
+    {
+      "title": "Socken",
+      "url": "https://suche.machs-auf.at/sign/63971",
+      "signID": "63971",
+      "filename": "63971.mp4"
+    },
+    {
+      "title": "Stoff",
+      "url": "https://suche.machs-auf.at/sign/71301",
+      "signID": "71301",
+      "filename": "71301.mp4"
+    },
+    {
+      "title": "Handtuch",
+      "url": "https://suche.machs-auf.at/sign/60989",
+      "signID": "60989",
+      "filename": "60989.mp4"
+    },
+    {
+      "title": "Brille",
+      "url": "https://suche.machs-auf.at/sign/20325",
+      "signID": "20325",
+      "filename": "20325.mp4"
+    },
+    {
+      "title": "Kontaktlinsen",
+      "url": "https://suche.machs-auf.at/sign/35724",
+      "signID": "35724",
+      "filename": "35724.mp4"
+    },
+    {
+      "title": "H\u00f6rger\u00e4t",
+      "url": "https://suche.machs-auf.at/sign/29676",
+      "signID": "29676",
+      "filename": "29676.mp4"
+    },
+    {
+      "title": "Frisur",
+      "url": "https://suche.machs-auf.at/sign/67193",
+      "signID": "67193",
+      "filename": "67193.mp4"
+    },
+    {
+      "title": "Locken",
+      "url": "https://suche.machs-auf.at/sign/42916",
+      "signID": "42916",
+      "filename": "42916.mp4"
+    },
+    {
+      "title": "Glatze",
+      "url": "https://suche.machs-auf.at/sign/70232",
+      "signID": "70232",
+      "filename": "70232.mp4"
+    },
+    {
+      "title": "Bart (aber stark abh\u00e4ngig von Bartart)",
+      "url": "https://suche.machs-auf.at/sign/60018",
+      "signID": "60018",
+      "filename": "60018.mp4"
+    },
+    {
+      "title": "Schnurrbart",
+      "url": "https://suche.machs-auf.at/sign/32167",
+      "signID": "32167",
+      "filename": "32167.mp4"
+    },
+    {
+      "title": "Lippenstift",
+      "url": "https://suche.machs-auf.at/sign/47218",
+      "signID": "47218",
+      "filename": "47218.mp4"
+    },
+    {
+      "title": "Wimperntusche",
+      "url": "https://suche.machs-auf.at/sign/28356",
+      "signID": "28356",
+      "filename": "28356.mp4"
+    },
+    {
+      "title": "Haare f\u00e4rben",
+      "url": "https://suche.machs-auf.at/sign/51851",
+      "signID": "51851",
+      "filename": "51851.mp4"
+    },
+    {
+      "title": "Haare",
+      "url": "https://suche.machs-auf.at/sign/60298",
+      "signID": "60298",
+      "filename": "60298.mp4"
+    },
+    {
+      "title": "Blond",
+      "url": "https://suche.machs-auf.at/sign/60060",
+      "signID": "60060",
+      "filename": "60060.mp4"
+    },
+    {
+      "title": "D\u00fcnn",
+      "url": "https://suche.machs-auf.at/sign/92978",
+      "signID": "92978",
+      "filename": "92978.mp4"
+    },
+    {
+      "title": "Dick",
+      "url": "https://suche.machs-auf.at/sign/60158",
+      "signID": "60158",
+      "filename": "60158.mp4"
+    },
+    {
+      "title": "Gro\u00df",
+      "url": "https://suche.machs-auf.at/sign/41519",
+      "signID": "41519",
+      "filename": "41519.mp4"
+    },
+    {
+      "title": "Klein",
+      "url": "https://suche.machs-auf.at/sign/93687",
+      "signID": "93687",
+      "filename": "93687.mp4"
+    },
+    {
+      "title": "Alt",
+      "url": "https://suche.machs-auf.at/sign/21726",
+      "signID": "21726",
+      "filename": "21726.mp4"
+    },
+    {
+      "title": "Jung",
+      "url": "https://suche.machs-auf.at/sign/22808",
+      "signID": "22808",
+      "filename": "22808.mp4"
+    },
+    {
+      "title": "Spiel",
+      "url": "https://suche.machs-auf.at/sign/44042",
+      "signID": "44042",
+      "filename": "44042.mp4"
+    },
+    {
+      "title": "Bingo",
+      "url": "https://suche.machs-auf.at/sign/30164",
+      "signID": "30164",
+      "filename": "30164.mp4"
+    }
+  ],
+
+  "K\u00fcchenutensilien": [
+    {
+      "title": "Sieb",
+      "url": "https://suche.machs-auf.at/sign/78580",
+      "signID": "78580",
+      "filename": "78580.mp4"
+    },
+    {
+      "title": "Brett",
+      "url": "https://suche.machs-auf.at/sign/69948",
+      "signID": "69948",
+      "filename": "69948.mp4"
+    },
+    {
+      "title": "Messer (in der Stmk. \u00fcblicher mit U-Handform)",
+      "url": "https://suche.machs-auf.at/sign/29721",
+      "signID": "29721",
+      "filename": "29721.mp4"
+    },
+    {
+      "title": "Gabel",
+      "url": "https://suche.machs-auf.at/sign/21288",
+      "signID": "21288",
+      "filename": "21288.mp4"
+    },
+    {
+      "title": "L\u00f6ffel",
+      "url": "https://suche.machs-auf.at/sign/65329",
+      "signID": "65329",
+      "filename": "65329.mp4"
+    },
+    {
+      "title": "Pfanne",
+      "url": "https://suche.machs-auf.at/sign/36718",
+      "signID": "36718",
+      "filename": "36718.mp4"
+    },
+    {
+      "title": "Mixer/Cutter",
+      "url": "https://suche.machs-auf.at/sign/45307",
+      "signID": "45307",
+      "filename": "45307.mp4"
+    },
+    {
+      "title": "Handmixer",
+      "url": "https://suche.machs-auf.at/sign/41099",
+      "signID": "41099",
+      "filename": "41099.mp4"
+    },
+    {
+      "title": "Stabmixer",
+      "url": "https://suche.machs-auf.at/sign/35313",
+      "signID": "35313",
+      "filename": "35313.mp4"
+    }
+  ],
+  "Mengenangaben": [
+    {
+      "title": "Wenig",
+      "url": "https://suche.machs-auf.at/sign/23968",
+      "signID": "23968",
+      "filename": "23968.mp4"
+    },
+    {
+      "title": "Viel",
+      "url": "https://suche.machs-auf.at/sign/40790",
+      "signID": "40790",
+      "filename": "40790.mp4"
+    },
+    {
+      "title": "Oft",
+      "url": "https://suche.machs-auf.at/sign/28488",
+      "signID": "28488",
+      "filename": "28488.mp4"
+    },
+    {
+      "title": "\u201cAb und zu\u201d (letzte Geb\u00e4rde im Satz)",
+      "url": "https://suche.machs-auf.at/sign/55421",
+      "signID": "55421",
+      "filename": "55421.mp4"
+    },
+    {
+      "title": "kaum",
+      "url": "https://suche.machs-auf.at/sign/70539",
+      "signID": "70539",
+      "filename": "70539.mp4"
+    },
+    {
+      "title": "nie",
+      "url": "https://suche.machs-auf.at/sign/62097",
+      "signID": "62097",
+      "filename": "62097.mp4"
+    },
+    {
+      "title": "immer",
+      "url": "https://suche.machs-auf.at/sign/43662",
+      "signID": "43662",
+      "filename": "43662.mp4"
+    },
+    {
+      "title": "\"Stamm\" = regelm\u00e4\u00dfig",
+      "url": "https://suche.machs-auf.at/sign/94718",
+      "signID": "94718",
+      "filename": "94718.mp4"
+    }
+  ],
+  "Essen": [
+    {
+      "title": "Essen",
+      "url": "https://suche.machs-auf.at/sign/30692",
+      "signID": "30692",
+      "filename": "30692.mp4"
+    },
+    {
+      "title": "Vegan",
+      "url": "https://suche.machs-auf.at/sign/16811",
+      "signID": "16811",
+      "filename": "16811.mp4"
+    },
+    {
+      "title": "Vegetarisch",
+      "url": "https://suche.machs-auf.at/sign/28671",
+      "signID": "28671",
+      "filename": "28671.mp4"
+    },
+    {
+      "title": "Fleisch",
+      "url": "https://suche.machs-auf.at/sign/67336",
+      "signID": "67336",
+      "filename": "67336.mp4"
+    },
+    {
+      "title": "Pute",
+      "url": "https://suche.machs-auf.at/sign/71171",
+      "signID": "71171",
+      "filename": "71171.mp4"
+    },
+    {
+      "title": "Flexibel",
+      "url": "https://suche.machs-auf.at/sign/43039",
+      "signID": "43039",
+      "filename": "43039.mp4"
+    },
+    {
+      "title": "Brot",
+      "url": "https://suche.machs-auf.at/sign/20341",
+      "signID": "20341",
+      "filename": "20341.mp4"
+    },
+    {
+      "title": "Semmel",
+      "url": "https://suche.machs-auf.at/sign/68890",
+      "signID": "68890",
+      "filename": "68890.mp4"
+    },
+    {
+      "title": "Nudeln",
+      "url": "https://suche.machs-auf.at/sign/28661",
+      "signID": "28661",
+      "filename": "28661.mp4"
+    },
+    {
+      "title": "Kartoffeln",
+      "url": "https://suche.machs-auf.at/sign/64023",
+      "signID": "64023",
+      "filename": "64023.mp4"
+    },
+    {
+      "title": "Reis",
+      "url": "https://suche.machs-auf.at/sign/95682",
+      "signID": "95682",
+      "filename": "95682.mp4"
+    },
+    {
+      "title": "Getreide",
+      "url": "https://suche.machs-auf.at/sign/93339",
+      "signID": "93339",
+      "filename": "93339.mp4"
+    },
+    {
+      "title": "Mehl",
+      "url": "https://suche.machs-auf.at/sign/72140",
+      "signID": "72140",
+      "filename": "72140.mp4"
+    },
+    {
+      "title": "Kuchen",
+      "url": "https://suche.machs-auf.at/sign/64933",
+      "signID": "64933",
+      "filename": "64933.mp4"
+    },
+    {
+      "title": "Torte",
+      "url": "https://suche.machs-auf.at/sign/68968",
+      "signID": "68968",
+      "filename": "68968.mp4"
+    },
+    {
+      "title": "Schokolade",
+      "url": "https://suche.machs-auf.at/sign/68877",
+      "signID": "68877",
+      "filename": "68877.mp4"
+    },
+    {
+      "title": "Zucker",
+      "url": "https://suche.machs-auf.at/sign/41278",
+      "signID": "41278",
+      "filename": "41278.mp4"
+    },
+    {
+      "title": "Gem\u00fcse",
+      "url": "https://suche.machs-auf.at/sign/64446",
+      "signID": "64446",
+      "filename": "64446.mp4"
+    },
+    {
+      "title": "Karotten",
+      "url": "https://suche.machs-auf.at/sign/63952",
+      "signID": "63952",
+      "filename": "63952.mp4"
+    },
+    {
+      "title": "Erbsen",
+      "url": "https://suche.machs-auf.at/sign/63921",
+      "signID": "63921",
+      "filename": "63921.mp4"
+    },
+    {
+      "title": "Mais",
+      "url": "https://suche.machs-auf.at/sign/44387",
+      "signID": "44387",
+      "filename": "44387.mp4"
+    },
+    {
+      "title": "Zwiebel",
+      "url": "https://suche.machs-auf.at/sign/69255",
+      "signID": "69255",
+      "filename": "69255.mp4"
+    },
+    {
+      "title": "Knochblauch",
+      "url": "https://suche.machs-auf.at/sign/64830",
+      "signID": "64830",
+      "filename": "64830.mp4"
+    },
+    {
+      "title": "Salat",
+      "url": "https://suche.machs-auf.at/sign/70067",
+      "signID": "70067",
+      "filename": "70067.mp4"
+    },
+    {
+      "title": "Kraut (Achtung, nur 2. Geb\u00e4rde)",
+      "url": "https://suche.machs-auf.at/sign/64613",
+      "signID": "64613",
+      "filename": "64613.mp4"
+    },
+    {
+      "title": "Tomaten",
+      "url": "https://suche.machs-auf.at/sign/64205",
+      "signID": "64205",
+      "filename": "64205.mp4"
+    },
+    {
+      "title": "Bohnen",
+      "url": "https://suche.machs-auf.at/sign/29768",
+      "signID": "29768",
+      "filename": "29768.mp4"
+    },
+    {
+      "title": "Paprika",
+      "url": "https://suche.machs-auf.at/sign/36012",
+      "signID": "36012",
+      "filename": "36012.mp4"
+    },
+    {
+      "title": "R\u00fcben",
+      "url": "https://suche.machs-auf.at/sign/94429",
+      "signID": "94429",
+      "filename": "94429.mp4"
+    },
+    {
+      "title": "Obst",
+      "url": "https://suche.machs-auf.at/sign/31302",
+      "signID": "31302",
+      "filename": "31302.mp4"
+    },
+    {
+      "title": "Apfel",
+      "url": "https://suche.machs-auf.at/sign/62733",
+      "signID": "62733",
+      "filename": "62733.mp4"
+    },
+    {
+      "title": "Birne",
+      "url": "https://suche.machs-auf.at/sign/62820",
+      "signID": "62820",
+      "filename": "62820.mp4"
+    },
+    {
+      "title": "Zwetschke",
+      "url": "https://suche.machs-auf.at/sign/29897",
+      "signID": "29897",
+      "filename": "29897.mp4"
+    },
+    {
+      "title": "Orange",
+      "url": "https://suche.machs-auf.at/sign/63894",
+      "signID": "63894",
+      "filename": "63894.mp4"
+    },
+    {
+      "title": "Ananans",
+      "url": "https://suche.machs-auf.at/sign/61123",
+      "signID": "61123",
+      "filename": "61123.mp4"
+    },
+    {
+      "title": "Kokosnuss",
+      "url": "https://suche.machs-auf.at/sign/40912",
+      "signID": "40912",
+      "filename": "40912.mp4"
+    },
+    {
+      "title": "Melone",
+      "url": "https://suche.machs-auf.at/sign/64680",
+      "signID": "64680",
+      "filename": "64680.mp4"
+    },
+    {
+      "title": "Banane",
+      "url": "https://suche.machs-auf.at/sign/23473",
+      "signID": "23473",
+      "filename": "23473.mp4"
+    },
+    {
+      "title": "Kirsche",
+      "url": "https://suche.machs-auf.at/sign/64665",
+      "signID": "64665",
+      "filename": "64665.mp4"
+    },
+    {
+      "title": "Pfirsich",
+      "url": "https://suche.machs-auf.at/sign/65079",
+      "signID": "65079",
+      "filename": "65079.mp4"
+    },
+    {
+      "title": "Marille",
+      "url": "https://suche.machs-auf.at/sign/29307",
+      "signID": "29307",
+      "filename": "29307.mp4"
+    },
+    {
+      "title": "Erdbeere",
+      "url": "https://suche.machs-auf.at/sign/63924",
+      "signID": "63924",
+      "filename": "63924.mp4"
+    },
+    {
+      "title": "N\u00fcsse",
+      "url": "https://suche.machs-auf.at/sign/64796",
+      "signID": "64796",
+      "filename": "64796.mp4"
+    },
+    {
+      "title": "Marmelade",
+      "url": "https://suche.machs-auf.at/sign/30917",
+      "signID": "30917",
+      "filename": "30917.mp4"
+    },
+    {
+      "title": "Fett",
+      "url": "https://suche.machs-auf.at/sign/65791",
+      "signID": "65791",
+      "filename": "65791.mp4"
+    },
+    {
+      "title": "Butter",
+      "url": "https://suche.machs-auf.at/sign/62982",
+      "signID": "62982",
+      "filename": "62982.mp4"
+    },
+    {
+      "title": "\u00d6l",
+      "url": "https://suche.machs-auf.at/sign/30284",
+      "signID": "30284",
+      "filename": "30284.mp4"
+    },
+    {
+      "title": "Essig",
+      "url": "https://suche.machs-auf.at/sign/61997",
+      "signID": "61997",
+      "filename": "61997.mp4"
+    },
+    {
+      "title": "Milch",
+      "url": "https://suche.machs-auf.at/sign/63296",
+      "signID": "63296",
+      "filename": "63296.mp4"
+    },
+    {
+      "title": "Joghurt",
+      "url": "https://suche.machs-auf.at/sign/67320",
+      "signID": "67320",
+      "filename": "67320.mp4"
+    },
+    {
+      "title": "Sauerrahm",
+      "url": "https://suche.machs-auf.at/sign/67711",
+      "signID": "67711",
+      "filename": "67711.mp4"
+    },
+    {
+      "title": "Schlagobers",
+      "url": "https://suche.machs-auf.at/sign/67842",
+      "signID": "67842",
+      "filename": "67842.mp4"
+    },
+    {
+      "title": "K\u00e4se",
+      "url": "https://suche.machs-auf.at/sign/64028",
+      "signID": "64028",
+      "filename": "64028.mp4"
+    },
+    {
+      "title": "Ei",
+      "url": "https://suche.machs-auf.at/sign/30918",
+      "signID": "30918",
+      "filename": "30918.mp4"
+    },
+    {
+      "title": "Wurst",
+      "url": "https://suche.machs-auf.at/sign/29688",
+      "signID": "29688",
+      "filename": "29688.mp4"
+    },
+    {
+      "title": "Schinken",
+      "url": "https://suche.machs-auf.at/sign/28649",
+      "signID": "28649",
+      "filename": "28649.mp4"
+    },
+    {
+      "title": "Suppe",
+      "url": "https://suche.machs-auf.at/sign/28653",
+      "signID": "28653",
+      "filename": "28653.mp4"
+    },
+    {
+      "title": "Pizza",
+      "url": "https://suche.machs-auf.at/sign/94255",
+      "signID": "94255",
+      "filename": "94255.mp4"
+    },
+    {
+      "title": "Kebap",
+      "url": "https://suche.machs-auf.at/sign/28646",
+      "signID": "28646",
+      "filename": "28646.mp4"
+    },
+    {
+      "title": "Burger",
+      "url": "https://suche.machs-auf.at/sign/41027",
+      "signID": "41027",
+      "filename": "41027.mp4"
+    },
+    {
+      "title": "Pommes",
+      "url": "https://suche.machs-auf.at/sign/28644",
+      "signID": "28644",
+      "filename": "28644.mp4"
+    },
+    {
+      "title": "Schnitzel",
+      "url": "https://suche.machs-auf.at/sign/23155",
+      "signID": "23155",
+      "filename": "23155.mp4"
+    },
+    {
+      "title": "Gulasch",
+      "url": "https://suche.machs-auf.at/sign/70709",
+      "signID": "70709",
+      "filename": "70709.mp4"
+    },
+    {
+      "title": "Salz",
+      "url": "https://suche.machs-auf.at/sign/30919",
+      "signID": "30919",
+      "filename": "30919.mp4"
+    },
+    {
+      "title": "Pfeffer",
+      "url": "https://suche.machs-auf.at/sign/26673",
+      "signID": "26673",
+      "filename": "26673.mp4"
+    },
+    {
+      "title": "Wasser",
+      "url": "https://suche.machs-auf.at/sign/27081",
+      "signID": "27081",
+      "filename": "27081.mp4"
+    },
+    {
+      "title": "Tee",
+      "url": "https://suche.machs-auf.at/sign/30911",
+      "signID": "30911",
+      "filename": "30911.mp4"
+    },
+    {
+      "title": "Saft",
+      "url": "https://suche.machs-auf.at/sign/29635",
+      "signID": "29635",
+      "filename": "29635.mp4"
+    },
+    {
+      "title": "Bier",
+      "url": "https://suche.machs-auf.at/sign/65655",
+      "signID": "65655",
+      "filename": "65655.mp4"
+    },
+    {
+      "title": "Wein",
+      "url": "https://suche.machs-auf.at/sign/62391",
+      "signID": "62391",
+      "filename": "62391.mp4"
+    },
+    {
+      "title": "Limonade",
+      "url": "https://suche.machs-auf.at/sign/27079",
+      "signID": "27079",
+      "filename": "27079.mp4"
+    },
+    {
+      "title": "Cola",
+      "url": "https://suche.machs-auf.at/sign/26982",
+      "signID": "26982",
+      "filename": "26982.mp4"
+    },
+    {
+      "title": "Red Bull",
+      "url": "https://suche.machs-auf.at/sign/27077",
+      "signID": "27077",
+      "filename": "27077.mp4"
+    }
+  ],
+  "Richtungen": [
+    {
+      "title": "Links",
+      "url": "https://suche.machs-auf.at/sign/24005",
+      "signID": "24005",
+      "filename": "24005.mp4"
+    },
+    {
+      "title": "Rechts",
+      "url": "https://suche.machs-auf.at/sign/41571",
+      "signID": "41571",
+      "filename": "41571.mp4"
+    }
+  ],
+  "Verben": [
+    {
+      "title": "Beschreiben",
+      "url": "https://suche.machs-auf.at/sign/22659",
+      "signID": "22659",
+      "filename": "22659.mp4"
+    },
+    {
+      "title": "Fragen (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/40684",
+      "signID": "40684",
+      "filename": "40684.mp4"
+    },
+    {
+      "title": "Sagen",
+      "url": "https://suche.machs-auf.at/sign/43659",
+      "signID": "43659",
+      "filename": "43659.mp4"
+    },
+    {
+      "title": "Sprechen (Sprechen Sie Deutsch?)",
+      "url": "https://suche.machs-auf.at/sign/48330",
+      "signID": "48330",
+      "filename": "48330.mp4"
+    },
+    {
+      "title": "Geb\u00e4rden (Geb\u00e4rden Sie bitte langsam.)",
+      "url": "https://suche.machs-auf.at/sign/48777",
+      "signID": "48777",
+      "filename": "48777.mp4"
+    },
+    {
+      "title": "Bescheid geben (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/22656",
+      "signID": "22656",
+      "filename": "22656.mp4"
+    },
+    {
+      "title": "Erkl\u00e4ren (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/93089",
+      "signID": "93089",
+      "filename": "93089.mp4"
+    },
+    {
+      "title": "Zeigen (\u00fcbereinstimmbar)",
+      "url": "https://suche.machs-auf.at/sign/42034",
+      "signID": "42034",
+      "filename": "42034.mp4"
+    },
+    {
+      "title": "Glauben",
+      "url": "https://suche.machs-auf.at/sign/70272",
+      "signID": "70272",
+      "filename": "70272.mp4"
+    },
+    {
+      "title": "passen/es passt",
+      "url": "https://suche.machs-auf.at/sign/25688",
+      "signID": "25688",
+      "filename": "25688.mp4"
+    }
+  ],
+  "Natur/Pflanzen/Tiere": [
+    {
+      "title": "Maus",
+      "url": "https://suche.machs-auf.at/sign/64654",
+      "signID": "64654",
+      "filename": "64654.mp4"
+    },
+    {
+      "title": "Schnecke",
+      "url": "https://suche.machs-auf.at/sign/29151",
+      "signID": "29151",
+      "filename": "29151.mp4"
+    },
+    {
+      "title": "Schlange",
+      "url": "https://suche.machs-auf.at/sign/68870",
+      "signID": "68870",
+      "filename": "68870.mp4"
+    },
+    {
+      "title": "Schildkr\u00f6te",
+      "url": "https://suche.machs-auf.at/sign/29149",
+      "signID": "29149",
+      "filename": "29149.mp4"
+    },
+    {
+      "title": "Frosch",
+      "url": "https://suche.machs-auf.at/sign/64409",
+      "signID": "64409",
+      "filename": "64409.mp4"
+    },
+    {
+      "title": "Hase",
+      "url": "https://suche.machs-auf.at/sign/44495",
+      "signID": "44495",
+      "filename": "44495.mp4"
+    },
+    {
+      "title": "Schmetterling",
+      "url": "https://suche.machs-auf.at/sign/30788",
+      "signID": "30788",
+      "filename": "30788.mp4"
+    },
+    {
+      "title": "Fisch",
+      "url": "https://suche.machs-auf.at/sign/29690",
+      "signID": "29690",
+      "filename": "29690.mp4"
+    },
+    {
+      "title": "Hund",
+      "url": "https://suche.machs-auf.at/sign/22641",
+      "signID": "22641",
+      "filename": "22641.mp4"
+    },
+    {
+      "title": "Katze",
+      "url": "https://suche.machs-auf.at/sign/19190",
+      "signID": "19190",
+      "filename": "19190.mp4"
+    },
+    {
+      "title": "Schwein",
+      "url": "https://suche.machs-auf.at/sign/95708",
+      "signID": "95708",
+      "filename": "95708.mp4"
+    },
+    {
+      "title": "Kuh",
+      "url": "https://suche.machs-auf.at/sign/19269",
+      "signID": "19269",
+      "filename": "19269.mp4"
+    },
+    {
+      "title": "Schaf",
+      "url": "https://suche.machs-auf.at/sign/67946",
+      "signID": "67946",
+      "filename": "67946.mp4"
+    },
+    {
+      "title": "Huhn",
+      "url": "https://suche.machs-auf.at/sign/64545",
+      "signID": "64545",
+      "filename": "64545.mp4"
+    },
+    {
+      "title": "Ente",
+      "url": "https://suche.machs-auf.at/sign/25150",
+      "signID": "25150",
+      "filename": "25150.mp4"
+    },
+    {
+      "title": "Nadelbaum/Christbaum",
+      "url": "https://suche.machs-auf.at/sign/65506",
+      "signID": "65506",
+      "filename": "65506.mp4"
+    },
+    {
+      "title": "Baum",
+      "url": "https://suche.machs-auf.at/sign/20007",
+      "signID": "20007",
+      "filename": "20007.mp4"
+    },
+    {
+      "title": "Blatt",
+      "url": "https://suche.machs-auf.at/sign/59564",
+      "signID": "59564",
+      "filename": "59564.mp4"
+    },
+    {
+      "title": "Blume",
+      "url": "https://suche.machs-auf.at/sign/62874",
+      "signID": "62874",
+      "filename": "62874.mp4"
+    },
+    {
+      "title": "Gras/Wiese",
+      "url": "https://suche.machs-auf.at/sign/21547",
+      "signID": "21547",
+      "filename": "21547.mp4"
+    }
+  ],
+  "Kommunikation-Basics 5": [
+    {
+      "title": "die Sache",
+      "url": "https://suche.machs-auf.at/sign/23130",
+      "signID": "23130",
+      "filename": "23130.mp4"
+    },
+    {
+      "title": "oder",
+      "url": "https://suche.machs-auf.at/sign/63844",
+      "signID": "63844",
+      "filename": "63844.mp4"
+    }
+  ],
+  "Eigenschaften": [
+    {
+      "title": "Farbe",
+      "url": "https://suche.machs-auf.at/sign/60593",
+      "signID": "60593",
+      "filename": "60593.mp4"
+    },
+    {
+      "title": "rot",
+      "url": "https://suche.machs-auf.at/sign/34946",
+      "signID": "34946",
+      "filename": "34946.mp4"
+    },
+    {
+      "title": "gelb",
+      "url": "https://suche.machs-auf.at/sign/21864",
+      "signID": "21864",
+      "filename": "21864.mp4"
+    },
+    {
+      "title": "orange",
+      "url": "https://suche.machs-auf.at/sign/63894",
+      "signID": "63894",
+      "filename": "63894.mp4"
+    },
+    {
+      "title": "gr\u00fcn",
+      "url": "https://suche.machs-auf.at/sign/18829",
+      "signID": "18829",
+      "filename": "18829.mp4"
+    },
+    {
+      "title": "blau",
+      "url": "https://suche.machs-auf.at/sign/20209",
+      "signID": "20209",
+      "filename": "20209.mp4"
+    },
+    {
+      "title": "lila",
+      "url": "https://suche.machs-auf.at/sign/19313",
+      "signID": "19313",
+      "filename": "19313.mp4"
+    },
+    {
+      "title": "violett",
+      "url": "https://suche.machs-auf.at/sign/66595",
+      "signID": "66595",
+      "filename": "66595.mp4"
+    },
+    {
+      "title": "rosa",
+      "url": "https://suche.machs-auf.at/sign/67929",
+      "signID": "67929",
+      "filename": "67929.mp4"
+    },
+    {
+      "title": "schwarz",
+      "url": "https://suche.machs-auf.at/sign/19477",
+      "signID": "19477",
+      "filename": "19477.mp4"
+    },
+    {
+      "title": "wei\u00df",
+      "url": "https://suche.machs-auf.at/sign/63156",
+      "signID": "63156",
+      "filename": "63156.mp4"
+    },
+    {
+      "title": "grau",
+      "url": "https://suche.machs-auf.at/sign/21553",
+      "signID": "21553",
+      "filename": "21553.mp4"
+    },
+    {
+      "title": "dunkel",
+      "url": "https://suche.machs-auf.at/sign/33989",
+      "signID": "33989",
+      "filename": "33989.mp4"
+    },
+    {
+      "title": "hell",
+      "url": "https://suche.machs-auf.at/sign/61044",
+      "signID": "61044",
+      "filename": "61044.mp4"
+    },
+    {
+      "title": "weich",
+      "url": "https://suche.machs-auf.at/sign/63153",
+      "signID": "63153",
+      "filename": "63153.mp4"
+    },
+    {
+      "title": "hart",
+      "url": "https://suche.machs-auf.at/sign/18861",
+      "signID": "18861",
+      "filename": "18861.mp4"
+    },
+    {
+      "title": "hei\u00df",
+      "url": "https://suche.machs-auf.at/sign/22502",
+      "signID": "22502",
+      "filename": "22502.mp4"
+    },
+    {
+      "title": "kalt",
+      "url": "https://suche.machs-auf.at/sign/19144",
+      "signID": "19144",
+      "filename": "19144.mp4"
+    }
+  ],
+  "Kommunikation-Basics 4": [
+    {
+      "title": "verstehen",
+      "url": "https://suche.machs-auf.at/sign/30272",
+      "signID": "30272",
+      "filename": "30272.mp4"
+    },
+    {
+      "title": "vergessen",
+      "url": "https://suche.machs-auf.at/sign/24214",
+      "signID": "24214",
+      "filename": "24214.mp4"
+    },
+    {
+      "title": "merken",
+      "url": "https://suche.machs-auf.at/sign/72160",
+      "signID": "72160",
+      "filename": "72160.mp4"
+    },
+    {
+      "title": "wissen, das Wissen",
+      "url": "https://suche.machs-auf.at/sign/34829",
+      "signID": "34829",
+      "filename": "34829.mp4"
+    },
+    {
+      "title": "nicht wissen (wei\u00df nicht)",
+      "url": "https://suche.machs-auf.at/sign/37020",
+      "signID": "37020",
+      "filename": "37020.mp4"
+    }
+  ],
+  "Zeit-Angaben": [
+    {
+      "title": "Woche (Vers. 1)",
+      "url": "https://suche.machs-auf.at/sign/69080",
+      "signID": "69080",
+      "filename": "69080.mp4"
+    },
+    {
+      "title": "Woche (Vers. 2)",
+      "url": "https://suche.machs-auf.at/sign/40537",
+      "signID": "40537",
+      "filename": "40537.mp4"
+    },
+    {
+      "title": "letzte...",
+      "url": "https://suche.machs-auf.at/sign/54900",
+      "signID": "54900",
+      "filename": "54900.mp4"
+    },
+    {
+      "title": "n\u00e4chste...",
+      "url": "https://suche.machs-auf.at/sign/34333",
+      "signID": "34333",
+      "filename": "34333.mp4"
+    },
+    {
+      "title": "Tag",
+      "url": "https://suche.machs-auf.at/sign/68940",
+      "signID": "68940",
+      "filename": "68940.mp4"
+    },
+    {
+      "title": "Montag",
+      "url": "https://suche.machs-auf.at/sign/30253",
+      "signID": "30253",
+      "filename": "30253.mp4"
+    },
+    {
+      "title": "Dienstag",
+      "url": "https://suche.machs-auf.at/sign/60166",
+      "signID": "60166",
+      "filename": "60166.mp4"
+    },
+    {
+      "title": "Mittwoch",
+      "url": "https://suche.machs-auf.at/sign/63321",
+      "signID": "63321",
+      "filename": "63321.mp4"
+    },
+    {
+      "title": "Donnerstag",
+      "url": "https://suche.machs-auf.at/sign/60171",
+      "signID": "60171",
+      "filename": "60171.mp4"
+    },
+    {
+      "title": "Freitag",
+      "url": "https://suche.machs-auf.at/sign/60686",
+      "signID": "60686",
+      "filename": "60686.mp4"
+    },
+    {
+      "title": "Samstag",
+      "url": "https://suche.machs-auf.at/sign/24749",
+      "signID": "24749",
+      "filename": "24749.mp4"
+    },
+    {
+      "title": "Sonntag",
+      "url": "https://suche.machs-auf.at/sign/25248",
+      "signID": "25248",
+      "filename": "25248.mp4"
+    },
+    {
+      "title": "t\u00e4glich",
+      "url": "https://suche.machs-auf.at/sign/25508",
+      "signID": "25508",
+      "filename": "25508.mp4"
+    },
+    {
+      "title": "Fr\u00fch",
+      "url": "https://suche.machs-auf.at/sign/60808",
+      "signID": "60808",
+      "filename": "60808.mp4"
+    },
+    {
+      "title": "Sp\u00e4t",
+      "url": "https://suche.machs-auf.at/sign/40624",
+      "signID": "40624",
+      "filename": "40624.mp4"
+    },
+    {
+      "title": "zu sp\u00e4t",
+      "url": "https://suche.machs-auf.at/sign/70386",
+      "signID": "70386",
+      "filename": "70386.mp4"
+    },
+    {
+      "title": "knapp",
+      "url": "https://suche.machs-auf.at/sign/91548",
+      "signID": "91548",
+      "filename": "91548.mp4"
+    },
+    {
+      "title": "schaffen",
+      "url": "https://suche.machs-auf.at/sign/70125",
+      "signID": "70125",
+      "filename": "70125.mp4"
+    },
+    {
+      "title": "drei Uhr (Vers. 1)",
+      "url": "https://suche.machs-auf.at/sign/22772",
+      "signID": "22772",
+      "filename": "22772.mp4"
+    },
+    {
+      "title": "drei Uhr (Vers. 2)",
+      "url": "https://suche.machs-auf.at/sign/61883",
+      "signID": "61883",
+      "filename": "61883.mp4"
+    },
+    {
+      "title": "Uhrzeit",
+      "url": "https://suche.machs-auf.at/sign/62677",
+      "signID": "62677",
+      "filename": "62677.mp4"
+    },
+    {
+      "title": "(ein) Viertel",
+      "url": "https://suche.machs-auf.at/sign/34541",
+      "signID": "34541",
+      "filename": "34541.mp4"
+    },
+    {
+      "title": "halb",
+      "url": "https://suche.machs-auf.at/sign/34296",
+      "signID": "34296",
+      "filename": "34296.mp4"
+    },
+    {
+      "title": "drei viertel\u2026",
+      "url": "https://suche.machs-auf.at/sign/23793",
+      "signID": "23793",
+      "filename": "23793.mp4"
+    }
+  ],
+  "Tagesablauf": [
+    {
+      "title": "schlafen",
+      "url": "https://suche.machs-auf.at/sign/30693",
+      "signID": "30693",
+      "filename": "30693.mp4"
+    },
+    {
+      "title": "aufwachen",
+      "url": "https://suche.machs-auf.at/sign/33577",
+      "signID": "33577",
+      "filename": "33577.mp4"
+    },
+    {
+      "title": "aufstehen",
+      "url": "https://suche.machs-auf.at/sign/21090",
+      "signID": "21090",
+      "filename": "21090.mp4"
+    },
+    {
+      "title": "Kaffee( trinken)",
+      "url": "https://suche.machs-auf.at/sign/25161",
+      "signID": "25161",
+      "filename": "25161.mp4"
+    },
+    {
+      "title": "Fr\u00fchst\u00fcck",
+      "url": "https://suche.machs-auf.at/sign/69826",
+      "signID": "69826",
+      "filename": "69826.mp4"
+    },
+    {
+      "title": "essen",
+      "url": "https://suche.machs-auf.at/sign/30692",
+      "signID": "30692",
+      "filename": "30692.mp4"
+    },
+    {
+      "title": "Z\u00e4hne-putzen",
+      "url": "https://suche.machs-auf.at/sign/85193",
+      "signID": "85193",
+      "filename": "85193.mp4"
+    },
+    {
+      "title": "duschen",
+      "url": "https://suche.machs-auf.at/sign/66075",
+      "signID": "66075",
+      "filename": "66075.mp4"
+    },
+    {
+      "title": "Uni",
+      "url": "https://suche.machs-auf.at/sign/86729",
+      "signID": "86729",
+      "filename": "86729.mp4"
+    },
+    {
+      "title": "gehen (zu Fu\u00df)",
+      "url": "https://suche.machs-auf.at/sign/59754",
+      "signID": "59754",
+      "filename": "59754.mp4"
+    },
+    {
+      "title": "fahren (Auto)",
+      "url": "https://suche.machs-auf.at/sign/33729",
+      "signID": "33729",
+      "filename": "33729.mp4"
+    },
+    {
+      "title": "Stra\u00dfenbahn",
+      "url": "https://suche.machs-auf.at/sign/67403",
+      "signID": "67403",
+      "filename": "67403.mp4"
+    },
+    {
+      "title": "der Bus",
+      "url": "https://suche.machs-auf.at/sign/18366",
+      "signID": "18366",
+      "filename": "18366.mp4"
+    },
+    {
+      "title": "das Moped",
+      "url": "https://suche.machs-auf.at/sign/19412",
+      "signID": "19412",
+      "filename": "19412.mp4"
+    },
+    {
+      "title": "das Motorrad",
+      "url": "https://suche.machs-auf.at/sign/63381",
+      "signID": "63381",
+      "filename": "63381.mp4"
+    },
+    {
+      "title": "sitzen",
+      "url": "https://suche.machs-auf.at/sign/63965",
+      "signID": "63965",
+      "filename": "63965.mp4"
+    },
+    {
+      "title": "zuh\u00f6ren",
+      "url": "https://suche.machs-auf.at/sign/40622",
+      "signID": "40622",
+      "filename": "40622.mp4"
+    },
+    {
+      "title": "schauen",
+      "url": "https://suche.machs-auf.at/sign/63643",
+      "signID": "63643",
+      "filename": "63643.mp4"
+    },
+    {
+      "title": "schreiben",
+      "url": "https://suche.machs-auf.at/sign/29336",
+      "signID": "29336",
+      "filename": "29336.mp4"
+    },
+    {
+      "title": "arbeiten",
+      "url": "https://suche.machs-auf.at/sign/46595",
+      "signID": "46595",
+      "filename": "46595.mp4"
+    },
+    {
+      "title": "unterrichten",
+      "url": "https://suche.machs-auf.at/sign/41637",
+      "signID": "41637",
+      "filename": "41637.mp4"
+    },
+    {
+      "title": "lernen",
+      "url": "https://suche.machs-auf.at/sign/19305",
+      "signID": "19305",
+      "filename": "19305.mp4"
+    },
+    {
+      "title": "studieren",
+      "url": "https://suche.machs-auf.at/sign/89694",
+      "signID": "89694",
+      "filename": "89694.mp4"
+    },
+    {
+      "title": "Sport",
+      "url": "https://suche.machs-auf.at/sign/64021",
+      "signID": "64021",
+      "filename": "64021.mp4"
+    },
+    {
+      "title": "einkaufen",
+      "url": "https://suche.machs-auf.at/sign/21815",
+      "signID": "21815",
+      "filename": "21815.mp4"
+    },
+    {
+      "title": "schminken",
+      "url": "https://suche.machs-auf.at/sign/28351",
+      "signID": "28351",
+      "filename": "28351.mp4"
+    },
+    {
+      "title": "Pr\u00fcfung",
+      "url": "https://suche.machs-auf.at/sign/64333",
+      "signID": "64333",
+      "filename": "64333.mp4"
+    },
+    {
+      "title": "treffen",
+      "url": "https://suche.machs-auf.at/sign/56376",
+      "signID": "56376",
+      "filename": "56376.mp4"
+    },
+    {
+      "title": "Gl\u00fch-(wein)",
+      "url": "https://suche.machs-auf.at/sign/33951",
+      "signID": "33951",
+      "filename": "33951.mp4"
+    },
+    {
+      "title": "(Gl\u00fch-)wein",
+      "url": "https://suche.machs-auf.at/sign/62391",
+      "signID": "62391",
+      "filename": "62391.mp4"
+    }
+  ],
+  "Kommunikations-Basics 3": [
+    {
+      "title": "achso",
+      "url": "https://suche.machs-auf.at/sign/95306",
+      "signID": "95306",
+      "filename": "95306.mp4"
+    },
+    {
+      "title": "gleich",
+      "url": "https://suche.machs-auf.at/sign/69440",
+      "signID": "69440",
+      "filename": "69440.mp4"
+    },
+    {
+      "title": "auch",
+      "url": "https://suche.machs-auf.at/sign/59961",
+      "signID": "59961",
+      "filename": "59961.mp4"
+    },
+    {
+      "title": "anders",
+      "url": "https://suche.machs-auf.at/sign/35048",
+      "signID": "35048",
+      "filename": "35048.mp4"
+    }
+  ],
+  "Fragew\u00f6rter 2": [
+    {
+      "title": "wann",
+      "url": "https://suche.machs-auf.at/sign/63028",
+      "signID": "63028",
+      "filename": "63028.mp4"
+    },
+    {
+      "title": "wie lange",
+      "url": "https://suche.machs-auf.at/sign/95841",
+      "signID": "95841",
+      "filename": "95841.mp4"
+    },
+    {
+      "title": "warum",
+      "url": "https://suche.machs-auf.at/sign/63055",
+      "signID": "63055",
+      "filename": "63055.mp4"
+    },
+    {
+      "title": "wie alt (anderes Mundbild+Mimik!)",
+      "url": "https://suche.machs-auf.at/sign/21726",
+      "signID": "21726",
+      "filename": "21726.mp4"
+    }
+  ],
+  "Zeit": [
+    {
+      "title": "Zeit",
+      "url": "https://suche.machs-auf.at/sign/62941",
+      "signID": "62941",
+      "filename": "62941.mp4"
+    },
+    {
+      "title": "fr\u00fcher",
+      "url": "https://suche.machs-auf.at/sign/18629",
+      "signID": "18629",
+      "filename": "18629.mp4"
+    },
+    {
+      "title": "vor kurzem",
+      "url": "https://suche.machs-auf.at/sign/54445",
+      "signID": "54445",
+      "filename": "54445.mp4"
+    },
+    {
+      "title": "gestern",
+      "url": "https://suche.machs-auf.at/sign/30570",
+      "signID": "30570",
+      "filename": "30570.mp4"
+    },
+    {
+      "title": "(in der) Fr\u00fch",
+      "url": "https://suche.machs-auf.at/sign/60808",
+      "signID": "60808",
+      "filename": "60808.mp4"
+    },
+    {
+      "title": "heute",
+      "url": "https://suche.machs-auf.at/sign/22577",
+      "signID": "22577",
+      "filename": "22577.mp4"
+    },
+    {
+      "title": "Mittag, mittags",
+      "url": "https://suche.machs-auf.at/sign/59084",
+      "signID": "59084",
+      "filename": "59084.mp4"
+    },
+    {
+      "title": "jetzt",
+      "url": "https://suche.machs-auf.at/sign/61810",
+      "signID": "61810",
+      "filename": "61810.mp4"
+    },
+    {
+      "title": "Abend",
+      "url": "https://suche.machs-auf.at/sign/30252",
+      "signID": "30252",
+      "filename": "30252.mp4"
+    },
+    {
+      "title": "morgen",
+      "url": "https://suche.machs-auf.at/sign/19414",
+      "signID": "19414",
+      "filename": "19414.mp4"
+    },
+    {
+      "title": "Zukunft",
+      "url": "https://suche.machs-auf.at/sign/46964",
+      "signID": "46964",
+      "filename": "46964.mp4"
+    }
+  ],
+  "Zahlen/Nummern": [
+    {
+      "title": "Zahl, Zahlen",
+      "url": "https://suche.machs-auf.at/sign/26702",
+      "signID": "26702",
+      "filename": "26702.mp4"
+    },
+    {
+      "title": "1",
+      "url": "https://suche.machs-auf.at/sign/30506",
+      "signID": "30506",
+      "filename": "30506.mp4"
+    },
+    {
+      "title": "2",
+      "url": "https://suche.machs-auf.at/sign/30507",
+      "signID": "30507",
+      "filename": "30507.mp4"
+    },
+    {
+      "title": "4",
+      "url": "https://suche.machs-auf.at/sign/30509",
+      "signID": "30509",
+      "filename": "30509.mp4"
+    },
+    {
+      "title": "6",
+      "url": "https://suche.machs-auf.at/sign/30511",
+      "signID": "30511",
+      "filename": "30511.mp4"
+    },
+    {
+      "title": "10",
+      "url": "https://suche.machs-auf.at/sign/30515",
+      "signID": "30515",
+      "filename": "30515.mp4"
+    },
+    {
+      "title": "11",
+      "url": "https://suche.machs-auf.at/sign/55671",
+      "signID": "55671",
+      "filename": "55671.mp4"
+    },
+    {
+      "title": "12",
+      "url": "https://suche.machs-auf.at/sign/46393",
+      "signID": "46393",
+      "filename": "46393.mp4"
+    },
+    {
+      "title": "13",
+      "url": "https://suche.machs-auf.at/sign/46285",
+      "signID": "46285",
+      "filename": "46285.mp4"
+    },
+    {
+      "title": "16",
+      "url": "https://suche.machs-auf.at/sign/30536",
+      "signID": "30536",
+      "filename": "30536.mp4"
+    },
+    {
+      "title": "20",
+      "url": "https://suche.machs-auf.at/sign/54774",
+      "signID": "54774",
+      "filename": "54774.mp4"
+    },
+    {
+      "title": "21",
+      "url": "https://suche.machs-auf.at/sign/55917",
+      "signID": "55917",
+      "filename": "55917.mp4"
+    },
+    {
+      "title": "22",
+      "url": "https://suche.machs-auf.at/sign/31335",
+      "signID": "31335",
+      "filename": "31335.mp4"
+    },
+    {
+      "title": "100",
+      "url": "https://suche.machs-auf.at/sign/31336",
+      "signID": "31336",
+      "filename": "31336.mp4"
+    },
+    {
+      "title": "1000",
+      "url": "https://suche.machs-auf.at/sign/40553",
+      "signID": "40553",
+      "filename": "40553.mp4"
+    },
+    {
+      "title": "(zu)erst",
+      "url": "https://suche.machs-auf.at/sign/69630",
+      "signID": "69630",
+      "filename": "69630.mp4"
+    }
+  ],
+  "Interjektionen": [
+    {
+      "title": "Baff",
+      "url": "https://suche.machs-auf.at/sign/36925",
+      "signID": "36925",
+      "filename": "36925.mp4"
+    },
+    {
+      "title": "echt",
+      "url": "https://suche.machs-auf.at/sign/34012",
+      "signID": "34012",
+      "filename": "34012.mp4"
+    },
+    {
+      "title": "cool",
+      "url": "https://suche.machs-auf.at/sign/84850",
+      "signID": "84850",
+      "filename": "84850.mp4"
+    },
+    {
+      "title": "interessant",
+      "url": "https://suche.machs-auf.at/sign/22737",
+      "signID": "22737",
+      "filename": "22737.mp4"
+    },
+    {
+      "title": "da (Ort, existent)",
+      "url": "https://suche.machs-auf.at/sign/43650",
+      "signID": "43650",
+      "filename": "43650.mp4"
+    }
+  ],
+  "Personen": [
+    {
+      "title": "Person",
+      "url": "https://suche.machs-auf.at/sign/25721",
+      "signID": "25721",
+      "filename": "25721.mp4"
+    },
+    {
+      "title": "Mann",
+      "url": "https://suche.machs-auf.at/sign/19351",
+      "signID": "19351",
+      "filename": "19351.mp4"
+    },
+    {
+      "title": "Frau",
+      "url": "https://suche.machs-auf.at/sign/18597",
+      "signID": "18597",
+      "filename": "18597.mp4"
+    },
+    {
+      "title": "Kind",
+      "url": "https://suche.machs-auf.at/sign/62897",
+      "signID": "62897",
+      "filename": "62897.mp4"
+    },
+    {
+      "title": "M\u00e4dchen",
+      "url": "https://suche.machs-auf.at/sign/40530",
+      "signID": "40530",
+      "filename": "40530.mp4"
+    },
+    {
+      "title": "Bub",
+      "url": "https://suche.machs-auf.at/sign/60088",
+      "signID": "60088",
+      "filename": "60088.mp4"
+    },
+    {
+      "title": "Partner",
+      "url": "https://suche.machs-auf.at/sign/27334",
+      "signID": "27334",
+      "filename": "27334.mp4"
+    },
+    {
+      "title": "Freund",
+      "url": "https://suche.machs-auf.at/sign/22158",
+      "signID": "22158",
+      "filename": "22158.mp4"
+    },
+    {
+      "title": "Familie",
+      "url": "https://suche.machs-auf.at/sign/22032",
+      "signID": "22032",
+      "filename": "22032.mp4"
+    },
+    {
+      "title": "verheiratet, Ehe-\u2026",
+      "url": "https://suche.machs-auf.at/sign/19596",
+      "signID": "19596",
+      "filename": "19596.mp4"
+    },
+    {
+      "title": "getrennt",
+      "url": "https://suche.machs-auf.at/sign/31465",
+      "signID": "31465",
+      "filename": "31465.mp4"
+    },
+    {
+      "title": "geschieden",
+      "url": "https://suche.machs-auf.at/sign/60362",
+      "signID": "60362",
+      "filename": "60362.mp4"
+    },
+    {
+      "title": "Single",
+      "url": "https://suche.machs-auf.at/sign/27088",
+      "signID": "27088",
+      "filename": "27088.mp4"
+    },
+    {
+      "title": "Freund",
+      "url": "https://suche.machs-auf.at/sign/40531",
+      "signID": "40531",
+      "filename": "40531.mp4"
+    },
+    {
+      "title": "die Eltern",
+      "url": "https://suche.machs-auf.at/sign/60223",
+      "signID": "60223",
+      "filename": "60223.mp4"
+    },
+    {
+      "title": "der Papa",
+      "url": "https://suche.machs-auf.at/sign/64236",
+      "signID": "64236",
+      "filename": "64236.mp4"
+    },
+    {
+      "title": "die Mama",
+      "url": "https://suche.machs-auf.at/sign/63258",
+      "signID": "63258",
+      "filename": "63258.mp4"
+    },
+    {
+      "title": "die Tochter",
+      "url": "https://suche.machs-auf.at/sign/19568",
+      "signID": "19568",
+      "filename": "19568.mp4"
+    },
+    {
+      "title": "der Sohn",
+      "url": "https://suche.machs-auf.at/sign/19501",
+      "signID": "19501",
+      "filename": "19501.mp4"
+    },
+    {
+      "title": "Zwilling",
+      "url": "https://suche.machs-auf.at/sign/41511",
+      "signID": "41511",
+      "filename": "41511.mp4"
+    },
+    {
+      "title": "Bruder, Schwester (anderes Mundbild!)",
+      "url": "https://suche.machs-auf.at/sign/20350",
+      "signID": "20350",
+      "filename": "20350.mp4"
+    },
+    {
+      "title": "die Oma",
+      "url": "https://suche.machs-auf.at/sign/63864",
+      "signID": "63864",
+      "filename": "63864.mp4"
+    },
+    {
+      "title": "der Opa",
+      "url": "https://suche.machs-auf.at/sign/63888",
+      "signID": "63888",
+      "filename": "63888.mp4"
+    },
+    {
+      "title": "die Tante",
+      "url": "https://suche.machs-auf.at/sign/64164",
+      "signID": "64164",
+      "filename": "64164.mp4"
+    },
+    {
+      "title": "der Onkel",
+      "url": "https://suche.machs-auf.at/sign/63899",
+      "signID": "63899",
+      "filename": "63899.mp4"
+    },
+    {
+      "title": "Schwager, Schwieger-\u2026",
+      "url": "https://suche.machs-auf.at/sign/63735",
+      "signID": "63735",
+      "filename": "63735.mp4"
+    },
+    {
+      "title": "Stief",
+      "url": "https://suche.machs-auf.at/sign/71311",
+      "signID": "71311",
+      "filename": "71311.mp4"
+    },
+    {
+      "title": "Homosexuell",
+      "url": "https://suche.machs-auf.at/sign/91381",
+      "signID": "91381",
+      "filename": "91381.mp4"
+    },
+    {
+      "title": "schwul",
+      "url": "https://suche.machs-auf.at/sign/25924",
+      "signID": "25924",
+      "filename": "25924.mp4"
+    },
+    {
+      "title": "lesbisch",
+      "url": "https://suche.machs-auf.at/sign/25016",
+      "signID": "25016",
+      "filename": "25016.mp4"
+    },
+    {
+      "title": "hetero",
+      "url": "https://suche.machs-auf.at/sign/24457",
+      "signID": "24457",
+      "filename": "24457.mp4"
+    },
+    {
+      "title": "adoptiv-",
+      "url": "https://suche.machs-auf.at/sign/90258",
+      "signID": "90258",
+      "filename": "90258.mp4"
+    },
+    {
+      "title": "wohnen",
+      "url": "https://suche.machs-auf.at/sign/69081",
+      "signID": "69081",
+      "filename": "69081.mp4"
+    }
+  ],
+  "Pronomen": [
+    {
+      "title": "ich",
+      "url": "https://suche.machs-auf.at/sign/41358",
+      "signID": "41358",
+      "filename": "41358.mp4"
+    },
+    {
+      "title": "er",
+      "url": "https://suche.machs-auf.at/sign/45979",
+      "signID": "45979",
+      "filename": "45979.mp4"
+    },
+    {
+      "title": "wir",
+      "url": "https://suche.machs-auf.at/sign/67026",
+      "signID": "67026",
+      "filename": "67026.mp4"
+    },
+    {
+      "title": "wir alle",
+      "url": "https://suche.machs-auf.at/sign/62418",
+      "signID": "62418",
+      "filename": "62418.mp4"
+    },
+    {
+      "title": "wir beide (2. Geb\u00e4rde)",
+      "url": "https://suche.machs-auf.at/sign/60027",
+      "signID": "60027",
+      "filename": "60027.mp4"
+    },
+    {
+      "title": "ihr",
+      "url": "https://suche.machs-auf.at/sign/46275",
+      "signID": "46275",
+      "filename": "46275.mp4"
+    },
+    {
+      "title": "Ihr beide (1. Geb\u00e4rde)",
+      "url": "https://suche.machs-auf.at/sign/60027",
+      "signID": "60027",
+      "filename": "60027.mp4"
+    },
+    {
+      "title": "beide",
+      "url": "https://suche.machs-auf.at/sign/20031",
+      "signID": "20031",
+      "filename": "20031.mp4"
+    },
+    {
+      "title": "Beide gemeinsam",
+      "url": "https://suche.machs-auf.at/sign/20033",
+      "signID": "20033",
+      "filename": "20033.mp4"
+    },
+    {
+      "title": "(du) selbst",
+      "url": "https://suche.machs-auf.at/sign/19492",
+      "signID": "19492",
+      "filename": "19492.mp4"
+    },
+    {
+      "title": "mein",
+      "url": "https://suche.machs-auf.at/sign/54335",
+      "signID": "54335",
+      "filename": "54335.mp4"
+    },
+    {
+      "title": "dein",
+      "url": "https://suche.machs-auf.at/sign/54496",
+      "signID": "54496",
+      "filename": "54496.mp4"
+    },
+    {
+      "title": "unser",
+      "url": "https://suche.machs-auf.at/sign/46197",
+      "signID": "46197",
+      "filename": "46197.mp4"
+    },
+    {
+      "title": "euer",
+      "url": "https://suche.machs-auf.at/sign/85389",
+      "signID": "85389",
+      "filename": "85389.mp4"
+    }
+  ],
+  "Kommunikation-Basics 2": [
+    {
+      "title": "Kommunikation",
+      "url": "https://suche.machs-auf.at/sign/28495",
+      "signID": "28495",
+      "filename": "28495.mp4"
+    },
+    {
+      "title": "auch",
+      "url": "https://suche.machs-auf.at/sign/40658",
+      "signID": "40658",
+      "filename": "40658.mp4"
+    },
+    {
+      "title": "bisschen",
+      "url": "https://suche.machs-auf.at/sign/30474",
+      "signID": "30474",
+      "filename": "30474.mp4"
+    },
+    {
+      "title": "wei\u00df nicht",
+      "url": "https://suche.machs-auf.at/sign/85943",
+      "signID": "85943",
+      "filename": "85943.mp4"
+    },
+    {
+      "title": "wissen / wei\u00df (1. Geb\u00e4rde)",
+      "url": "https://suche.machs-auf.at/sign/43472",
+      "signID": "43472",
+      "filename": "43472.mp4"
+    },
+    {
+      "title": "Wie gehts? (F-Handform!)",
+      "url": "https://suche.machs-auf.at/sign/86294",
+      "signID": "86294",
+      "filename": "86294.mp4"
+    },
+    {
+      "title": "Ich verstehe",
+      "url": "https://suche.machs-auf.at/sign/85539",
+      "signID": "85539",
+      "filename": "85539.mp4"
+    },
+    {
+      "title": "Ich verstehe nicht",
+      "url": "https://suche.machs-auf.at/sign/85540",
+      "signID": "85540",
+      "filename": "85540.mp4"
+    },
+    {
+      "title": "Bitte langsam geb\u00e4rden",
+      "url": "https://suche.machs-auf.at/sign/48777",
+      "signID": "48777",
+      "filename": "48777.mp4"
+    },
+    {
+      "title": "geh\u00f6rlos",
+      "url": "https://suche.machs-auf.at/sign/40524",
+      "signID": "40524",
+      "filename": "40524.mp4"
+    },
+    {
+      "title": "h\u00f6rend",
+      "url": "https://suche.machs-auf.at/sign/28494",
+      "signID": "28494",
+      "filename": "28494.mp4"
+    },
+    {
+      "title": "schwerh\u00f6rig",
+      "url": "https://suche.machs-auf.at/sign/85183",
+      "signID": "85183",
+      "filename": "85183.mp4"
+    }
+  ],
+  "Modalverben": [
+    {
+      "title": "M\u00f6gen",
+      "url": "https://suche.machs-auf.at/sign/63334",
+      "signID": "63334",
+      "filename": "63334.mp4"
+    },
+    {
+      "title": "mag-nicht",
+      "url": "https://suche.machs-auf.at/sign/61905",
+      "signID": "61905",
+      "filename": "61905.mp4"
+    },
+    {
+      "title": "wirklich nicht m\u00f6gen",
+      "url": "https://suche.machs-auf.at/sign/25354",
+      "signID": "25354",
+      "filename": "25354.mp4"
+    },
+    {
+      "title": "will, wollen",
+      "url": "https://suche.machs-auf.at/sign/21702",
+      "signID": "21702",
+      "filename": "21702.mp4"
+    },
+    {
+      "title": "kann, k\u00f6nnen",
+      "url": "https://suche.machs-auf.at/sign/30244",
+      "signID": "30244",
+      "filename": "30244.mp4"
+    },
+    {
+      "title": "kann nicht",
+      "url": "https://suche.machs-auf.at/sign/45462",
+      "signID": "45462",
+      "filename": "45462.mp4"
+    },
+    {
+      "title": "darf, d\u00fcrfen",
+      "url": "https://suche.machs-auf.at/sign/60190",
+      "signID": "60190",
+      "filename": "60190.mp4"
+    },
+    {
+      "title": "darf nicht",
+      "url": "https://suche.machs-auf.at/sign/85335",
+      "signID": "85335",
+      "filename": "85335.mp4"
+    },
+    {
+      "title": "sollte",
+      "url": "https://suche.machs-auf.at/sign/46727",
+      "signID": "46727",
+      "filename": "46727.mp4"
+    },
+    {
+      "title": "muss, m\u00fcssen",
+      "url": "https://suche.machs-auf.at/sign/63411",
+      "signID": "63411",
+      "filename": "63411.mp4"
+    },
+    {
+      "title": "nicht",
+      "url": "https://suche.machs-auf.at/sign/70738",
+      "signID": "70738",
+      "filename": "70738.mp4"
+    },
+    {
+      "title": "keine Lust haben",
+      "url": "https://suche.machs-auf.at/sign/37014",
+      "signID": "37014",
+      "filename": "37014.mp4"
+    },
+    {
+      "title": "egal",
+      "url": "https://suche.machs-auf.at/sign/66081",
+      "signID": "66081",
+      "filename": "66081.mp4"
+    }
+  ],
+  "Hobbies": [
+    {
+      "title": "Fu\u00dfball",
+      "url": "https://suche.machs-auf.at/sign/22323",
+      "signID": "22323",
+      "filename": "22323.mp4"
+    },
+    {
+      "title": "Tennis",
+      "url": "https://suche.machs-auf.at/sign/64176",
+      "signID": "64176",
+      "filename": "64176.mp4"
+    },
+    {
+      "title": "Gitarre (spielen)",
+      "url": "https://suche.machs-auf.at/sign/17709",
+      "signID": "17709",
+      "filename": "17709.mp4"
+    },
+    {
+      "title": "Klavier (spielen)",
+      "url": "https://suche.machs-auf.at/sign/17705",
+      "signID": "17705",
+      "filename": "17705.mp4"
+    },
+    {
+      "title": "laufen",
+      "url": "https://suche.machs-auf.at/sign/65071",
+      "signID": "65071",
+      "filename": "65071.mp4"
+    },
+    {
+      "title": "spazieren",
+      "url": "https://suche.machs-auf.at/sign/19508",
+      "signID": "19508",
+      "filename": "19508.mp4"
+    },
+    {
+      "title": "wandern",
+      "url": "https://suche.machs-auf.at/sign/27747",
+      "signID": "27747",
+      "filename": "27747.mp4"
+    },
+    {
+      "title": "klettern",
+      "url": "https://suche.machs-auf.at/sign/41919",
+      "signID": "41919",
+      "filename": "41919.mp4"
+    },
+    {
+      "title": "Yoga",
+      "url": "https://suche.machs-auf.at/sign/27673",
+      "signID": "27673",
+      "filename": "27673.mp4"
+    },
+    {
+      "title": "radfahren",
+      "url": "https://suche.machs-auf.at/sign/45283",
+      "signID": "45283",
+      "filename": "45283.mp4"
+    },
+    {
+      "title": "Mountainbike",
+      "url": "https://suche.machs-auf.at/sign/43888",
+      "signID": "43888",
+      "filename": "43888.mp4"
+    },
+    {
+      "title": "segeln",
+      "url": "https://suche.machs-auf.at/sign/25141",
+      "signID": "25141",
+      "filename": "25141.mp4"
+    },
+    {
+      "title": "Volleyball",
+      "url": "https://suche.machs-auf.at/sign/24416",
+      "signID": "24416",
+      "filename": "24416.mp4"
+    },
+    {
+      "title": "backen",
+      "url": "https://suche.machs-auf.at/sign/65460",
+      "signID": "65460",
+      "filename": "65460.mp4"
+    },
+    {
+      "title": "tanzen",
+      "url": "https://suche.machs-auf.at/sign/46792",
+      "signID": "46792",
+      "filename": "46792.mp4"
+    },
+    {
+      "title": "lesen",
+      "url": "https://suche.machs-auf.at/sign/65211",
+      "signID": "65211",
+      "filename": "65211.mp4"
+    },
+    {
+      "title": "malen (auf dem Papier)",
+      "url": "https://suche.machs-auf.at/sign/35866",
+      "signID": "35866",
+      "filename": "35866.mp4"
+    },
+    {
+      "title": "fotografieren",
+      "url": "https://suche.machs-auf.at/sign/62415",
+      "signID": "62415",
+      "filename": "62415.mp4"
+    },
+    {
+      "title": "(Fu\u00dfball)-Trainer",
+      "url": "https://suche.machs-auf.at/sign/89810",
+      "signID": "89810",
+      "filename": "89810.mp4"
+    },
+    {
+      "title": "stricken",
+      "url": "https://suche.machs-auf.at/sign/76741",
+      "signID": "76741",
+      "filename": "76741.mp4"
+    },
+    {
+      "title": "Schlagzeug",
+      "url": "https://suche.machs-auf.at/sign/55763",
+      "signID": "55763",
+      "filename": "55763.mp4"
+    },
+    {
+      "title": "H\u00e4ckeln",
+      "url": "https://suche.machs-auf.at/sign/75297",
+      "signID": "75297",
+      "filename": "75297.mp4"
+    },
+    {
+      "title": "Bogenschie\u00dfen",
+      "url": "https://suche.machs-auf.at/sign/45636",
+      "signID": "45636",
+      "filename": "45636.mp4"
+    },
+    {
+      "title": "kochen",
+      "url": "https://suche.machs-auf.at/sign/40918",
+      "signID": "40918",
+      "filename": "40918.mp4"
+    },
+    {
+      "title": "lernen",
+      "url": "https://suche.machs-auf.at/sign/40665",
+      "signID": "40665",
+      "filename": "40665.mp4"
+    },
+    {
+      "title": "Fechten",
+      "url": "https://suche.machs-auf.at/sign/43892",
+      "signID": "43892",
+      "filename": "43892.mp4"
+    },
+    {
+      "title": "Tischtennis",
+      "url": "https://suche.machs-auf.at/sign/19565",
+      "signID": "19565",
+      "filename": "19565.mp4"
+    },
+    {
+      "title": "Rollerskaten",
+      "url": "https://suche.machs-auf.at/sign/42026",
+      "signID": "42026",
+      "filename": "42026.mp4"
+    },
+    {
+      "title": "Skateboarden",
+      "url": "https://suche.machs-auf.at/sign/55493",
+      "signID": "55493",
+      "filename": "55493.mp4"
+    }
+  ],
+  "Kommunikation-Basics": [
+    {
+      "title": "ja",
+      "url": "https://suche.machs-auf.at/sign/19099",
+      "signID": "19099",
+      "filename": "19099.mp4"
+    },
+    {
+      "title": "nein",
+      "url": "https://suche.machs-auf.at/sign/23257",
+      "signID": "23257",
+      "filename": "23257.mp4"
+    },
+    {
+      "title": "bitte",
+      "url": "https://suche.machs-auf.at/sign/22450",
+      "signID": "22450",
+      "filename": "22450.mp4"
+    },
+    {
+      "title": "danke",
+      "url": "https://suche.machs-auf.at/sign/40535",
+      "signID": "40535",
+      "filename": "40535.mp4"
+    },
+    {
+      "title": "gerne",
+      "url": "https://suche.machs-auf.at/sign/47095",
+      "signID": "47095",
+      "filename": "47095.mp4"
+    },
+    {
+      "title": "Applaus",
+      "url": "https://suche.machs-auf.at/sign/90412",
+      "signID": "90412",
+      "filename": "90412.mp4"
+    },
+    {
+      "title": "Hobby",
+      "url": "https://suche.machs-auf.at/sign/93503",
+      "signID": "93503",
+      "filename": "93503.mp4"
+    }
+  ],
+  "Fragew\u00f6rter": [
+    {
+      "title": "wo",
+      "url": "https://suche.machs-auf.at/sign/63265",
+      "signID": "63265",
+      "filename": "63265.mp4"
+    },
+    {
+      "title": "woher",
+      "url": "https://suche.machs-auf.at/sign/63271",
+      "signID": "63271",
+      "filename": "63271.mp4"
+    },
+    {
+      "title": "was",
+      "url": "https://suche.machs-auf.at/sign/63085",
+      "signID": "63085",
+      "filename": "63085.mp4"
+    },
+    {
+      "title": "wie",
+      "url": "https://suche.machs-auf.at/sign/40586",
+      "signID": "40586",
+      "filename": "40586.mp4"
+    },
+    {
+      "title": "wer",
+      "url": "https://suche.machs-auf.at/sign/63180",
+      "signID": "63180",
+      "filename": "63180.mp4"
+    },
+    {
+      "title": "wieviel",
+      "url": "https://suche.machs-auf.at/sign/85055",
+      "signID": "85055",
+      "filename": "85055.mp4"
+    }
+  ],
+  "Sprachen": [
+    {
+      "title": "Sprache",
+      "url": "https://suche.machs-auf.at/sign/23210",
+      "signID": "23210",
+      "filename": "23210.mp4"
+    },
+    {
+      "title": "Lautsprachlich sprechen",
+      "url": "https://suche.machs-auf.at/sign/51548",
+      "signID": "51548",
+      "filename": "51548.mp4"
+    },
+    {
+      "title": "Geb\u00e4rdensprachlich sprechen",
+      "url": "https://suche.machs-auf.at/sign/61510",
+      "signID": "61510",
+      "filename": "61510.mp4"
+    },
+    {
+      "title": "Geb\u00e4rdensprache",
+      "url": "https://suche.machs-auf.at/sign/59735",
+      "signID": "59735",
+      "filename": "59735.mp4"
+    },
+    {
+      "title": "Deutsch",
+      "url": "https://suche.machs-auf.at/sign/92927",
+      "signID": "92927",
+      "filename": "92927.mp4"
+    },
+    {
+      "title": "Englisch",
+      "url": "https://suche.machs-auf.at/sign/61959",
+      "signID": "61959",
+      "filename": "61959.mp4"
+    },
+    {
+      "title": "Spanisch",
+      "url": "https://suche.machs-auf.at/sign/48332",
+      "signID": "48332",
+      "filename": "48332.mp4"
+    },
+    {
+      "title": "Frankreich",
+      "url": "https://suche.machs-auf.at/sign/27223",
+      "signID": "27223",
+      "filename": "27223.mp4"
+    },
+    {
+      "title": "Chinesisch",
+      "url": "https://suche.machs-auf.at/sign/54370",
+      "signID": "54370",
+      "filename": "54370.mp4"
+    },
+    {
+      "title": "Japan, Japanisch",
+      "url": "https://suche.machs-auf.at/sign/24659",
+      "signID": "24659",
+      "filename": "24659.mp4"
+    },
+    {
+      "title": "Russisch",
+      "url": "https://suche.machs-auf.at/sign/28512",
+      "signID": "28512",
+      "filename": "28512.mp4"
+    }
+  ],
+  "Herkunft": [
+    {
+      "title": "Belarus (Wei\u00dfrussland)",
+      "url": "https://suche.machs-auf.at/sign/23434",
+      "signID": "23434",
+      "filename": "23434.mp4"
+    },
+    {
+      "title": "Dominikanische Republik",
+      "url": "https://suche.machs-auf.at/sign/23775",
+      "signID": "23775",
+      "filename": "23775.mp4"
+    },
+    {
+      "title": "\u00d6sterreich",
+      "url": "https://suche.machs-auf.at/sign/41593",
+      "signID": "41593",
+      "filename": "41593.mp4"
+    },
+    {
+      "title": "Deutschland",
+      "url": "https://suche.machs-auf.at/sign/19017",
+      "signID": "19017",
+      "filename": "19017.mp4"
+    },
+    {
+      "title": "Serbien",
+      "url": "https://suche.machs-auf.at/sign/41805",
+      "signID": "41805",
+      "filename": "41805.mp4"
+    },
+    {
+      "title": "USA",
+      "url": "https://suche.machs-auf.at/sign/27832",
+      "signID": "27832",
+      "filename": "27832.mp4"
+    },
+    {
+      "title": "Europa",
+      "url": "https://suche.machs-auf.at/sign/27800",
+      "signID": "27800",
+      "filename": "27800.mp4"
+    }
+  ],
+  "Studium": [
+    {
+      "title": "Studium",
+      "url": "https://suche.machs-auf.at/sign/89694",
+      "signID": "89694",
+      "filename": "89694.mp4"
+    },
+    {
+      "title": "Mikrobiologie",
+      "url": "https://suche.machs-auf.at/sign/77580",
+      "signID": "77580",
+      "filename": "77580.mp4"
+    },
+    {
+      "title": "Informatik",
+      "url": "https://suche.machs-auf.at/sign/26872",
+      "signID": "26872",
+      "filename": "26872.mp4"
+    },
+    {
+      "title": "Maschinen+(bau)",
+      "url": "https://suche.machs-auf.at/sign/62009",
+      "signID": "62009",
+      "filename": "62009.mp4"
+    },
+    {
+      "title": "(Maschinen)+bau",
+      "url": "https://suche.machs-auf.at/sign/36833",
+      "signID": "36833",
+      "filename": "36833.mp4"
+    },
+    {
+      "title": "Architektur",
+      "url": "https://suche.machs-auf.at/sign/36080",
+      "signID": "36080",
+      "filename": "36080.mp4"
+    },
+    {
+      "title": "Medizin",
+      "url": "https://suche.machs-auf.at/sign/22805",
+      "signID": "22805",
+      "filename": "22805.mp4"
+    },
+    {
+      "title": "Rakete",
+      "url": "https://suche.machs-auf.at/sign/27791",
+      "signID": "27791",
+      "filename": "27791.mp4"
+    },
+    {
+      "title": "Welt",
+      "url": "https://suche.machs-auf.at/sign/26582",
+      "signID": "26582",
+      "filename": "26582.mp4"
+    },
+    {
+      "title": "Weltraum",
+      "url": "https://suche.machs-auf.at/sign/52768",
+      "signID": "52768",
+      "filename": "52768.mp4"
+    },
+    {
+      "title": "Wissenschaft",
+      "url": "https://suche.machs-auf.at/sign/62433",
+      "signID": "62433",
+      "filename": "62433.mp4"
+    },
+    {
+      "title": "Forschung",
+      "url": "https://suche.machs-auf.at/sign/88609",
+      "signID": "88609",
+      "filename": "88609.mp4"
+    }
+  ],
+  "Vorstellung": [
+    {
+      "title": "Vorstellung",
+      "url": "https://suche.machs-auf.at/sign/66687",
+      "signID": "66687",
+      "filename": "66687.mp4"
+    },
+    {
+      "title": "Ich",
+      "url": "https://suche.machs-auf.at/sign/19056",
+      "signID": "19056",
+      "filename": "19056.mp4"
+    },
+    {
+      "title": "Du",
+      "url": "https://suche.machs-auf.at/sign/20861",
+      "signID": "20861",
+      "filename": "20861.mp4"
+    },
+    {
+      "title": "Name",
+      "url": "https://suche.machs-auf.at/sign/24712",
+      "signID": "24712",
+      "filename": "24712.mp4"
+    }
+  ]
 }
