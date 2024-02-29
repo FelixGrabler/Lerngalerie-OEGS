@@ -1,10 +1,10 @@
-nav {
+#navbar {
   box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 100;
+  z-index: 50;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -14,7 +14,7 @@ nav {
   color: white;
 }
 
-nav > div {
+#navbar > div {
   display: flex;
   align-items: center;
 }
@@ -47,14 +47,12 @@ body.wait button {
   cursor: wait;
 }
 
-nav > div > .control-btn:nth-of-type(1).blur-btn,
-nav > div > .control-btn:nth-of-type(1).shuffle-btn {
+#navbar > div > .control-btn:nth-of-type(1) {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.blur-btn:last-child,
-.shuffle-btn:last-child {
+.control-btn:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -70,4 +68,99 @@ nav > div > .control-btn:nth-of-type(1).shuffle-btn {
 
 #searchInput::placeholder {
   color: #ddd;
+}
+
+#control-center-toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#control-center-toggle .fas {
+  font-size: 2em;
+}
+
+#control-center {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: #414141;
+  color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 60px;
+  right: 0;
+  z-index: 49;
+}
+
+.control-section {
+  flex: 0 0 100%; /* Flex-Basis auf 20% der Containerbreite setzen */
+  margin-right: 2%; /* Optional: Abstand zwischen den Bereichen */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.control-section:last-child {
+  margin-right: 0; /* Entfernt den rechten Rand am letzten Element */
+}
+
+.control-section h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.control-section input,
+.control-section button {
+  margin: 5px 0;
+  padding: 8px;
+  width: calc(
+    100% - 16px
+  ); /* Vollständige Breite unter Berücksichtigung des Paddings */
+  box-sizing: border-box;
+}
+
+.control-section button,
+.control-btn {
+  background-color: #626262;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.control-section button:hover {
+  background-color: #7d7d7d;
+}
+
+.disabled {
+  text-decoration: line-through; /* Icon Durchgestrichen */
+  color: #7d7d7d; /* Textfarbe Grau */
+}
+
+/* Animation für das Ein- und Ausfahren */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
 }

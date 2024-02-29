@@ -1,0 +1,83 @@
+.notification {
+  opacity: 0;
+  min-width: 250px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.5s ease;
+}
+
+.notification.show {
+  opacity: 1; /* Vollständig sichtbar */
+}
+
+.notification.positive {
+  background-color: #4caf50; /* Grünton */
+}
+
+.notification.negative {
+  background-color: #f44336; /* Rotton */
+}
+
+.notification.neutral {
+  background-color: #1b1b1b; /* Neutraler Grauton */
+}
+
+.close-btn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #bbb;
+}
+
+/* Star display */
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+  color: rgb(52, 52, 52);
+}
+
+.modal-content {
+  background-color: #e6e6e6;
+  margin: 15% auto;
+  padding: 15px;
+  border: 1px solid #888;
+  width: fit-content;
+}
+
+.modal-content p {
+  margin: 0;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background-color: #45a049;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3c8a3f;
+}

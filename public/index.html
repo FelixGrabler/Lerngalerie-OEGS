@@ -17,11 +17,23 @@
     </script>
     <meta charset="UTF-8" />
     <title>ÖGS Lerngalerie</title>
+
+    <!-- CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/BaseStyles.css" />
     <link rel="stylesheet" href="/css/NavStyles.css" />
     <link rel="stylesheet" href="/css/GalleryStyles.css" />
     <link rel="stylesheet" href="/css/BlurAndShuffleStyles.css" />
     <link rel="stylesheet" href="/css/HamburgerMenu.css" />
+    <link rel="stylesheet" href="/css/Notification.css" />
+    <link rel="stylesheet" href="/css/User.css" />
+
+    <!-- JS -->
     <script src="/js/ContentLoader.js"></script>
     <script src="/js/IntersectionObserver.js"></script>
     <script src="/js/Blur.js"></script>
@@ -29,9 +41,12 @@
     <script src="/js/StateManager.js"></script>
     <script src="/js/Search.js"></script>
     <script src="/js/HamburgerMenu.js"></script>
+    <script src="/js/StarHandler.js"></script>
+    <script src="/js/User.js"></script>
+    <script src="/js/Notification.js"></script>
   </head>
   <body>
-    <nav>
+    <nav id="navbar">
       <div>
         <div id="hamburgerMenu" onclick="toggleSidebar()">
           <div></div>
@@ -84,6 +99,18 @@
         </button>
       </div>
 
+      <div>
+        <button class="control-btn star-btn" onclick="toggleStarFilter()">
+          <i id="starIcon" class="fas fa-star disabled" style="color: grey"></i>
+        </button>
+        <button class="control-btn star-btn" onclick="selectAllStars()">
+          alles
+        </button>
+        <button class="control-btn star-btn" onclick="unselectAllStars()">
+          keine
+        </button>
+      </div>
+
       <!-- <div>
         <h2>sort:</h2>
         <button
@@ -101,7 +128,7 @@
       </div> -->
 
       <div>
-        <h2>Suche:</h2>
+        <!-- <h2>Suche:</h2> -->
         <input
           type="text"
           id="searchInput"
@@ -110,10 +137,59 @@
           onkeyup="search(event)"
         />
       </div>
+
+      <button id="control-center-toggle" onclick="toggleControlCenter()">
+        <h2 style="color: rgb(255, 255, 0)">neu →</h2>
+        <i class="fas fa-user"></i>
+      </button>
     </nav>
+
+    <!-- Control Center Bereich -->
+    <div id="control-center" class="hidden">
+      <!-- User Management Bereich -->
+      <div class="control-section" id="user-management">
+        <h2>Account (speichert ⭐s)</h2>
+        <input type="text" id="username" placeholder="Username" />
+        <button onclick="loginUser()" id="login-button">
+          Login / Register
+        </button>
+        <button onclick="logoutUser()" id="logout-button" style="display: none">
+          Logout
+        </button>
+        <button onclick="createUser()" id="create-user-button">
+          Create User
+        </button>
+        <button
+          onclick="deleteUser()"
+          id="delete-user-button"
+          style="display: none"
+        >
+          Delete User
+        </button>
+      </div>
+
+      <!-- Weitere Bereiche können hier hinzugefügt werden -->
+    </div>
 
     <div id="sidebar"></div>
 
     <div id="gallery" class="gallery"></div>
+
+    <div id="notification" class="notification hidden neutral">
+      <span id="notification-message">Dies ist eine Benachrichtigung!</span>
+      <span class="close-btn" onclick="closeNotification()">&times;</span>
+    </div>
+
+    <div id="save-stars-dialog" class="modal">
+      <div class="modal-content">
+        <p>
+          Du hast neue Sterne ausgewählt. Wähle eine Option, um fortzufahren:
+        </p>
+        <button id="save-stars-local">Neue Sterne speichern</button>
+        <button id="save-stars-remote">Alte Sterne wiederherstellen</button>
+        <button id="merge-stars">Auswahlen vereinen</button>
+        <button id="cancel-stars">Abbrechen (Logout)</button>
+      </div>
+    </div>
   </body>
 </html>

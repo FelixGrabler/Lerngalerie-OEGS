@@ -9,6 +9,9 @@ function toggleShuffle(option, event) {
   document.body.classList.add("wait");
   const currentTarget = event.currentTarget;
 
+  // none, categories, all
+  sessionStorage.setItem("shuffle", option);
+
   setTimeout(function () {
     if (option === "none") {
       restoreOriginalState();

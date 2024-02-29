@@ -4,12 +4,9 @@ document.addEventListener("DOMContentLoaded", function () {
   searchInput.addEventListener("input", function () {
     const searchText = searchInput.value.toLowerCase();
 
-    // Iterate over all category containers
-    document.querySelectorAll(".category-container").forEach((category) => {
-      let found = false;
-
-      // Iterate over all signs within this category
-      category.querySelectorAll(".sign-container").forEach((sign) => {
+    if (sessionStorage.getItem("shuffle") === "all") {
+      // Iterate over all signs
+      document.querySelectorAll(".sign-container").forEach((sign) => {
         const title = sign
           .querySelector(".video-title")
           .textContent.toLowerCase();
@@ -17,14 +14,33 @@ document.addEventListener("DOMContentLoaded", function () {
         // Check if the title contains the search text
         if (title.includes(searchText)) {
           sign.style.display = ""; // Show the sign
-          found = true;
         } else {
           sign.style.display = "none"; // Hide the sign
         }
       });
+    } else {
+      // Iterate over all category containers
+      document.querySelectorAll(".category-container").forEach((category) => {
+        let found = false;
 
-      // Hide or show the whole category based on if any sign was found
-      category.style.display = found ? "" : "none";
-    });
+        // Iterate over all signs within this category
+        category.querySelectorAll(".sign-container").forEach((sign) => {
+          const title = sign
+            .querySelector(".video-title")
+            .textContent.toLowerCase();
+
+          // Check if the title contains the search text
+          if (title.includes(searchText)) {
+            sign.style.display = ""; // Show the sign
+            found = true;
+          } else {
+            sign.style.display = "none"; // Hide the sign
+          }
+        });
+
+        // Hide or show the whole category based on if any sign was found
+        category.style.display = found ? "" : "none";
+      });
+    }
   });
 });
