@@ -1,6 +1,7 @@
 function showNotification(message, type = "neutral") {
   // Erstellen der Benachrichtigungs-Div
   var notification = document.createElement("div");
+  notification.style.zIndex = "1000";
   notification.className = `notification ${type}`;
 
   // Hinzufügen der Nachricht

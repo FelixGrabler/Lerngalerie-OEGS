@@ -71,6 +71,10 @@ fetch("/signs.json")
     initIntersectionObserver();
     initOriginalState();
     restoreLogin();
+
+    sessionStorage.setItem("stars", false);
+    sessionStorage.setItem("blur", "aus");
+    sessionStorage.setItem("shuffle", "aus");
   });
 
 function generateSidebar(counter) {
