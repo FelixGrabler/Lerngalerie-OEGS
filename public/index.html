@@ -99,6 +99,12 @@
         </button>
       </div>
 
+      <div>
+        <button id="star-btn" class="control-btn star-btn" onclick="toggleStarFilter()">
+          <i id="starIcon" class="fas fa-star disabled" style="color: grey"></i>
+        </button>
+      </div>
+
       <!-- <div>
         <h2>sort:</h2>
         <button
@@ -138,7 +144,9 @@
       <div class="control-section" id="user-management">
         <h2>Account (speichert ⭐s)</h2>
         <input type="text" id="username" placeholder="Username" />
-        <button onclick="loginUser()" id="login-button">Login / Register</button>
+        <button onclick="loginUser()" id="login-button">
+          Login / Register
+        </button>
         <button onclick="logoutUser()" id="logout-button" style="display: none">
           Logout
         </button>

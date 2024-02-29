@@ -127,3 +127,56 @@ function deleteAllStars() {
       showNotification(`Error: ${error.message}`, "negative");
     });
 }
+
+function toggleStarFilter() {
+  var starIcon = document.getElementById("starIcon");
+  if (starIcon.classList.contains("enabled")) {
+    starIcon.classList.remove("enabled");
+    starIcon.classList.add("disabled");
+    starIcon.style.color = "grey";
+    starIcon.style.textDecoration = "line-through";
+    filterStarOff();
+  } else {
+    starIcon.classList.remove("disabled");
+    starIcon.classList.add("enabled");
+    starIcon.style.color = "gold";
+    starIcon.style.textDecoration = "none";
+    filterStarOn();
+  }
+}
+
+function filterStarOn() {
+  // only show videos with star (fas)
+  const videos = document.getElementsByClassName("video-star");
+  Array.from(videos).forEach((star) => {
+    if (star.classList.contains("far")) {
+      star.closest(".sign-container").style.display = "none";
+    }
+  });
+
+  // hide categories where all videos are hidden
+  const categories = document.getElementsByClassName("category-container");
+  Array.from(categories).forEach((category) => {
+    const videos = category.getElementsByClassName("sign-container");
+    const visibleVideos = Array.from(videos).filter(
+      (video) => video.style.display !== "none"
+    );
+    if (visibleVideos.length === 0) {
+      category.style.display = "none";
+    }
+  });
+}
+
+function filterStarOff() {
+  // show all videos
+  const videos = document.getElementsByClassName("sign-container");
+  Array.from(videos).forEach((video) => {
+    video.style.display = "inline-block";
+  });
+
+  // show all categories
+  const categories = document.getElementsByClassName("category-container");
+  Array.from(categories).forEach((category) => {
+    category.style.display = "block";
+  });
+}
