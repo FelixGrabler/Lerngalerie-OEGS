@@ -107,6 +107,20 @@ function unselectAllStars() {
   });
 }
 
+function selectAllStars() {
+  const stars = document.querySelectorAll(".video-star.far");
+  stars.forEach((star) => {
+    star.classList.remove("far");
+    star.classList.add("fas");
+  });
+
+  const categoryStars = document.querySelectorAll(".category-star.far");
+  categoryStars.forEach((star) => {
+    star.classList.remove("far");
+    star.classList.add("fas");
+  });
+}
+
 function deleteAllStars() {
   let user_id = localStorage.getItem("userId");
   fetch("/remove-all-stars", {

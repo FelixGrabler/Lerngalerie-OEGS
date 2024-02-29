@@ -47,14 +47,12 @@ body.wait button {
   cursor: wait;
 }
 
-#navbar > div > .control-btn:nth-of-type(1).blur-btn,
-#navbar > div > .control-btn:nth-of-type(1).shuffle-btn {
+#navbar > div > .control-btn:nth-of-type(1) {
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
 }
 
-.blur-btn:last-child,
-.shuffle-btn:last-child {
+.control-btn:last-child {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -141,10 +139,6 @@ body.wait button {
 
 .control-section button:hover {
   background-color: #7d7d7d;
-}
-
-#star-btn {
-  border-radius: 10px;
 }
 
 .disabled {
