@@ -1,4 +1,230 @@
 {
+  "Ostern": [
+    {
+      "title": "Ostern",
+      "url": "https://suche.machs-auf.at/sign/72445",
+      "signID": "72445",
+      "filename": "72445.mp4"
+    },
+    {
+      "title": "Hase",
+      "url": "https://suche.machs-auf.at/sign/72441",
+      "signID": "72441",
+      "filename": "72441.mp4"
+    },
+    {
+      "title": "Rucksack",
+      "url": "https://suche.machs-auf.at/sign/34866",
+      "signID": "34866",
+      "filename": "34866.mp4"
+    },
+    {
+      "title": "Korb",
+      "url": "https://suche.machs-auf.at/sign/23784",
+      "signID": "23784",
+      "filename": "23784.mp4"
+    },
+    {
+      "title": "Nest",
+      "url": "https://suche.machs-auf.at/sign/35962",
+      "signID": "35962",
+      "filename": "35962.mp4"
+    },
+    {
+      "title": "Mond",
+      "url": "https://suche.machs-auf.at/sign/72254",
+      "signID": "72254",
+      "filename": "72254.mp4"
+    },
+    {
+      "title": "Feuer",
+      "url": "https://suche.machs-auf.at/sign/18559",
+      "signID": "18559",
+      "filename": "18559.mp4"
+    },
+    {
+      "title": "Aschermittwoch",
+      "url": "https://suche.machs-auf.at/sign/32387",
+      "signID": "32387",
+      "filename": "32387.mp4"
+    },
+    {
+      "title": "Palmsonntag",
+      "url": "https://suche.machs-auf.at/sign/94196",
+      "signID": "94196",
+      "filename": "94196.mp4"
+    },
+    {
+      "title": "Karfreitag",
+      "url": "https://suche.machs-auf.at/sign/32391",
+      "signID": "32391",
+      "filename": "32391.mp4"
+    },
+    {
+      "title": "Fastenzeit",
+      "url": "https://suche.machs-auf.at/sign/30523",
+      "signID": "30523",
+      "filename": "30523.mp4"
+    },
+    {
+      "title": "Jesus = Christ",
+      "url": "https://suche.machs-auf.at/sign/45799",
+      "signID": "45799",
+      "filename": "45799.mp4"
+    },
+    {
+      "title": "Kirche",
+      "url": "https://suche.machs-auf.at/sign/62932",
+      "signID": "62932",
+      "filename": "62932.mp4"
+    },
+    {
+      "title": "Religion",
+      "url": "https://suche.machs-auf.at/sign/41383",
+      "signID": "41383",
+      "filename": "41383.mp4"
+    },
+    {
+      "title": "R\u00f6misch-katholisch",
+      "url": "https://suche.machs-auf.at/sign/32383",
+      "signID": "32383",
+      "filename": "32383.mp4"
+    },
+    {
+      "title": "Evangelisch",
+      "url": "https://suche.machs-auf.at/sign/31732",
+      "signID": "31732",
+      "filename": "31732.mp4"
+    }
+  ],
+  "\u00d6sterreichische Geografie": [
+    {
+      "title": "Geografie",
+      "url": "https://suche.machs-auf.at/sign/43838",
+      "signID": "43838",
+      "filename": "43838.mp4"
+    },
+    {
+      "title": "Ober\u00f6sterreich",
+      "url": "https://suche.machs-auf.at/sign/63785",
+      "signID": "63785",
+      "filename": "63785.mp4"
+    },
+    {
+      "title": "Linz",
+      "url": "https://suche.machs-auf.at/sign/63199",
+      "signID": "63199",
+      "filename": "63199.mp4"
+    },
+    {
+      "title": "Nieder\u00f6sterreich",
+      "url": "https://suche.machs-auf.at/sign/63583",
+      "signID": "63583",
+      "filename": "63583.mp4"
+    },
+    {
+      "title": "St. P\u00f6lten",
+      "url": "https://suche.machs-auf.at/sign/19512",
+      "signID": "19512",
+      "filename": "19512.mp4"
+    },
+    {
+      "title": "Wien",
+      "url": "https://suche.machs-auf.at/sign/19623",
+      "signID": "19623",
+      "filename": "19623.mp4"
+    },
+    {
+      "title": "Stephans Dom",
+      "url": "https://suche.machs-auf.at/sign/86722",
+      "signID": "86722",
+      "filename": "86722.mp4"
+    },
+    {
+      "title": "Burgenland",
+      "url": "https://suche.machs-auf.at/sign/27192",
+      "signID": "27192",
+      "filename": "27192.mp4"
+    },
+    {
+      "title": "Eisenstadt",
+      "url": "https://suche.machs-auf.at/sign/27199",
+      "signID": "27199",
+      "filename": "27199.mp4"
+    },
+    {
+      "title": "Steiermark",
+      "url": "https://suche.machs-auf.at/sign/19515",
+      "signID": "19515",
+      "filename": "19515.mp4"
+    },
+    {
+      "title": "Graz",
+      "url": "https://suche.machs-auf.at/sign/21886",
+      "signID": "21886",
+      "filename": "21886.mp4"
+    },
+    {
+      "title": "K\u00e4rnten",
+      "url": "https://suche.machs-auf.at/sign/19186",
+      "signID": "19186",
+      "filename": "19186.mp4"
+    },
+    {
+      "title": "Klagenfurt",
+      "url": "https://suche.machs-auf.at/sign/23624",
+      "signID": "23624",
+      "filename": "23624.mp4"
+    },
+    {
+      "title": "Salzburg",
+      "url": "https://suche.machs-auf.at/sign/56700",
+      "signID": "56700",
+      "filename": "56700.mp4"
+    },
+    {
+      "title": "Tirol",
+      "url": "https://suche.machs-auf.at/sign/56800",
+      "signID": "56800",
+      "filename": "56800.mp4"
+    },
+    {
+      "title": "Innsbruck",
+      "url": "https://suche.machs-auf.at/sign/19075",
+      "signID": "19075",
+      "filename": "19075.mp4"
+    },
+    {
+      "title": "Vorarlberg",
+      "url": "https://suche.machs-auf.at/sign/63445",
+      "signID": "63445",
+      "filename": "63445.mp4"
+    },
+    {
+      "title": "Bregenz",
+      "url": "https://suche.machs-auf.at/sign/60077",
+      "signID": "60077",
+      "filename": "60077.mp4"
+    },
+    {
+      "title": "Berg",
+      "url": "https://suche.machs-auf.at/sign/60031",
+      "signID": "60031",
+      "filename": "60031.mp4"
+    },
+    {
+      "title": "Fluss",
+      "url": "https://suche.machs-auf.at/sign/60659",
+      "signID": "60659",
+      "filename": "60659.mp4"
+    },
+    {
+      "title": "See",
+      "url": "https://suche.machs-auf.at/sign/68885",
+      "signID": "68885",
+      "filename": "68885.mp4"
+    }
+  ],
   "Vergleiche": [
     {
       "title": "Aufgabe",
