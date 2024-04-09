@@ -4,6 +4,9 @@ FROM node:14
 # Erstellen Sie ein Verzeichnis für die App-Dateien
 WORKDIR /usr/src/app
 
+# install sqlite3
+RUN apt-get update && apt-get install -y sqlite3
+
 # Kopieren Sie die package.json (und package-lock.json, falls vorhanden)
 COPY package*.json ./
 

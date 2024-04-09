@@ -7,17 +7,36 @@ let db = new sqlite3.Database("./src/data/database.sqlite", (err) => {
   console.log("Connected to the SQLite database.");
 });
 
-db.run(`CREATE TABLE IF NOT EXISTS users (
+db.run(
+  `CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL UNIQUE
-)`);
+)`,
+  (err) => {
+    if (err) {
+      console.error("Error creating 'users' table:", err.message);
+    } else {
+      console.log("'users' table is ready.");
+    }
+  }
+);
 
-db.run(`CREATE TABLE IF NOT EXISTS stars (
+db.run(
+  `CREATE TABLE IF NOT EXISTS stars (
     user_id INTEGER NOT NULL,
     video_id INTEGER NOT NULL,
     PRIMARY KEY (user_id, video_id),
     FOREIGN KEY (user_id) REFERENCES users (id)
-)`);
+)`,
+  (err) => {
+    if (err) {
+      console.error("Error creating 'stars' table:", err.message);
+    } else {
+      console.log("'stars' table is ready.");
+    }
+  }
+);
+
 
 function addStar(userId, videoId) {
   return new Promise((resolve, reject) => {

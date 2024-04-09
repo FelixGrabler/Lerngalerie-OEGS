@@ -8,6 +8,7 @@ app.use(express.static("public"));
 app.use(express.json());
 
 app.get("/mp4/:filename", (req, res) => {
+  console.log("GET /mp4/:filename (filename=" + req.params.filename + ")");
   const filename = req.params.filename;
   const options = {
     root: path.join(__dirname, "..", "public", "mp4"),
@@ -27,6 +28,7 @@ app.get("/mp4/:filename", (req, res) => {
 
 // Endpunkt: Stern hinzufügen
 app.post("/add-star", async (req, res) => {
+  console.log("POST /add-star (body=" + JSON.stringify(req.body) + ")");
   try {
     const { userId, videoId } = req.body;
     await db.addStar(userId, videoId);
@@ -38,6 +40,7 @@ app.post("/add-star", async (req, res) => {
 
 // Endpunkt: Liste von Sternen hinzufügen
 app.post("/add-stars", async (req, res) => {
+  console.log("POST /add-stars (body=" + JSON.stringify(req.body) + ")");
   try {
     const { userId, videoIds } = req.body;
     await db.addStars(userId, videoIds);
@@ -49,6 +52,7 @@ app.post("/add-stars", async (req, res) => {
 
 // Endpunkt: Stern entfernen
 app.post("/remove-star", async (req, res) => {
+  console.log("POST /remove-star (body=" + JSON.stringify(req.body) + ")");
   try {
     const { userId, videoId } = req.body;
     await db.removeStar(userId, videoId);
@@ -60,6 +64,7 @@ app.post("/remove-star", async (req, res) => {
 
 // Endpunkt: Alle Sterne eines Users entfernen
 app.delete("/remove-all-stars", async (req, res) => {
+  console.log("DELETE /remove-all-stars (body=" + JSON.stringify(req.body) + ")");
   try {
     const { userId } = req.body;
     const result = await db.removeAllStars(userId);
@@ -71,6 +76,7 @@ app.delete("/remove-all-stars", async (req, res) => {
 
 // Endpunkt: Alle Sterne eines Benutzers abrufen
 app.get("/get-stars/:userId", async (req, res) => {
+  console.log("GET /get-stars/:userId (userId=" + req.params.userId + ")");
   try {
     const userId = req.params.userId;
     const stars = await db.getUserStars(userId);
@@ -82,6 +88,7 @@ app.get("/get-stars/:userId", async (req, res) => {
 
 // Endpunkt: Benutzer erstellen
 app.post("/create-user", async (req, res) => {
+  console.log("POST /create-user (body=" + JSON.stringify(req.body) + ")");
   try {
     const { name } = req.body;
     const result = await db.createUser(name);
@@ -93,6 +100,7 @@ app.post("/create-user", async (req, res) => {
 
 // Endpunkt: Benutzer einloggen/registrieren
 app.post("/login-user", async (req, res) => {
+  console.log("POST /login-user (body=" + JSON.stringify(req.body) + ")");
   try {
     const { name } = req.body;
     const result = await db.loginCreateUser(name);
@@ -104,6 +112,7 @@ app.post("/login-user", async (req, res) => {
 
 // Endpunkt: Liste aller Benutzer abrufen
 app.get("/get-users", async (req, res) => {
+  console.log("GET /get-users (body=" + JSON.stringify(req.body) + ")");
   try {
     const users = await db.getAllUsers();
     res.status(200).json(users);
@@ -114,6 +123,7 @@ app.get("/get-users", async (req, res) => {
 
 // Endpunkt: Benutzer löschen
 app.delete("/delete-user/:userId", async (req, res) => {
+  console.log("DELETE /delete-user/:userId (userId=" + req.params.userId + ")");
   try {
     const userId = req.params.userId;
     await db.deleteUser(userId);
@@ -124,6 +134,7 @@ app.delete("/delete-user/:userId", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
+  console.log("GET /");
   res.sendFile(path.join(__dirname, "..", "public", "index.html"));
 });
 
