@@ -1,5 +1,9 @@
 const sqlite3 = require("sqlite3").verbose();
 
+console.log(`Current working directory: ${process.cwd()}`);
+const dbPath = path.join(process.cwd(), 'src/data/database.sqlite');
+console.log(`Attempting to connect to database at: ${dbPath}`);
+
 let db = new sqlite3.Database("./src/data/database.sqlite", (err) => {
   if (err) {
     console.error(err.message);
