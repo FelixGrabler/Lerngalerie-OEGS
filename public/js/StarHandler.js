@@ -1,8 +1,18 @@
-function toggleVideoStar(videoId, starElement) {
-  if (starElement.classList.contains("far")) {
+function toggleVideoStar(videoId, starElement, enable = null) {
+  if (enable !== null) {
+    if (enable) {
+      starElement.classList.remove("far");
+      starElement.classList.add("fas");
+    } else {
+      starElement.classList.remove("fas");
+      starElement.classList.add("far");
+    }
+  } else if (starElement.classList.contains("far")) {
+    // Stern hinzufügen
     starElement.classList.remove("far");
     starElement.classList.add("fas");
   } else {
+    // Stern entfernen
     starElement.classList.remove("fas");
     starElement.classList.add("far");
   }
@@ -93,6 +103,13 @@ function updateCategoryStarState(categoryId) {
   }
 }
 
+function updateCategoryStars() {
+  const categories = document.getElementsByClassName("category-container");
+  Array.from(categories).forEach((category) => {
+    updateCategoryStarState(category.id);
+  });
+}
+
 function unselectAllStars() {
   const stars = document.querySelectorAll(".video-star.fas");
   stars.forEach((star) => {
@@ -113,6 +130,25 @@ function selectAllStars() {
     star.classList.remove("far");
     star.classList.add("fas");
   });
+
+  fetch("/add-stars", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({
+      userId: localStorage.getItem("userId"),
+      videoIds: Array.from(stars).map((star) => star.dataset.videoid),
+    }),
+  })
+    .then((response) => response.text())
+    .then((result) => {
+      console.log(result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
 
   const categoryStars = document.querySelectorAll(".category-star.far");
   categoryStars.forEach((star) => {

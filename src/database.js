@@ -2,7 +2,7 @@ const sqlite3 = require("sqlite3").verbose();
 const path = require("path");
 
 console.log(`Current working directory: ${process.cwd()}`);
-const dbPath = path.join(process.cwd(), 'src/data/database.sqlite');
+const dbPath = path.join(process.cwd(), "src/data/database.sqlite");
 console.log(`Attempting to connect to database at: ${dbPath}`);
 
 let db = new sqlite3.Database("./src/data/database.sqlite", (err) => {
@@ -41,7 +41,6 @@ db.run(
     }
   }
 );
-
 
 function addStar(userId, videoId) {
   return new Promise((resolve, reject) => {
@@ -90,25 +89,23 @@ function addStars(userId, videoIds) {
     }
 
     // Validierung: Überprüfen, ob alle Video-IDs numerisch sind
-    const allNumeric = videoIds.every((id) => typeof id === "number");
-    if (!allNumeric) {
+    const parsedVideoIds = videoIds.map((id) => parseInt(id, 10));
+    const allValid = parsedVideoIds.every((id) => !Number.isNaN(id) && id > 0);
+
+    if (!allValid) {
       reject({ message: "Ungültige Video-IDs. [2]" });
       return;
     }
 
     // Validierung: Überprüfen, ob alle Video-IDs positiv sind
-    const allPositive = videoIds.every((id) => id > 0);
+    const allPositive = parsedVideoIds.every((id) => id > 0);
     if (!allPositive) {
       reject({ message: "Ungültige Video-IDs. [3]" });
       return;
     }
 
     // Validierung: Überprüfen, ob alle Video-IDs eindeutig sind
-    const uniqueIds = new Set(videoIds);
-    if (uniqueIds.size !== videoIds.length) {
-      reject({ message: "Ungültige Video-IDs. [4]" });
-      return;
-    }
+    const uniqueIds = new Set(parsedVideoIds);
 
     // Direktes Einfügen der Stars mit Fehlerbehandlung
     const sql = `INSERT OR IGNORE INTO stars (user_id, video_id) VALUES(?, ?)`;
@@ -122,7 +119,7 @@ function addStars(userId, videoIds) {
         return;
       }
 
-      videoIds.forEach((videoId) => {
+      uniqueIds.forEach((videoId) => {
         stmt.run(parsedUserId, videoId, (err) => {
           if (err) {
             reject({

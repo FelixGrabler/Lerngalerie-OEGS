@@ -87,7 +87,26 @@ function restoreLogin() {
     showNonUserButtons();
   }
 
-  // TODO: restore stars
+  // restore stars
+  fetch(`/get-stars/${userId}`)
+    .then((response) => response.json())
+    .then((stars) => {
+      console.log("Stars:", stars);
+      stars.forEach((star) => {
+        let starElement = document.querySelector(
+          `.video-star[data-videoid="${star}"]`
+        );
+        if (starElement) {
+          starElement.classList.remove("far");
+          starElement.classList.add("fas");
+        }
+      });
+      updateCategoryStars();
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      showNotification(`Error: ${error.message}`, "negative");
+    });
 }
 
 function loginUser() {

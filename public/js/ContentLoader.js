@@ -67,14 +67,14 @@ fetch("/signs.json")
       container.appendChild(categoryContainer);
     }
 
+    sessionStorage.setItem("stars", false);
+    sessionStorage.setItem("blur", "aus");
+    sessionStorage.setItem("shuffle", "aus");
+
     generateSidebar(counter);
     initIntersectionObserver();
     initOriginalState();
     restoreLogin();
-
-    sessionStorage.setItem("stars", false);
-    sessionStorage.setItem("blur", "aus");
-    sessionStorage.setItem("shuffle", "aus");
   });
 
 function generateSidebar(counter) {
