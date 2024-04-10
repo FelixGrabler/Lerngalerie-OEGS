@@ -221,7 +221,8 @@ function saveNewStarsLocally(starIds) {
 function saveStarsLocally(starIds) {
   starIds.forEach((id) => {
     let star = document.querySelector(`.video-star[data-videoid="${id}"]`);
-    toggleVideoStar(id, star);
+    star.classList.remove("far");
+    star.classList.add("fas");
   });
 }
 
