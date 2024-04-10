@@ -1,4 +1,5 @@
 const sqlite3 = require("sqlite3").verbose();
+const path = require("path");
 
 console.log(`Current working directory: ${process.cwd()}`);
 const dbPath = path.join(process.cwd(), 'src/data/database.sqlite');
