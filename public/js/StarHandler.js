@@ -122,6 +122,8 @@ function unselectAllStars() {
     star.classList.remove("fas");
     star.classList.add("far");
   });
+
+  deleteAllStars();
 }
 
 function selectAllStars() {
@@ -159,6 +161,10 @@ function selectAllStars() {
 
 function deleteAllStars() {
   let user_id = localStorage.getItem("userId");
+  if (!user_id) {
+    return;
+  }
+
   fetch("/remove-all-stars", {
     method: "DELETE",
     headers: {
