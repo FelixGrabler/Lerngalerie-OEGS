@@ -567,7 +567,9 @@ Bewegungen,Aufstehen,https://suche.machs-auf.at/sign/59967
 ,Hüpfen,https://suche.machs-auf.at/sign/66642
 ,Hinlegen,https://suche.machs-auf.at/sign/28130
 ,Stürzen,https://suche.machs-auf.at/sign/46382
-,knien,https://suche.machs-auf.at/sign/19222
+,Knien,https://suche.machs-auf.at/sign/19222
+,Jemanden wohin bringen,https://suche.machs-auf.at/sign/20332
+,etwas/jemanden holen,https://suche.machs-auf.at/sign/22609
 Gesundheit,Gesund,https://suche.machs-auf.at/sign/29480
 ,Krank,https://suche.machs-auf.at/sign/63078
 ,Unfall,https://suche.machs-auf.at/sign/29853
@@ -579,6 +581,7 @@ Gesundheit,Gesund,https://suche.machs-auf.at/sign/29480
 ,Schweiß,https://suche.machs-auf.at/sign/27952
 ,Zittern,https://suche.machs-auf.at/sign/46794
 ,Krampf (nur 1. Teil),https://suche.machs-auf.at/sign/32821
+,Schock,https://suche.machs-auf.at/sign/62532
 ,Husten,https://suche.machs-auf.at/sign/34695
 ,Schnupfen,https://suche.machs-auf.at/sign/35332
 ,Kopfweh,https://suche.machs-auf.at/sign/24861
@@ -590,7 +593,7 @@ Gesundheit,Gesund,https://suche.machs-auf.at/sign/29480
 ,Wunde,https://suche.machs-auf.at/sign/28786
 ,Verletzung,https://suche.machs-auf.at/sign/67225
 ,Verbrennung,https://suche.machs-auf.at/sign/29860
-,Stabile Seitenlagge,https://suche.machs-auf.at/sign/30074
+,Stabile Seitenlage,https://suche.machs-auf.at/sign/30074
 ,Arzt,https://suche.machs-auf.at/sign/62740
 ,Krankenhaus,https://suche.machs-auf.at/sign/93765
 ,Rettung,https://suche.machs-auf.at/sign/29833
@@ -613,3 +616,51 @@ Gesundheit,Gesund,https://suche.machs-auf.at/sign/29480
 ,Fuß,https://suche.machs-auf.at/sign/25929
 ,Urin,https://suche.machs-auf.at/sign/92585
 ,Stuhl,https://suche.machs-auf.at/sign/27966
+,Passiert,https://suche.machs-auf.at/sign/62205
+Wohnen,Wohnen,https://suche.machs-auf.at/sign/69081
+,Miete,https://suche.machs-auf.at/sign/34994
+,Eigentum,https://suche.machs-auf.at/sign/61937
+,Wohnung,https://suche.machs-auf.at/sign/63283
+,Haus,https://suche.machs-auf.at/sign/18878
+,Zimmer/Raum,https://suche.machs-auf.at/sign/64349
+,Zimmer/Raum,https://suche.machs-auf.at/sign/20457
+,Boden,https://suche.machs-auf.at/sign/20417
+,Decke,https://suche.machs-auf.at/sign/66033
+,Stockwerk,https://suche.machs-auf.at/sign/50949
+,Terasse,https://suche.machs-auf.at/sign/20474
+,Balkon,https://suche.machs-auf.at/sign/19977
+,Modern,https://suche.machs-auf.at/sign/72245
+,Alt,https://suche.machs-auf.at/sign/21726
+,Eingang,https://suche.machs-auf.at/sign/20421
+,Stiege,https://suche.machs-auf.at/sign/20470
+,Tür,https://suche.machs-auf.at/sign/30806
+,Fenster,https://suche.machs-auf.at/sign/40442
+,Wohnzimmer,https://suche.machs-auf.at/sign/67149
+,Schlafzimmer,https://suche.machs-auf.at/sign/70282
+,Küche,https://suche.machs-auf.at/sign/26506
+,Büro,https://suche.machs-auf.at/sign/66009
+,Bad,https://suche.machs-auf.at/sign/46635
+,Badewanne,https://suche.machs-auf.at/sign/20708
+,WC,https://suche.machs-auf.at/sign/30274
+Möbel,Möbel,https://suche.machs-auf.at/sign/63324
+,Sessel,https://suche.machs-auf.at/sign/25204
+,Tisch,https://suche.machs-auf.at/sign/25598
+,Teppich,https://suche.machs-auf.at/sign/25568
+,Lampe,https://suche.machs-auf.at/sign/26585
+,Vorhang,https://suche.machs-auf.at/sign/69066
+,Jalousie,https://suche.machs-auf.at/sign/56974
+,Kasten,https://suche.machs-auf.at/sign/93648
+,Regal,https://suche.machs-auf.at/sign/30888
+,Schublade,https://suche.machs-auf.at/sign/71601
+,Leiter,https://suche.machs-auf.at/sign/26797
+,Bett,https://suche.machs-auf.at/sign/60046
+,Sofa,https://suche.machs-auf.at/sign/25225
+,Pflanze,https://suche.machs-auf.at/sign/34089
+Geräte,Geräte,https://suche.machs-auf.at/sign/70328
+,Heizung,https://suche.machs-auf.at/sign/40416
+,Klimaanlage,https://suche.machs-auf.at/sign/42416
+,Deckenventilator,https://suche.machs-auf.at/sign/45515
+,Computer,https://suche.machs-auf.at/sign/21121
+,Kühlschrank,https://suche.machs-auf.at/sign/26530
+,Gefrierschrank,https://suche.machs-auf.at/sign/40997
+,Herd,https://suche.machs-auf.at/sign/65689

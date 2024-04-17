@@ -35,5 +35,7 @@ function toggleShuffle(option, event) {
     buttons.forEach((btn) => btn.classList.remove("selected"));
     currentTarget.classList.add("selected");
     document.body.classList.remove("wait");
+
+    updateStars();
   }, 0);
 }

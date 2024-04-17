@@ -236,3 +236,36 @@ function filterStarOff() {
     category.style.display = "block";
   });
 }
+
+function updateStars() {
+  if (localStorage.getItem("userId")) {
+    fetch("/get-stars", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        userId: localStorage.getItem("userId"),
+      }),
+    })
+      .then((response) => response.json())
+      .then((result) => {
+        console.log(result);
+        result.forEach((videoId) => {
+          const star = document.querySelector(
+            `.video-star[data-videoid="${videoId}"]`
+          );
+          if (star) {
+            star.classList.remove("far");
+            star.classList.add("fas");
+          }
+        });
+
+        updateCategoryStars();
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        showNotification(`Error: ${error.message}`, "negative");
+      });
+  }
+}
