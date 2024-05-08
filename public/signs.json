@@ -1,4 +1,404 @@
 {
+  "Bildung/Ausbildung": [
+    {
+      "title": "Schule",
+      "url": "https://gebaerden-archiv.at/sign/19472",
+      "signID": "19472",
+      "filename": "19472.mp4"
+    },
+    {
+      "title": "Polytechnische Schule",
+      "url": "https://gebaerden-archiv.at/sign/89427",
+      "signID": "89427",
+      "filename": "89427.mp4"
+    },
+    {
+      "title": "Lehre",
+      "url": "https://gebaerden-archiv.at/sign/27335",
+      "signID": "27335",
+      "filename": "27335.mp4"
+    },
+    {
+      "title": "Gymnasium",
+      "url": "https://gebaerden-archiv.at/sign/88948",
+      "signID": "88948",
+      "filename": "88948.mp4"
+    },
+    {
+      "title": "Berufsbildende H\u00f6here Schule",
+      "url": "https://gebaerden-archiv.at/sign/88313",
+      "signID": "88313",
+      "filename": "88313.mp4"
+    }
+  ],
+  "Abteilungen": [
+    {
+      "title": "Informatik",
+      "url": "https://gebaerden-archiv.at/sign/26872",
+      "signID": "26872",
+      "filename": "26872.mp4"
+    },
+    {
+      "title": "Automatisierung",
+      "url": "https://gebaerden-archiv.at/sign/90615",
+      "signID": "90615",
+      "filename": "90615.mp4"
+    },
+    {
+      "title": "Robotik",
+      "url": "https://gebaerden-archiv.at/sign/43710",
+      "signID": "43710",
+      "filename": "43710.mp4"
+    },
+    {
+      "title": "Mecha+tronik",
+      "url": "https://gebaerden-archiv.at/sign/91797",
+      "signID": "91797",
+      "filename": "91797.mp4"
+    },
+    {
+      "title": "Mecha+tronik",
+      "url": "https://gebaerden-archiv.at/sign/42497",
+      "signID": "42497",
+      "filename": "42497.mp4"
+    },
+    {
+      "title": "Maschinenbautechnik",
+      "url": "https://gebaerden-archiv.at/sign/55167",
+      "signID": "55167",
+      "filename": "55167.mp4"
+    },
+    {
+      "title": "Ingenieurswesen",
+      "url": "https://gebaerden-archiv.at/sign/34940",
+      "signID": "34940",
+      "filename": "34940.mp4"
+    },
+    {
+      "title": "Fahrzeugtechnik",
+      "url": "https://gebaerden-archiv.at/sign/55136",
+      "signID": "55136",
+      "filename": "55136.mp4"
+    },
+    {
+      "title": "Elektronik",
+      "url": "https://gebaerden-archiv.at/sign/36419",
+      "signID": "36419",
+      "filename": "36419.mp4"
+    },
+    {
+      "title": "Energie+technik",
+      "url": "https://gebaerden-archiv.at/sign/33797",
+      "signID": "33797",
+      "filename": "33797.mp4"
+    },
+    {
+      "title": "Kommunikations+technik",
+      "url": "https://gebaerden-archiv.at/sign/28495",
+      "signID": "28495",
+      "filename": "28495.mp4"
+    },
+    {
+      "title": "Hochbau",
+      "url": "https://gebaerden-archiv.at/sign/78850",
+      "signID": "78850",
+      "filename": "78850.mp4"
+    },
+    {
+      "title": "Tief+bau",
+      "url": "https://gebaerden-archiv.at/sign/47894",
+      "signID": "47894",
+      "filename": "47894.mp4"
+    },
+    {
+      "title": "Motoren+bau",
+      "url": "https://gebaerden-archiv.at/sign/94064",
+      "signID": "94064",
+      "filename": "94064.mp4"
+    },
+    {
+      "title": "Holz+bau",
+      "url": "https://gebaerden-archiv.at/sign/64537",
+      "signID": "64537",
+      "filename": "64537.mp4"
+    },
+    {
+      "title": "Holz+bau",
+      "url": "https://gebaerden-archiv.at/sign/36833",
+      "signID": "36833",
+      "filename": "36833.mp4"
+    },
+    {
+      "title": "Internet- und Medientechnik",
+      "url": "https://gebaerden-archiv.at/sign/22369",
+      "signID": "22369",
+      "filename": "22369.mp4"
+    },
+    {
+      "title": "Internet- und Medientechnik",
+      "url": "https://gebaerden-archiv.at/sign/44191",
+      "signID": "44191",
+      "filename": "44191.mp4"
+    },
+    {
+      "title": "Betriebs\u2026",
+      "url": "https://gebaerden-archiv.at/sign/27452",
+      "signID": "27452",
+      "filename": "27452.mp4"
+    },
+    {
+      "title": "Design\u2026",
+      "url": "https://gebaerden-archiv.at/sign/19567",
+      "signID": "19567",
+      "filename": "19567.mp4"
+    },
+    {
+      "title": "Grafik\u2026",
+      "url": "https://gebaerden-archiv.at/sign/18034",
+      "signID": "18034",
+      "filename": "18034.mp4"
+    },
+    {
+      "title": "Umwelt",
+      "url": "https://gebaerden-archiv.at/sign/30270",
+      "signID": "30270",
+      "filename": "30270.mp4"
+    },
+    {
+      "title": "Produkt",
+      "url": "https://gebaerden-archiv.at/sign/34999",
+      "signID": "34999",
+      "filename": "34999.mp4"
+    },
+    {
+      "title": "Kunststoff/Plastik",
+      "url": "https://gebaerden-archiv.at/sign/50539",
+      "signID": "50539",
+      "filename": "50539.mp4"
+    },
+    {
+      "title": "Kunststoff/Plastik",
+      "url": "https://gebaerden-archiv.at/sign/72578",
+      "signID": "72578",
+      "filename": "72578.mp4"
+    },
+    {
+      "title": "Anlagen\u2026",
+      "url": "https://gebaerden-archiv.at/sign/55029",
+      "signID": "55029",
+      "filename": "55029.mp4"
+    },
+    {
+      "title": "Management",
+      "url": "https://gebaerden-archiv.at/sign/31243",
+      "signID": "31243",
+      "filename": "31243.mp4"
+    },
+    {
+      "title": "Technik",
+      "url": "https://gebaerden-archiv.at/sign/94831",
+      "signID": "94831",
+      "filename": "94831.mp4"
+    },
+    {
+      "title": "Gewerbe",
+      "url": "https://gebaerden-archiv.at/sign/32833",
+      "signID": "32833",
+      "filename": "32833.mp4"
+    },
+    {
+      "title": "Wirtschaft",
+      "url": "https://gebaerden-archiv.at/sign/89925",
+      "signID": "89925",
+      "filename": "89925.mp4"
+    },
+    {
+      "title": "P\u00e4dagogik",
+      "url": "https://gebaerden-archiv.at/sign/45990",
+      "signID": "45990",
+      "filename": "45990.mp4"
+    },
+    {
+      "title": "Sozial\u2026",
+      "url": "https://gebaerden-archiv.at/sign/95730",
+      "signID": "95730",
+      "filename": "95730.mp4"
+    },
+    {
+      "title": "Tourismus",
+      "url": "https://gebaerden-archiv.at/sign/36516",
+      "signID": "36516",
+      "filename": "36516.mp4"
+    },
+    {
+      "title": "Mode",
+      "url": "https://gebaerden-archiv.at/sign/27409",
+      "signID": "27409",
+      "filename": "27409.mp4"
+    },
+    {
+      "title": "Handelsakademie",
+      "url": "https://gebaerden-archiv.at/sign/77187",
+      "signID": "77187",
+      "filename": "77187.mp4"
+    },
+    {
+      "title": "Kunst",
+      "url": "https://gebaerden-archiv.at/sign/61839",
+      "signID": "61839",
+      "filename": "61839.mp4"
+    }
+  ],
+  "Institutionen": [
+    {
+      "title": "Universit\u00e4t",
+      "url": "https://gebaerden-archiv.at/sign/19590",
+      "signID": "19590",
+      "filename": "19590.mp4"
+    },
+    {
+      "title": "Fachhochschule",
+      "url": "https://gebaerden-archiv.at/sign/88581",
+      "signID": "88581",
+      "filename": "88581.mp4"
+    },
+    {
+      "title": "Kolleg",
+      "url": "https://gebaerden-archiv.at/sign/89094",
+      "signID": "89094",
+      "filename": "89094.mp4"
+    }
+  ],
+  "Personen (Schule)": [
+    {
+      "title": "Lehrer",
+      "url": "https://gebaerden-archiv.at/sign/19294",
+      "signID": "19294",
+      "filename": "19294.mp4"
+    },
+    {
+      "title": "Sch\u00fcler",
+      "url": "https://gebaerden-archiv.at/sign/27712",
+      "signID": "27712",
+      "filename": "27712.mp4"
+    },
+    {
+      "title": "Professor",
+      "url": "https://gebaerden-archiv.at/sign/89836",
+      "signID": "89836",
+      "filename": "89836.mp4"
+    },
+    {
+      "title": "Direktor",
+      "url": "https://gebaerden-archiv.at/sign/88475",
+      "signID": "88475",
+      "filename": "88475.mp4"
+    }
+  ],
+  "F\u00e4cher": [
+    {
+      "title": "Fach",
+      "url": "https://gebaerden-archiv.at/sign/30476",
+      "signID": "30476",
+      "filename": "30476.mp4"
+    },
+    {
+      "title": "Mathe",
+      "url": "https://gebaerden-archiv.at/sign/50865",
+      "signID": "50865",
+      "filename": "50865.mp4"
+    },
+    {
+      "title": "Deutsch",
+      "url": "https://gebaerden-archiv.at/sign/46433",
+      "signID": "46433",
+      "filename": "46433.mp4"
+    },
+    {
+      "title": "Biologie",
+      "url": "https://gebaerden-archiv.at/sign/88405",
+      "signID": "88405",
+      "filename": "88405.mp4"
+    },
+    {
+      "title": "Geografie",
+      "url": "https://gebaerden-archiv.at/sign/31529",
+      "signID": "31529",
+      "filename": "31529.mp4"
+    },
+    {
+      "title": "Geschichte",
+      "url": "https://gebaerden-archiv.at/sign/88935",
+      "signID": "88935",
+      "filename": "88935.mp4"
+    },
+    {
+      "title": "Geometrie",
+      "url": "https://gebaerden-archiv.at/sign/88434",
+      "signID": "88434",
+      "filename": "88434.mp4"
+    },
+    {
+      "title": "Chemie",
+      "url": "https://gebaerden-archiv.at/sign/65502",
+      "signID": "65502",
+      "filename": "65502.mp4"
+    },
+    {
+      "title": "Physik",
+      "url": "https://gebaerden-archiv.at/sign/89412",
+      "signID": "89412",
+      "filename": "89412.mp4"
+    },
+    {
+      "title": "Praktikum",
+      "url": "https://gebaerden-archiv.at/sign/32918",
+      "signID": "32918",
+      "filename": "32918.mp4"
+    },
+    {
+      "title": "Note",
+      "url": "https://gebaerden-archiv.at/sign/89351",
+      "signID": "89351",
+      "filename": "89351.mp4"
+    },
+    {
+      "title": "Zeugnis",
+      "url": "https://gebaerden-archiv.at/sign/68632",
+      "signID": "68632",
+      "filename": "68632.mp4"
+    },
+    {
+      "title": "Matura",
+      "url": "https://gebaerden-archiv.at/sign/89299",
+      "signID": "89299",
+      "filename": "89299.mp4"
+    },
+    {
+      "title": "Lernen",
+      "url": "https://gebaerden-archiv.at/sign/54424",
+      "signID": "54424",
+      "filename": "54424.mp4"
+    },
+    {
+      "title": "Unterst\u00fctzen",
+      "url": "https://gebaerden-archiv.at/sign/32901",
+      "signID": "32901",
+      "filename": "32901.mp4"
+    },
+    {
+      "title": "Begleiten",
+      "url": "https://gebaerden-archiv.at/sign/22620",
+      "signID": "22620",
+      "filename": "22620.mp4"
+    },
+    {
+      "title": "Probieren",
+      "url": "https://gebaerden-archiv.at/sign/36068",
+      "signID": "36068",
+      "filename": "36068.mp4"
+    }
+  ],
   "Stadtbeschreibung": [
     {
       "title": "Stra\u00dfe",
@@ -251,6 +651,30 @@
       "url": "https://suche.machs-auf.at/sign/90220",
       "signID": "90220",
       "filename": "90220.mp4"
+    },
+    {
+      "title": "Norden",
+      "url": "https://gebaerden-archiv.at/sign/29209",
+      "signID": "29209",
+      "filename": "29209.mp4"
+    },
+    {
+      "title": "Osten",
+      "url": "https://gebaerden-archiv.at/sign/41827",
+      "signID": "41827",
+      "filename": "41827.mp4"
+    },
+    {
+      "title": "S\u00fcden",
+      "url": "https://gebaerden-archiv.at/sign/29223",
+      "signID": "29223",
+      "filename": "29223.mp4"
+    },
+    {
+      "title": "West",
+      "url": "https://gebaerden-archiv.at/sign/95143",
+      "signID": "95143",
+      "filename": "95143.mp4"
     }
   ],
   "Haushaltsunf\u00e4lle": [
