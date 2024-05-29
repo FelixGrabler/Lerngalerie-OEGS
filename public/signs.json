@@ -1,4 +1,294 @@
 {
+  "Wirtschaft": [
+    {
+      "title": "Wirtschaft",
+      "url": "https://gebaerden-archiv.at/sign/89925",
+      "signID": "89925",
+      "filename": "89925.mp4"
+    },
+    {
+      "title": "Angebot",
+      "url": "https://gebaerden-archiv.at/sign/36173",
+      "signID": "36173",
+      "filename": "36173.mp4"
+    },
+    {
+      "title": "Global",
+      "url": "https://gebaerden-archiv.at/sign/78822",
+      "signID": "78822",
+      "filename": "78822.mp4"
+    },
+    {
+      "title": "Lokal",
+      "url": "https://gebaerden-archiv.at/sign/74246",
+      "signID": "74246",
+      "filename": "74246.mp4"
+    },
+    {
+      "title": "Theorie",
+      "url": "https://gebaerden-archiv.at/sign/89806",
+      "signID": "89806",
+      "filename": "89806.mp4"
+    },
+    {
+      "title": "Entwicklung",
+      "url": "https://gebaerden-archiv.at/sign/41932",
+      "signID": "41932",
+      "filename": "41932.mp4"
+    },
+    {
+      "title": "Markt",
+      "url": "https://gebaerden-archiv.at/sign/25475",
+      "signID": "25475",
+      "filename": "25475.mp4"
+    },
+    {
+      "title": "Handel",
+      "url": "https://gebaerden-archiv.at/sign/34978",
+      "signID": "34978",
+      "filename": "34978.mp4"
+    },
+    {
+      "title": "Inflation",
+      "url": "https://gebaerden-archiv.at/sign/32584",
+      "signID": "32584",
+      "filename": "32584.mp4"
+    },
+    {
+      "title": "Prozent",
+      "url": "https://gebaerden-archiv.at/sign/36196",
+      "signID": "36196",
+      "filename": "36196.mp4"
+    },
+    {
+      "title": "Budget",
+      "url": "https://gebaerden-archiv.at/sign/36176",
+      "signID": "36176",
+      "filename": "36176.mp4"
+    },
+    {
+      "title": "Geld",
+      "url": "https://gebaerden-archiv.at/sign/18711",
+      "signID": "18711",
+      "filename": "18711.mp4"
+    },
+    {
+      "title": "Euro",
+      "url": "https://gebaerden-archiv.at/sign/43070",
+      "signID": "43070",
+      "filename": "43070.mp4"
+    },
+    {
+      "title": "Steuern",
+      "url": "https://gebaerden-archiv.at/sign/88744",
+      "signID": "88744",
+      "filename": "88744.mp4"
+    },
+    {
+      "title": "Wohlstand",
+      "url": "https://gebaerden-archiv.at/sign/69369",
+      "signID": "69369",
+      "filename": "69369.mp4"
+    },
+    {
+      "title": "Wert",
+      "url": "https://gebaerden-archiv.at/sign/44735",
+      "signID": "44735",
+      "filename": "44735.mp4"
+    },
+    {
+      "title": "Bed\u00fcrfnis",
+      "url": "https://gebaerden-archiv.at/sign/32558",
+      "signID": "32558",
+      "filename": "32558.mp4"
+    },
+    {
+      "title": "Bank",
+      "url": "https://gebaerden-archiv.at/sign/60016",
+      "signID": "60016",
+      "filename": "60016.mp4"
+    },
+    {
+      "title": "Konto",
+      "url": "https://gebaerden-archiv.at/sign/72529",
+      "signID": "72529",
+      "filename": "72529.mp4"
+    },
+    {
+      "title": "Bankomatkarte",
+      "url": "https://gebaerden-archiv.at/sign/31657",
+      "signID": "31657",
+      "filename": "31657.mp4"
+    },
+    {
+      "title": "Kreditkarte",
+      "url": "https://gebaerden-archiv.at/sign/31697",
+      "signID": "31697",
+      "filename": "31697.mp4"
+    },
+    {
+      "title": "Kredit",
+      "url": "https://gebaerden-archiv.at/sign/20508",
+      "signID": "20508",
+      "filename": "20508.mp4"
+    },
+    {
+      "title": "Zinsen",
+      "url": "https://gebaerden-archiv.at/sign/31721",
+      "signID": "31721",
+      "filename": "31721.mp4"
+    },
+    {
+      "title": "Bankomat",
+      "url": "https://gebaerden-archiv.at/sign/31657",
+      "signID": "31657",
+      "filename": "31657.mp4"
+    },
+    {
+      "title": "Sparen",
+      "url": "https://gebaerden-archiv.at/sign/34974",
+      "signID": "34974",
+      "filename": "34974.mp4"
+    },
+    {
+      "title": "Ausgeben",
+      "url": "https://gebaerden-archiv.at/sign/23306",
+      "signID": "23306",
+      "filename": "23306.mp4"
+    },
+    {
+      "title": "Investieren",
+      "url": "https://gebaerden-archiv.at/sign/32848",
+      "signID": "32848",
+      "filename": "32848.mp4"
+    },
+    {
+      "title": "Spenden",
+      "url": "https://gebaerden-archiv.at/sign/54386",
+      "signID": "54386",
+      "filename": "54386.mp4"
+    },
+    {
+      "title": "Einkaufen",
+      "url": "https://gebaerden-archiv.at/sign/18388",
+      "signID": "18388",
+      "filename": "18388.mp4"
+    },
+    {
+      "title": "Politik",
+      "url": "https://gebaerden-archiv.at/sign/43718",
+      "signID": "43718",
+      "filename": "43718.mp4"
+    },
+    {
+      "title": "Weiter",
+      "url": "https://gebaerden-archiv.at/sign/26576",
+      "signID": "26576",
+      "filename": "26576.mp4"
+    },
+    {
+      "title": "Anpassen",
+      "url": "https://gebaerden-archiv.at/sign/47178",
+      "signID": "47178",
+      "filename": "47178.mp4"
+    },
+    {
+      "title": "Trotzdem",
+      "url": "https://gebaerden-archiv.at/sign/50087",
+      "signID": "50087",
+      "filename": "50087.mp4"
+    },
+    {
+      "title": "Sowieso",
+      "url": "https://gebaerden-archiv.at/sign/54356",
+      "signID": "54356",
+      "filename": "54356.mp4"
+    },
+    {
+      "title": "wenn",
+      "url": "https://gebaerden-archiv.at/sign/63170",
+      "signID": "63170",
+      "filename": "63170.mp4"
+    },
+    {
+      "title": "Innovation",
+      "url": "https://gebaerden-archiv.at/sign/53705",
+      "signID": "53705",
+      "filename": "53705.mp4"
+    },
+    {
+      "title": "Problem",
+      "url": "https://gebaerden-archiv.at/sign/25796",
+      "signID": "25796",
+      "filename": "25796.mp4"
+    },
+    {
+      "title": "Verschwinden",
+      "url": "https://gebaerden-archiv.at/sign/26408",
+      "signID": "26408",
+      "filename": "26408.mp4"
+    },
+    {
+      "title": "Zerst\u00f6ren",
+      "url": "https://gebaerden-archiv.at/sign/46808",
+      "signID": "46808",
+      "filename": "46808.mp4"
+    },
+    {
+      "title": "Arm",
+      "url": "https://gebaerden-archiv.at/sign/19666",
+      "signID": "19666",
+      "filename": "19666.mp4"
+    },
+    {
+      "title": "Reich",
+      "url": "https://gebaerden-archiv.at/sign/95681",
+      "signID": "95681",
+      "filename": "95681.mp4"
+    },
+    {
+      "title": "Konflikt",
+      "url": "https://gebaerden-archiv.at/sign/19362",
+      "signID": "19362",
+      "filename": "19362.mp4"
+    },
+    {
+      "title": "Durchschnitt",
+      "url": "https://gebaerden-archiv.at/sign/47569",
+      "signID": "47569",
+      "filename": "47569.mp4"
+    },
+    {
+      "title": "Umverteilen",
+      "url": "https://gebaerden-archiv.at/sign/50908",
+      "signID": "50908",
+      "filename": "50908.mp4"
+    },
+    {
+      "title": "Aushalten",
+      "url": "https://gebaerden-archiv.at/sign/59974",
+      "signID": "59974",
+      "filename": "59974.mp4"
+    },
+    {
+      "title": "Belastung",
+      "url": "https://gebaerden-archiv.at/sign/17228",
+      "signID": "17228",
+      "filename": "17228.mp4"
+    },
+    {
+      "title": "Text",
+      "url": "https://gebaerden-archiv.at/sign/27699",
+      "signID": "27699",
+      "filename": "27699.mp4"
+    },
+    {
+      "title": "Inhalt",
+      "url": "https://gebaerden-archiv.at/sign/91423",
+      "signID": "91423",
+      "filename": "91423.mp4"
+    }
+  ],
   "Klima": [
     {
       "title": "Wetter",
